@@ -1215,6 +1215,10 @@
     top: calc(var(--spacing) * 1.25);
   }
 
+  .top-1\/2 {
+    top: 50%;
+  }
+
   .top-2\.5 {
     top: calc(var(--spacing) * 2.5);
   }
@@ -1269,6 +1273,10 @@
 
   .top-\[41px\] {
     top: 41px;
+  }
+
+  .top-full {
+    top: 100%;
   }
 
   .top-px {
@@ -1543,6 +1551,14 @@
 
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
+  }
+
+  .mt-6 {
+    margin-top: calc(var(--spacing) * 6);
+  }
+
+  .mt-12 {
+    margin-top: calc(var(--spacing) * 12);
   }
 
   .mt-\[0\.8px\] {
@@ -1973,6 +1989,10 @@
 
   .h-\[51\.81px\] {
     height: 51.81px;
+  }
+
+  .h-\[52px\] {
+    height: 52px;
   }
 
   .h-\[54px\] {
@@ -3083,8 +3103,17 @@
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
 
+  .bg-gradient-to-b {
+    --tw-gradient-position: to bottom in oklab;
+    background-image: linear-gradient(var(--tw-gradient-stops));
+  }
+
   .bg-\[linear-gradient\(-180deg\,\#f4b501_0\%\,\#f68700_100\%\)\] {
     background-image: linear-gradient(-180deg, #f4b501 0%, #f68700 100%);
+  }
+
+  .bg-\[linear-gradient\(-180deg\,\#fd8f3b_0\%\,\#fd3523_100\%\)\] {
+    background-image: linear-gradient(-180deg, #fd8f3b 0%, #fd3523 100%);
   }
 
   .bg-\[linear-gradient\(180deg\,\#000000\,\#000000_42\%\,\#000000\)\] {
@@ -3125,6 +3154,11 @@
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
+  .from-\[\#fd8f3b\] {
+    --tw-gradient-from: #fd8f3b;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
   .via-\[\#444647\] {
     --tw-gradient-via: #444647;
     --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
@@ -3138,6 +3172,11 @@
 
   .to-\[\#f68700\] {
     --tw-gradient-to: #f68700;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
+  .to-\[\#fd3523\] {
+    --tw-gradient-to: #fd3523;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
