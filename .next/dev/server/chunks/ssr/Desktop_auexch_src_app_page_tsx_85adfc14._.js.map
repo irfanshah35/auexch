@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/irfan/Desktop/auexch/src/app/page.tsx"],"sourcesContent":["\"use client\";\n\nimport { useEffect, useState } from \"react\";\nimport dynamic from \"next/dynamic\";\n\n \nexport default function Home() {\n  const [isMobile, setIsMobile] = useState(false);\n\n  useEffect(() => {\n    const handleResize = () => setIsMobile(window.innerWidth < 992);\n    handleResize();\n    window.addEventListener(\"resize\", handleResize);\n    return () => window.removeEventListener(\"resize\", handleResize);\n  }, []);\n\n  return (\n    <>\n      {/* ================= MOBILE VIEW ================= */}\n      {isMobile && (\n        <div>\n          <h1>m-view</h1>\n        </div>\n      )}\n\n      {/* ================= DESKTOP VIEW ================= */}\n      {!isMobile && (\n        <div>\n          <h1>D View</h1>\n        </div>\n      )}\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAMe,SAAS;IACtB,MAAM,CAAC,UAAU,YAAY,GAAG,IAAA,sOAAQ,EAAC;IAEzC,IAAA,uOAAS,EAAC;QACR,MAAM,eAAe,IAAM,YAAY,OAAO,UAAU,GAAG;QAC3D;QACA,OAAO,gBAAgB,CAAC,UAAU;QAClC,OAAO,IAAM,OAAO,mBAAmB,CAAC,UAAU;IACpD,GAAG,EAAE;IAEL,qBACE;;YAEG,0BACC,mQAAC;0BACC,cAAA,mQAAC;8BAAG;;;;;;;;;;;YAKP,CAAC,0BACA,mQAAC;0BACC,cAAA,mQAAC;8BAAG;;;;;;;;;;;;;AAKd"}}]
+}
