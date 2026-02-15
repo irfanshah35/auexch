@@ -44,81 +44,6 @@ Unexpected token CloseParenthesis
 
 Import trace:
   Client Component Browser:
-<<<<<<< HEAD
-    ./Desktop/auexch/src/app/globals.css [Client Component Browser]
-    ./Desktop/auexch/src/app/layout.tsx [Server Component]
-[00:12:57.124] Server  LOG      ✓ Compiled in 142ms
-[00:14:07.591] Server  LOG      ✓ Compiled in 218ms
-[00:14:07.765] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:14:07.765] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:14:07.765] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:14:07.765] Browser LOG     Cache expired — fetching fresh API data...
-[00:14:07.765] Browser LOG     Cache expired — fetching fresh API data...
-[00:14:09.017] Browser LOG     Data saved to cache with timestamp
-[00:14:09.266] Server  LOG      ✓ Compiled in 74ms
-[00:14:09.433] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:14:09.433] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:14:09.433] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:14:09.433] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:14:09.433] Browser LOG     Cache expired — fetching fresh API data...
-[00:14:10.646] Server  LOG      ✓ Compiled in 68ms
-[00:14:10.991] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:14:10.992] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:14:10.992] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:14:10.992] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:14:10.992] Browser LOG     Cache expired — fetching fresh API data...
-[00:14:10.992] Browser LOG     Data saved to cache with timestamp
-[00:14:10.992] Browser LOG     Data saved to cache with timestamp
-[00:14:12.467] Browser LOG     Data saved to cache with timestamp
-[00:14:18.024] Server  LOG      ✓ Compiled in 70ms
-[00:14:37.998] Server  LOG      ✓ Compiled in 127ms
-[00:14:40.047] Server  LOG      ✓ Compiled in 64ms
-[00:14:43.726] Server  LOG      ✓ Compiled in 56ms
-[00:14:49.223] Server  LOG      ✓ Compiled in 88ms
-[00:15:28.265] Server  LOG      ✓ Compiled in 107ms
-[00:15:33.263] Server  LOG      ✓ Compiled in 42ms
-[00:15:36.262] Server  LOG      ✓ Compiled in 40ms
-[00:15:36.440] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:15:36.440] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:15:36.440] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:15:36.440] Browser LOG     Cache expired — fetching fresh API data...
-[00:15:36.440] Browser LOG     Cache expired — fetching fresh API data...
-[00:15:37.603] Browser LOG     Data saved to cache with timestamp
-[00:15:38.387] Server  LOG      ✓ Compiled in 46ms
-[00:15:38.559] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:15:38.559] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:15:38.560] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:15:38.560] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:15:38.560] Browser LOG     Cache expired — fetching fresh API data...
-[00:15:39.599] Browser LOG     Data saved to cache with timestamp
-[00:15:40.345] Browser LOG     Data saved to cache with timestamp
-[00:15:42.913] Server  LOG      ✓ Compiled in 101ms
-[00:15:44.876] Server  LOG      ✓ Compiled in 54ms
-[00:17:42.142] Server  LOG      ✓ Compiled in 222ms
-[00:17:42.411] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:17:42.412] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:17:42.412] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:17:42.412] Browser LOG     Cache expired — fetching fresh API data...
-[00:17:42.412] Browser LOG     Cache expired — fetching fresh API data...
-[00:17:43.450] Browser LOG     Data saved to cache with timestamp
-[00:17:45.296] Browser LOG     Data saved to cache with timestamp
-[00:19:01.206] Server  LOG      ✓ Compiled in 59ms
-[00:19:01.354] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:19:01.354] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:19:01.354] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:19:01.354] Browser LOG     Cache expired — fetching fresh API data...
-[00:19:01.354] Browser LOG     Cache expired — fetching fresh API data...
-[00:19:02.482] Browser LOG     Data saved to cache with timestamp
-[00:19:04.491] Browser LOG     Data saved to cache with timestamp
-[00:19:56.298] Server  LOG      ✓ Compiled in 101ms
-[00:19:56.481] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:19:56.481] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:19:56.481] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:19:56.481] Browser LOG     Cache expired — fetching fresh API data...
-[00:19:56.481] Browser LOG     Cache expired — fetching fresh API data...
-[00:19:57.370] Browser LOG     Data saved to cache with timestamp
-[00:19:59.464] Browser LOG     Data saved to cache with timestamp
-=======
     ./Desktop/auexch/src/components/casino/page.tsx [Client Component Browser]
     ./Desktop/auexch/src/app/(pages)/page.tsx [Client Component Browser]
     ./Desktop/auexch/src/app/(pages)/page.tsx [Server Component]
@@ -877,7 +802,6 @@ Import traces:
 [01:59:15.489] Server  LOG      ✓ Compiled in 57ms
 [01:59:31.788] Server  LOG      ✓ Compiled in 45ms
 [01:59:40.926] Server  LOG      ✓ Compiled in 60ms
->>>>>>> 23697246646cd832add679247bb8b7f35297a600
 [00:20:42.050] Server  LOG      ✓ Compiled in 409ms
 [00:20:43.082] Browser LOG     Data loaded from IndexedDB cache (fresh)
 [00:20:43.083] Browser LOG     Data loaded from IndexedDB cache (fresh)
