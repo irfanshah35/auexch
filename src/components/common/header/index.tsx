@@ -20,7 +20,7 @@ export default function Header() {
     }
   };
   return (
-    <header className="w-full bg-[#121A1F] border-b border-gray-800 text-white sticky top-0 z-[100]">
+    <header className="w-full   text-white sticky top-0 z-[100]">
       <div className="max-w-[1600px] mx-auto px-2 h-12 flex items-center justify-between">
 
         {/* 👇 Left: Hamburger & Logo */}
@@ -38,14 +38,14 @@ export default function Header() {
             <span className=" group-hover:text-white transition-colors mr-[2px]">
               <Icon name="exchange" className="h-6 w-6" />
             </span>
-            <span className="relative top-[1px]">Exchange</span>
+            <span className="relative top-[-0.5px]">Exchange</span>
           </Link>
 
-          <Link href="/casinos/q-tech/aviator" className="flex p-1 items-center text-[13px] font-medium text-white hover:text-white transition-colors relative left-[1px]">
+          <Link href="/casinos/q-tech/aviator" className="flex p-1 items-center text-[13px] font-medium text-white hover:text-white transition-colors relative left-[0.5px]">
             <span className=" group-hover:text-white transition-colors mr-[2px]">
               <Icon name="aviator" className="h-8 w-8" />
             </span>
-            <span className="font-bold text-white relative top-[1px]">Aviator</span>
+            <span className="font-bold text-white relative top-[-0.5px]">Aviator</span>
           </Link>
 
 
@@ -55,11 +55,11 @@ export default function Header() {
             </span>
           </Link>
 
-          <Link href="/slot" className="flex p-1 items-center justify-center text-[13px] font-bold text-white hover:text-white transition-colors w-[70px] relative left-[2px]">
+          <Link href="/slot" className="flex p-1 items-center justify-center text-[13px] font-bold text-white hover:text-white transition-colors w-[70px] relative left-[3px]">
             <span className=" group-hover:text-white transition-colors mr-[2px]">
               <Icon name="slot" className="h-5 w-5" />
             </span>
-            <span className="text-white font-bold relative left-[1px] top-[1px]">
+            <span className="text-white font-bold relative top-[-0.5px]">
               Slot
             </span>
           </Link>
@@ -69,7 +69,7 @@ export default function Header() {
             <span className=" group-hover:text-white transition-colors mr-[2px]">
               <Icon name="casino" className="h-6 w-6" />
             </span>
-            <span className="relative top-[1px]">Live Casino</span>
+            <span className="relative top-[-0.5px]">Live Casino</span>
           </Link>
         </nav>
 
@@ -79,7 +79,7 @@ export default function Header() {
             className="text-gray-400 hover:text-white hidden min-[600]:flex transition-colors p-1 cursor-pointer"
             aria-label="Toggle color scheme"
           >
-            <Icon name={isDark ? "moon" : "sun"} className="w-[24.96px] h-[24.96px] transition-transform" />
+            <Icon name={isDark ? "moon" : "sun"} className="w-[24px] h-[24px] transition-transform" />
           </button>
 
           <Link
@@ -96,12 +96,12 @@ export default function Header() {
 
         <hr className="m-0 shrink-0 border-0 border-t-[1px] border-dashed border-[#919eab33] absolute top-0 left-0 w-full z-[9]" />
 
-        <nav className="flex items-center gap-2 w-full lg:gap-4 font-bold text-white overflow-x-auto scrollbar-hide h-[30px]">
+        <nav className="flex items-center gap-[8.5px] w-full lg:gap-4 font-bold text-white overflow-x-auto scrollbar-hide h-[30px]">
           <Link href="/" className="flex p-1 items-center text-[13px] font-bold text-white hover:text-white transition-colors group whitespace-nowrap">
             <span className=" group-hover:text-white transition-colors mr-[2px] ml-[-1px]">
               <Icon name="exchange" className="h-6 w-6" />
             </span>
-            <span className="relative !top-[1px]">
+            <span className="relative !top-[-0.5px]">
               Exchange
             </span>
           </Link>
@@ -110,7 +110,7 @@ export default function Header() {
             <span className="mr-[2px] ">
               <Icon name="aviator" className="h-8 w-8" />
             </span>
-            <span className="font-bold text-white ml-[1px] relative !top-[1px]">Aviator</span>
+            <span className="font-bold text-white   relative !top-[-0.5px]">Aviator</span>
           </Link>
 
 
@@ -124,7 +124,7 @@ export default function Header() {
             <span className="mr-[2px] ">
               <Icon name="slot" className="h-5 w-5" />
             </span>
-            <span className="text-white font-bold relative top-[1px]">
+            <span className="text-white font-bold relative !top-[-0.5px]">
               Slot
             </span>
           </Link>
@@ -134,7 +134,7 @@ export default function Header() {
             <span className=" group-hover:text-white transition-colors mr-[2px] ">
               <Icon name="casino" className="h-6 w-6" />
             </span>
-            <span className="relative top-[1px]">
+            <span className="relative !top-[-0.5px] font-bold">
               Live Casino
             </span>
           </Link>

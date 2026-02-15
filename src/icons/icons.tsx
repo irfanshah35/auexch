@@ -17,8 +17,53 @@ export const icons = {
     ),
 
     moon: (
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img"
+            className="iconify iconify--line-md minimal__iconify__root css-18oi841" id="_r_f1_" width="1em" height="1em"
+            viewBox="0 0 24 24">
+            <path
+                d="M15.22 6.03L17.75 4.09L14.56 4L13.5 1L12.44 4L9.25 4.09L11.78 6.03L10.87 9.09L13.5 7.28L16.13 9.09L15.22 6.03Z"
+                fill="currentColor">
+                <animate fill="freeze" attributeName="fill-opacity" begin="0.6s" dur="0.4s" values="0;1"></animate>
+            </path>
+            <path
+                d="M19.61 12.25L21.25 11L19.19 10.95L18.5 9L17.81 10.95L15.75 11L17.39 12.25L16.8 14.23L18.5 13.06L20.2 14.23L19.61 12.25Z"
+                fill="currentColor">
+                <animate fill="freeze" attributeName="fill-opacity" begin="1s" dur="0.4s" values="0;1"></animate>
+            </path>
+            <g fill="none" stroke="currentColor" strokeLinejoin="round" strokeWidth="2">
+                <g>
+                    <path strokeDashoffset="4" d="M12 21v1M21 12h1M12 3v-1M3 12h-1">
+                        <animate fill="freeze" attributeName="strokeDashoffset" dur="0.2s" values="4;2"></animate>
+                    </path>
+                    <path strokeDashoffset="4"
+                        d="M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5">
+                        <animate fill="freeze" attributeName="strokeDashoffset" begin="0.2s" dur="0.2s" values="4;2"></animate>
+                    </path>
+                    <set fill="freeze" attributeName="opacity" begin="0.5s" to="0"></set>
+                </g>
+                <path fill="currentColor"
+                    d="M7 6 C7 12.08 11.92 17 18 17 C18.53 17 19.05 16.96 19.56 16.89 C17.95 19.36 15.17 21 12 21 C7.03 21 3 16.97 3 12 C3 8.83 4.64 6.05 7.11 4.44 C7.04 4.95 7 5.47 7 6 Z"
+                    opacity="0">
+                    <set fill="freeze" attributeName="opacity" begin="0.5s" to="1"></set>
+                </path>
+            </g>
+            <mask id="_r_f1_ID0">
+                <circle cx="12" cy="12" r="12" fill="#fff"></circle>
+                <circle cx="22" cy="2" r="3" fill="#fff">
+                    <animate fill="freeze" attributeName="cx" begin="0.1s" dur="0.4s" values="22;18"></animate>
+                    <animate fill="freeze" attributeName="cy" begin="0.1s" dur="0.4s" values="2;6"></animate>
+                    <animate fill="freeze" attributeName="r" begin="0.1s" dur="0.4s" values="3;12"></animate>
+                </circle>
+                <circle cx="22" cy="2" r="1">
+                    <animate fill="freeze" attributeName="cx" begin="0.1s" dur="0.4s" values="22;18"></animate>
+                    <animate fill="freeze" attributeName="cy" begin="0.1s" dur="0.4s" values="2;6"></animate>
+                    <animate fill="freeze" attributeName="r" begin="0.1s" dur="0.4s" values="1;10"></animate>
+                </circle>
+            </mask>
+            <circle cx="12" cy="12" r="6" mask="url(#_r_f1_ID0)" fill="currentColor">
+                <animate fill="freeze" attributeName="r" begin="0.1s" dur="0.4s" values="6;10"></animate>
+                <set fill="freeze" attributeName="opacity" begin="0.5s" to="0"></set>
+            </circle>
         </svg>
     ),
     logo: (

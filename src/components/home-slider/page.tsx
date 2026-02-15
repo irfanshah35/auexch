@@ -23,7 +23,7 @@ const staticSliders: SliderItem[] = [
   { id: "static-6", url: "https://static.assetsdelivery.net/marketing-posters/DOLLAR365COM/1770989265863471.jpeg" },
 ];
 
-const sliderWrapperStyles = `w-full relative rounded-xl overflow-hidden group 
+const sliderWrapperStyles = `w-full relative rounded-[16px] overflow-hidden group 
   [&_.custom-pagination]:!absolute [&_.custom-pagination]:!top-4 [&_.custom-pagination]:!bottom-auto [&_.custom-pagination]:!left-4 [&_.custom-pagination]:!w-auto [&_.custom-pagination]:z-50 [&_.custom-pagination]:flex [&_.custom-pagination]:items-center [&_.custom-pagination]:gap-3 
   [&_.swiper-pagination-bullet]:!m-0 [&_.swiper-pagination-bullet]:!w-2 [&_.swiper-pagination-bullet]:!h-2 [&_.swiper-pagination-bullet]:!bg-[#40c4ff] [&_.swiper-pagination-bullet]:!opacity-[0.24] [&_.swiper-pagination-bullet]:rounded-full [&_.swiper-pagination-bullet]:transition-all [&_.swiper-pagination-bullet]:duration-300 
   [&_.swiper-pagination-bullet-active]:!bg-[#40c4ff] [&_.swiper-pagination-bullet-active]:!opacity-100 [&_.swiper-pagination-bullet-active]:!w-2 [&_.swiper-pagination-bullet-active]:!h-2`;

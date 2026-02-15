@@ -32540,3 +32540,358 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [02:28:17.592] Server  LOG      ✓ Compiled in 47ms
 [02:28:20.014] Server  LOG      ✓ Compiled in 49ms
 [02:29:34.213] Server  LOG      ✓ Compiled in 215ms
+[00:16:32.976] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:16:32.976] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:16:32.976] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:16:32.976] Browser LOG     Cache expired — fetching fresh API data...
+[00:16:32.976] Browser LOG     Cache expired — fetching fresh API data...
+[00:16:34.037] Browser LOG     Data saved to cache with timestamp
+[00:16:35.965] Browser LOG     Data saved to cache with timestamp
+[00:16:39.644] Server  LOG      ✓ Compiled in 1948ms
+[00:16:40.125] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:40.756] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:16:40.756] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:40.756] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:16:40.756] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:16:40.756] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:16:40.756] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:16:40.756] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:16:40.756] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:22:38.184] Server  LOG      ✓ Compiled in 297ms
+[00:22:48.877] Server  LOG      ✓ Compiled in 86ms
+[00:23:03.127] Server  LOG      ✓ Compiled in 57ms
+[00:23:16.157] Server  LOG      ✓ Compiled in 63ms
+[00:23:27.169] Server  LOG      ✓ Compiled in 47ms
+[00:23:29.189] Server  LOG      ✓ Compiled in 123ms
+[00:23:40.808] Server  LOG      ✓ Compiled in 95ms
+[00:23:56.781] Server  LOG      ✓ Compiled in 85ms
+[00:24:12.755] Server  LOG      ✓ Compiled in 38ms
+[00:25:33.932] Server  LOG      ✓ Compiled in 222ms
+[00:25:38.901] Server  LOG      ✓ Compiled in 88ms
+[00:26:50.933] Server  LOG      ✓ Compiled in 216ms
+[00:26:55.795] Server  LOG      ✓ Compiled in 56ms
+[00:27:03.375] Server  LOG      ✓ Compiled in 318ms
+[00:27:11.752] Server  LOG      ✓ Compiled in 41ms
+[00:27:28.797] Server  LOG      ✓ Compiled in 47ms
+[00:28:06.971] Server  LOG      ✓ Compiled in 239ms
+[00:28:12.780] Server  LOG      ✓ Compiled in 51ms
+[00:28:18.865] Server  LOG      ✓ Compiled in 90ms
+[00:28:28.807] Server  LOG      ✓ Compiled in 108ms
+[00:28:31.829] Server  LOG      ✓ Compiled in 125ms
+[00:30:36.213] Server  LOG      ✓ Compiled in 209ms
+[00:30:53.548] Server  LOG      ✓ Compiled in 52ms
+[00:30:57.410] Server  LOG      ✓ Compiled in 102ms
+[00:30:58.931] Server  LOG      ✓ Compiled in 179ms
+[00:31:13.794] Server  LOG      ✓ Compiled in 81ms
+[00:31:47.791] Server  LOG      ✓ Compiled in 62ms
+[00:31:59.858] Server  LOG      ✓ Compiled in 74ms
+[00:32:50.558] Server  LOG      ✓ Compiled in 56ms
+[00:32:52.825] Server  LOG      ✓ Compiled in 111ms
+[00:33:04.395] Server  LOG      ✓ Compiled in 190ms
+[00:33:24.763] Server  LOG      ✓ Compiled in 52ms
+[00:33:34.438] Server  LOG      ✓ Compiled in 1040ms
+[00:33:42.777] Server  LOG      ✓ Compiled in 60ms
+[00:34:41.844] Server  LOG      ✓ Compiled in 113ms
+[00:34:55.400] Server  LOG      ✓ Compiled in 59ms
+[00:35:28.832] Server  LOG      ✓ Compiled in 144ms
+[00:35:31.100] Server  LOG      ✓ Compiled in 160ms
+[00:35:42.903] Server  LOG      ✓ Compiled in 702ms
+[00:35:51.850] Server  LOG      ✓ Compiled in 84ms
+[00:36:02.001] Server  LOG      ✓ Compiled in 1771ms
+[00:36:19.853] Server  LOG      ✓ Compiled in 95ms
+[00:36:48.708] Server  LOG      ✓ Compiled in 56ms
+[00:37:51.868] Server  LOG      ✓ Compiled in 81ms
+[00:38:44.150] Server  LOG      ✓ Compiled in 116ms
+[00:39:00.242] Server  LOG      ✓ Compiled in 269ms
+[00:39:46.362] Browser LOG     Cache expired — fetching fresh API data...
+[00:39:46.363] Browser LOG     Cache expired — fetching fresh API data...
+[00:39:46.363] Browser LOG     Cache expired — fetching fresh API data...
+[00:39:46.363] Browser LOG     Cache expired — fetching fresh API data...
+[00:39:46.363] Browser LOG     Cache expired — fetching fresh API data...
+[00:39:47.240] Browser LOG     Data saved to cache with timestamp
+[00:39:47.240] Browser LOG     Data saved to cache with timestamp
+[00:39:47.240] Browser LOG     Data saved to cache with timestamp
+[00:39:48.211] Browser LOG     Data saved to cache with timestamp
+[00:39:49.150] Browser LOG     Data saved to cache with timestamp
+[00:39:49.632] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:50.361] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:39:50.361] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:39:50.361] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:39:50.361] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:39:50.361] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:39:50.361] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:39:50.361] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:39:50.361] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:41:44.436] Server  LOG      ✓ Compiled in 956ms
+[00:41:44.624] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-opacity fillOpacity
+[00:41:44.624] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
+[00:41:44.625] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dashoffset strokeDashoffset
+[00:41:44.626] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:41:44.626] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:41:44.688] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:41:59.419] Server  ERROR   Invalid DOM property `fill-opacity`. Did you mean `fillOpacity`?
+[00:41:59.419] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
+[00:41:59.420] Server  ERROR   Invalid DOM property `stroke-linejoin`. Did you mean `strokeLinejoin`?
+[00:41:59.420] Server  ERROR   Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
+[00:41:59.420] Server  ERROR   Invalid DOM property `stroke-dasharray`. Did you mean `strokeDasharray`?
+[00:41:59.420] Server  ERROR   Invalid DOM property `stroke-dashoffset`. Did you mean `strokeDashoffset`?
+[00:42:00.134] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:00.789] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:42:00.789] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-opacity fillOpacity
+[00:42:00.789] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
+[00:42:00.789] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dashoffset strokeDashoffset
+[00:42:00.789] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:42:00.789] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:42:00.789] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:42:00.789] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:42:00.789] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:42:01.052] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:42:01.052] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:42:01.052] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:42:01.052] Browser LOG     Cache expired — fetching fresh API data...
+[00:42:01.052] Browser LOG     Cache expired — fetching fresh API data...
+[00:42:01.807] Browser LOG     Data saved to cache with timestamp
+[00:42:03.577] Browser LOG     Data saved to cache with timestamp
+[00:42:19.592] Server  LOG      ✓ Compiled in 159ms
+[00:42:28.757] Server  LOG      ✓ Compiled in 59ms
+[00:42:49.831] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:50.293] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:42:50.293] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
+[00:42:50.293] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dashoffset strokeDashoffset
+[00:42:50.293] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:42:50.293] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:42:50.293] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:42:50.293] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:42:50.293] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:42:50.293] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:42:50.293] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:42:50.293] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:42:50.293] Browser LOG     Cache expired — fetching fresh API data...
+[00:42:50.293] Browser LOG     Cache expired — fetching fresh API data...
+[00:42:50.993] Browser LOG     Data saved to cache with timestamp
+[00:42:52.911] Browser LOG     Data saved to cache with timestamp
+[00:43:15.889] Server  LOG      ✓ Compiled in 729ms
+[00:43:17.094] Server  LOG      ✓ Compiled in 262ms
+[00:43:19.352] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:20.462] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:43:20.464] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dashoffset strokeDashoffset
+[00:43:20.464] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:43:20.464] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:43:20.464] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:43:20.464] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:20.464] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:43:20.464] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:43:20.464] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:43:20.464] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:43:20.464] Browser LOG     Cache expired — fetching fresh API data...
+[00:43:20.464] Browser LOG     Cache expired — fetching fresh API data...
+[00:43:21.572] Browser LOG     Data saved to cache with timestamp
+[00:43:23.422] Browser LOG     Data saved to cache with timestamp
+[00:43:38.809] Server  LOG      ✓ Compiled in 1025ms
+[00:43:46.522] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:47.696] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:43:47.696] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dashoffset strokeDashoffset
+[00:43:47.696] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:43:47.696] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:43:47.696] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:47.696] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:43:47.696] Browser LOG     Cache expired — fetching fresh API data...
+[00:43:47.696] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:43:47.696] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:43:47.696] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:43:47.696] Browser LOG     Cache expired — fetching fresh API data...
+[00:43:47.984] Browser LOG     Data saved to cache with timestamp
+[00:43:49.893] Browser LOG     Data saved to cache with timestamp
+[00:44:28.775] Server  LOG      ✓ Compiled in 70ms
+[00:44:29.699] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:30.905] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:44:30.946] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:44:30.946] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:44:30.946] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:44:30.946] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:44:30.946] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:44:30.946] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:44:30.947] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:44:30.947] Browser LOG     Cache expired — fetching fresh API data...
+[00:44:30.947] Browser LOG     Cache expired — fetching fresh API data...
+[00:44:31.267] Browser LOG     Data saved to cache with timestamp
+[00:44:33.038] Browser LOG     Data saved to cache with timestamp
+[00:44:46.013] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:46.533] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:44:46.533] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:44:46.533] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:44:46.533] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:44:46.533] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:44:46.533] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:44:46.533] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:44:46.533] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:44:46.533] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:44:46.533] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:44:46.827] Server  LOG      ✓ Compiled in 89ms
+[00:44:53.682] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:54.056] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:44:54.056] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:44:54.056] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:44:54.056] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:44:54.056] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:44:54.056] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:44:54.056] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:44:54.056] Browser LOG     Cache expired — fetching fresh API data...
+[00:44:54.056] Browser LOG     Cache expired — fetching fresh API data...
+[00:44:55.002] Browser LOG     Data saved to cache with timestamp
+[00:44:56.749] Browser LOG     Data saved to cache with timestamp
+[00:45:11.255] Server  LOG      ✓ Compiled in 67ms
+[00:45:14.867] Server  LOG      ✓ Compiled in 71ms
+[00:45:18.082] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:18.681] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:45:18.681] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:18.681] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:45:18.681] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:45:18.681] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:45:18.681] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:45:18.681] Browser LOG     Cache expired — fetching fresh API data...
+[00:45:18.681] Browser LOG     Cache expired — fetching fresh API data...
+[00:45:19.182] Browser LOG     Data saved to cache with timestamp
+[00:45:21.196] Browser LOG     Data saved to cache with timestamp
+[00:46:00.679] Server  LOG      ✓ Compiled in 164ms
+[00:46:02.883] Server  LOG      ✓ Compiled in 184ms
+[00:46:24.327] Server  LOG      ✓ Compiled in 147ms
+[00:46:24.752] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:46:24.752] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:46:24.752] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:46:24.752] Browser LOG     Cache expired — fetching fresh API data...
+[00:46:24.752] Browser LOG     Cache expired — fetching fresh API data...
+[00:46:25.997] Browser LOG     Data saved to cache with timestamp
+[00:46:27.562] Browser LOG     Data saved to cache with timestamp
+[00:47:10.255] Server  LOG      ✓ Compiled in 233ms
+[00:47:10.610] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:47:10.610] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:47:10.610] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:47:10.610] Browser LOG     Cache expired — fetching fresh API data...
+[00:47:10.610] Browser LOG     Cache expired — fetching fresh API data...
+[00:47:11.610] Browser LOG     Data saved to cache with timestamp
+[00:47:13.638] Browser LOG     Data saved to cache with timestamp
+[00:47:16.760] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:17.421] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:47:17.421] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:47:17.421] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:47:17.421] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:47:17.421] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:47:17.421] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:47:17.421] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:47:17.421] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:48:07.908] Server  LOG      ✓ Compiled in 185ms
+[00:48:08.197] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:48:08.197] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:48:08.197] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:48:08.197] Browser LOG     Cache expired — fetching fresh API data...
+[00:48:08.197] Browser LOG     Cache expired — fetching fresh API data...
+[00:48:09.223] Browser LOG     Data saved to cache with timestamp
+[00:48:11.630] Browser LOG     Data saved to cache with timestamp
+[00:48:44.023] Server  LOG      ✓ Compiled in 241ms
+[00:48:47.760] Server  LOG      ✓ Compiled in 59ms
+[00:50:41.240] Server  LOG      ✓ Compiled in 288ms
+[00:50:50.839] Server  LOG      ✓ Compiled in 87ms
+[00:50:53.765] Server  LOG      ✓ Compiled in 71ms
+[00:51:07.666] Server  LOG      ✓ Compiled in 680ms
+[00:52:24.001] Browser ERROR   ./Desktop/auexch/src/components/home-slider/page.tsx:114:14
+Parsing ecmascript source code failed
+  112 |                 />
+  113 |               </div>
+> 114 |             </SwiperSlide>
+      |              ^^^^^^^^^^^^^
+  115 |           ))}
+  116 |         </SwiperComponent>
+  117 |       </div>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Server Component]
+[00:52:29.722] Server  LOG      ✓ Compiled in 1850ms
+[00:52:30.301] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `Context`.  It was passed a child from HomeSlider.
+[00:52:30.302] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:52:35.591] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:52:40.452] Server  LOG      ✓ Compiled in 64ms
+[00:52:44.948] Server  LOG      ✓ Compiled in 243ms
+[00:53:31.200] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:31.996] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:53:31.996] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:31.997] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:53:31.997] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:53:31.997] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:53:31.997] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:53:31.997] Browser LOG     Cache expired — fetching fresh API data...
+[00:53:31.997] Browser LOG     Cache expired — fetching fresh API data...
+[00:53:32.551] Browser LOG     Data saved to cache with timestamp
+[00:53:34.488] Browser LOG     Data saved to cache with timestamp
+[00:54:06.522] Server  LOG      ✓ Compiled in 127ms
+[00:54:09.030] Server  LOG      ✓ Compiled in 52ms
+[00:55:36.739] Server  LOG      ✓ Compiled in 133ms
+[00:55:39.196] Server  LOG      ✓ Compiled in 221ms
+[00:55:56.600] Server  LOG      ✓ Compiled in 56ms
+[00:55:58.759] Server  LOG      ✓ Compiled in 38ms
+[00:56:01.258] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:02.224] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:56:02.225] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:56:02.226] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:56:02.226] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:56:02.226] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:56:02.226] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:56:02.226] Browser LOG     Cache expired — fetching fresh API data...
+[00:56:02.226] Browser LOG     Cache expired — fetching fresh API data...
+[00:56:02.429] Browser LOG     Data saved to cache with timestamp
+[00:56:05.631] Browser LOG     Data saved to cache with timestamp
+[00:56:33.210] Server  LOG      ✓ Compiled in 3.1s
+[00:56:34.182] Server  LOG      ✓ Compiled in 305ms
+[00:58:39.076] Server  LOG      ✓ Compiled in 406ms
+[00:58:39.503] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:58:39.503] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:58:39.503] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:58:39.503] Browser LOG     Cache expired — fetching fresh API data...
+[00:58:39.504] Browser LOG     Cache expired — fetching fresh API data...
+[00:58:40.660] Browser LOG     Data saved to cache with timestamp
+[00:58:42.816] Browser LOG     Data saved to cache with timestamp
+[00:58:43.055] Server  LOG      ✓ Compiled in 108ms
+[00:58:43.310] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:58:43.310] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:58:43.310] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:58:43.310] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:58:43.310] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:58:46.614] Server  LOG      ✓ Compiled in 163ms
+[00:58:47.031] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:58:47.032] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:58:47.032] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:58:47.032] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[00:58:47.032] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:00:10.684] Server  LOG      ✓ Compiled in 455ms
+[01:00:11.199] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:00:11.199] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:00:11.199] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:00:11.199] Browser LOG     Cache expired — fetching fresh API data...
+[01:00:11.199] Browser LOG     Cache expired — fetching fresh API data...
+[01:00:12.033] Browser LOG     Data saved to cache with timestamp
+[01:00:15.013] Browser LOG     Data saved to cache with timestamp

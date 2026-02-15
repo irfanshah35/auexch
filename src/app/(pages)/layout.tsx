@@ -196,7 +196,7 @@ export default function PagesLayout({ children }: { children: ReactNode }) {
         <Header />
       </div>
 
-      <div ref={containerRef} className="flex pt-[92px] h-full w-100% mt-5">
+      <div ref={containerRef} className="flex pt-[60px] h-full w-100% mt-5">
         {/* LEFT (fixed) */}
         <aside className="w-[300px] min-w-[300px] h-full overflow-y-auto no-scrollbar border-r border-white/5">
           <Sidebar />
