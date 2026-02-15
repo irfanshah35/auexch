@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/irfan/Desktop/auexch/src/components/m-view/m-footer/index.tsx"],"sourcesContent":["\"use client\";\nconst MFooter = () => {\n  return (\n    <footer className=\"w-full bg-transparent\">\n      <div className=\"w-full h-7.75 min-[992]:h-9.5 bg-black text-white   px-2.5 pt-1.75 pb-1.5\n  min-[992px]:px-3 min-[992px]:pt-1.5 min-[992px]:pb-1\"\n        style={{ fontFamily: \"var(--font-roboto)\" }}>\n        <p className=\"max-[992]:text-[12px] text-base text-center\"\n        >\n          © Copyright 2024. All Rights Reserved. Powered by EXCHANGE\n        </p>\n      </div>\n    </footer>\n  );\n};\nexport default MFooter;\n"],"names":[],"mappings":";;;;;AAAA;;AACA,MAAM,UAAU;IACd,qBACE,mQAAC;QAAO,WAAU;kBAChB,cAAA,mQAAC;YAAI,WAAU;YAEb,OAAO;gBAAE,YAAY;YAAqB;sBAC1C,cAAA,mQAAC;gBAAE,WAAU;0BACZ;;;;;;;;;;;;;;;;AAMT;uCACe"}}]
-}

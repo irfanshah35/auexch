@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/irfan/Desktop/auexch/src/components/common/loader/index.tsx"],"sourcesContent":["import React from \"react\";\n\nconst Loader = () => {\n  return (\n    <div className=\"flex absolute z-9999999 loderrr inset-0 items-center justify-center min-h-screen bg-white/50\">\n      <div className=\"relative w-20 h-20  animate-spin\">\n        {[...Array(8)].map((_, index) => (\n          <div\n            key={index}\n            className=\"absolute w-[6.5px] h-[6.5px] bg-black rounded-full\"\n            style={{\n              top: \"50%\",\n              left: \"50%\",\n              transform: `rotate(${index * 45}deg) translate(0, -18px)`,\n              transformOrigin: \"0 0\",\n              opacity: index === 0 ? 0 : 1,\n            }}\n          />\n        ))}\n      </div>\n    </div>\n  );\n};\n\nexport default Loader;\n"],"names":[],"mappings":";;;;;;AAEA,MAAM,SAAS;IACb,qBACE,kNAAC;QAAI,WAAU;kBACb,cAAA,kNAAC;YAAI,WAAU;sBACZ;mBAAI,MAAM;aAAG,CAAC,GAAG,CAAC,CAAC,GAAG,sBACrB,kNAAC;oBAEC,WAAU;oBACV,OAAO;wBACL,KAAK;wBACL,MAAM;wBACN,WAAW,CAAC,OAAO,EAAE,QAAQ,GAAG,wBAAwB,CAAC;wBACzD,iBAAiB;wBACjB,SAAS,UAAU,IAAI,IAAI;oBAC7B;mBARK;;;;;;;;;;;;;;;AAcjB;KApBM;uCAsBS"}}]
-}
