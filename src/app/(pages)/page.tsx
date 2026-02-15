@@ -34,10 +34,12 @@ export default function Home() {
       {/* ================= DESKTOP VIEW ================= */}
       {!isMobile && (
         <div>
-          <HomeSlider />
-          <br />
-          <SportsNave />
-            <br />
+          <div className="mb-3">
+            <HomeSlider />
+          </div>
+          <div className="mb-3">
+            <SportsNave />
+          </div>
           <SingleaMarket />
           <Casino />
         </div>
