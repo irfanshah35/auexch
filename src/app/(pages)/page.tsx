@@ -38,7 +38,7 @@ export default function Home() {
           <br />
           <SportsNave />
             <br />
-          <SingleaMarket />
+          {/* <SingleaMarket /> */}
           <Casino />
         </div>
       )}
