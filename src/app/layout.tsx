@@ -1,14 +1,20 @@
-import { Geist, Geist_Mono, Roboto_Condensed, Roboto  } from "next/font/google";
+import { Geist, Geist_Mono, Roboto_Condensed, Roboto, Inter } from "next/font/google";
 import "./globals.css";
 import { Metadata } from "next";
 
 
- 
+
 
 export const metadata: Metadata = {
   title: "Auexch",
   description: "Explore Auexch",
 };
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -48,16 +54,19 @@ export default function RootLayout({
       </head>
       <body
         className={`
+          ${inter.variable}
           ${geistSans.variable}
           ${geistMono.variable}
           ${robotoCondensed.variable} 
           ${roboto.variable}
           antialiased
         `}
-        
+        style={{
+          fontFamily: `var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"`
+        }}
         cz-shortcut-listen="true"
       >
-          {children}
+        {children}
       </body>
     </html>
   );
