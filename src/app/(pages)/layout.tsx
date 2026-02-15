@@ -33,26 +33,26 @@ export default function PagesLayout({ children }: { children: ReactNode }) {
     const dividerPx = Math.max(3, Math.floor((DIVIDER_WIDTH / 100) * total));
     const available = Math.max(0, total - LEFT_WIDTH - dividerPx);
 
-    // keep some minimum space for right sidebar
-    const rightMin = 0; // you asked "min-w-0" (so 0)
+    // right sidebar stays flexible
+    const rightMin = 0;
     const minMain = 320;
     const maxMain = Math.max(minMain, available - rightMin);
 
     return { minMain, maxMain, dividerPx, available };
   };
   const {
-      setCasinoEvents,
-      setAllEventsList,
-      setExchangeTypeList,
-      setMenuList,
-      setExchangeNews,
-      setUserBalance,
-      setStakeValue,
-      setBannersList
-    } = useAppStore();
-  
-    const pathname = usePathname();
-    const { checkLogin, isLoggedIn } = useAuthStore();
+    setCasinoEvents,
+    setAllEventsList,
+    setExchangeTypeList,
+    setMenuList,
+    setExchangeNews,
+    setUserBalance,
+    setStakeValue,
+    setBannersList,
+  } = useAppStore();
+
+  const pathname = usePathname();
+  const { checkLogin, isLoggedIn } = useAuthStore();
   // API Calls
   useEffect(() => {
     const token = localStorage.getItem("token");
@@ -89,7 +89,6 @@ export default function PagesLayout({ children }: { children: ReactNode }) {
       setFn: setExchangeTypeList,
       expireIn: CONFIG.exchangeTypeListTime,
     });
-    
 
     fetchData({
       url: CONFIG.getExchangeNews,
@@ -97,7 +96,6 @@ export default function PagesLayout({ children }: { children: ReactNode }) {
       cachedKey: "exchangeNews",
       setFn: setExchangeNews,
       expireIn: CONFIG.getExchangeNewsTime,
-
     });
 
     // fetchData({
@@ -126,8 +124,8 @@ export default function PagesLayout({ children }: { children: ReactNode }) {
 
       setMainWidth((prev) => {
         if (!prev) {
-          // same as your old "51.179%" main width
-          const initial = Math.floor(available * 0.51179);
+          // initial main width +50px (100dvw - 650)
+          const initial = Math.floor(available - 350);
           return clamp(initial, minMain, maxMain);
         }
         return clamp(prev, minMain, maxMain);
@@ -202,7 +200,7 @@ export default function PagesLayout({ children }: { children: ReactNode }) {
 
         {/* MAIN (resizable width) */}
         <main
-          className="h-full overflow-y-auto no-scrollbar min-w-[560px] px-2.5"
+          className="h-full overflow-y-auto no-scrollbar min-w-[560px] px-3 w-[calc(100dvw-650px)]"
           style={
             mainWidth
               ? { width: `${mainWidth}px`, flex: `0 0 ${mainWidth}px` }
@@ -214,7 +212,7 @@ export default function PagesLayout({ children }: { children: ReactNode }) {
         </main>
 
         {/* DIVIDER (keep exact design) */}
-        <div className="w-[0.279%] bg-black relative text-black">
+        <div className="w-[0.279%] bg-[rgba(145,158,171,0.2)] relative text-white ml-1">
           <svg
             onPointerDown={startDrag}
             onPointerMove={onDrag}
@@ -241,7 +239,7 @@ export default function PagesLayout({ children }: { children: ReactNode }) {
           </svg>
         </div>
 
-        {/* RIGHT (auto grows/shrinks + min-w-0) */}
+        {/* RIGHT (flexible) */}
         <aside className="flex-auto min-w-0 h-full overflow-y-auto no-scrollbar border-l border-white/5">
           <Sidebar />
         </aside>
