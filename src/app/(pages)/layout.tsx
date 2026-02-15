@@ -177,10 +177,14 @@ export default function PagesLayout({ children }: { children: ReactNode }) {
   if (isMobile) {
     return (
       <div className="w-full min-h-screen">
-        <Marque />
-        <Header />
-        {children}
-        <Footer />
+        <div className="w-full fixed top-0 z-50">
+          <Marque />
+          <Header />
+        </div>
+        <main className="pt-28 px-2 h-screen overflow-y-auto">
+          {children}
+          <Footer />
+        </main>
       </div>
     );
   }
@@ -194,7 +198,7 @@ export default function PagesLayout({ children }: { children: ReactNode }) {
 
       <div ref={containerRef} className="flex pt-[92px] h-full w-100% mt-5">
         {/* LEFT (fixed) */}
-        <aside className="w-[300px] h-full overflow-y-auto no-scrollbar border-r border-white/5">
+        <aside className="w-[300px] min-w-[300px] h-full overflow-y-auto no-scrollbar border-r border-white/5">
           <Sidebar />
         </aside>
 
