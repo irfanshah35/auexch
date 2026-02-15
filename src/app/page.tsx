@@ -2,8 +2,12 @@
 
 import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
+import SingleMarket from "@/components/sidebar";
+import Casino from "@/components/casino/page";
+import SingleaMarket from "@/components/single-market/page";
+import HomeSlider from "@/components/home-slider/page";
 
- 
+
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -19,14 +23,19 @@ export default function Home() {
       {/* ================= MOBILE VIEW ================= */}
       {isMobile && (
         <div>
-          <h1>m-view</h1>
+          <HomeSlider />
+          <SingleaMarket />
+          <Casino />
         </div>
       )}
 
       {/* ================= DESKTOP VIEW ================= */}
       {!isMobile && (
         <div>
-          <h1>D View</h1>
+          <HomeSlider />
+          <br />
+          <SingleaMarket />
+          <Casino />
         </div>
       )}
     </>

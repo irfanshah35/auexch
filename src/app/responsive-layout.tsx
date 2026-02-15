@@ -1,63 +1,64 @@
 "use client";
 
-import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { useAppStore } from "../lib/store/store";
-import { useAuthStore } from "@/lib/store/authStore";
 import Marque from "@/components/common/marque";
 import Header from "@/components/common/header";
+import Footer from "@/components/common/footer";
+import Sidebar from "@/components/sidebar";
 
-// 🔥 Lazy Load Components Instead of Direct Import
- 
- 
-
- 
-
-export default function ResponsiveLayout({ children }: { children: React.ReactNode }) {
-  const pathname = usePathname();
+export default function ResponsiveLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   const [isMobile, setIsMobile] = useState(false);
 
-  // device breakpoint detection
   useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 992);
-    };
+    const handleResize = () => setIsMobile(window.innerWidth < 1200);
     handleResize();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  /* ================= MOBILE ================= */
+  if (isMobile) {
+    return (
+      <div className="w-full min-h-screen">
+        <Marque />
+        <Header />
+        {children}
+        <Footer />
+      </div>
+    );
+  }
 
+  /* ================= DESKTOP ================= */
   return (
-    <>
-      {/* ---------------- MOBILE VIEW ---------------- */}
-      {isMobile ? (
-        <div className="relative w-full h-screen overflow-y-auto">
-          
+    <div className="w-full h-screen overflow-hidden  ">
 
-          <div className="overflow-y-auto">
-            {/* <div className={`${hideMenuAndSports ? "h-[100px]" : "h-[142px]"}`}></div> */}
-            {children}
+      <div className="fixed top-0 left-0 w-full z-50">
+        <Marque />
+        <Header />
+      </div>
 
-            
-          </div>
-        </div>
-      ) : (
-        /* ---------------- DESKTOP VIEW ---------------- */
-        <div className="relative w-full h-screen overflow-hidden">
-          <Marque/>
-          <Header/>
-          <div className="flex h-full">
 
-            <main className="">
-              {children}
-              <div className="h-[30]"></div>
-            </main>
-          </div>
+      <div className="flex pt-[92px] h-full">
 
-          
-        </div>
-      )}
-    </>
+        <aside className="w-[25%] h-full overflow-y-auto no-scrollbar border-r border-white/5">
+          <Sidebar />
+        </aside>
+
+
+        <main className="w-[50%] h-full overflow-y-auto no-scrollbar px-3">
+          {children}
+          <Footer />
+        </main>
+
+
+        <aside className="w-[25%] h-full overflow-y-auto no-scrollbar border-l border-white/5">
+          <Sidebar />
+        </aside>
+      </div>
+    </div>
   );
 }

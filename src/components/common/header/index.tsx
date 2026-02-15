@@ -6,6 +6,8 @@ import styles from "./headerPage.module.css";
 
 export default function Header() {
   return (
-    <></>
+    <>
+    header
+    </>
   );
 }
