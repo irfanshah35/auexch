@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { useAppStore } from "../lib/store/store";
 import { useAuthStore } from "@/lib/store/authStore";
 import Marque from "@/components/common/marque";
+import Header from "@/components/common/header";
 
 // 🔥 Lazy Load Components Instead of Direct Import
  
@@ -44,9 +45,8 @@ export default function ResponsiveLayout({ children }: { children: React.ReactNo
       ) : (
         /* ---------------- DESKTOP VIEW ---------------- */
         <div className="relative w-full h-screen overflow-hidden">
-          
-
           <Marque/>
+          <Header/>
           <div className="flex h-full">
 
             <main className="">

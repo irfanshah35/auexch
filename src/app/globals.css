@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #fff;
   --foreground: #171717;
 }
 
@@ -24,118 +24,7 @@ body {
   color: var(--foreground);
   font-family: "Roboto Condensed", sans-serif !important; /* ✅ Override font */
 }
-
-/* 🔥 Inplay animation */
-.inplay-animation {
-  animation: inplayBlink 1s ease-in-out infinite;
-  font-weight: 700;
-}
-
-@keyframes inplayBlink {
-  0% {
-    opacity: 1;
-    color: red;
-  }
-  50% {
-    opacity: 1;
-    color: green;
-  }
-  100% {
-    opacity: 1;
-    color: red;
-  }
-}
-
-/* Buttons */
-.btn-back {
-  background-color: #72bbef;
-  height: 24px;
-  line-height: 24px;
-  font-size: 14px;
-  font-weight: 700;
-  width: 50%;
-  text-align: center;
-  cursor: pointer;
-  display: inline-block;
-  color: black;
-}
-
-.btn-lay {
-  background-color: #faa9ba;
-  height: 24px;
-  line-height: 24px;
-  font-size: 14px;
-  font-weight: 700;
-  width: 50%;
-  text-align: center;
-  cursor: pointer;
-  display: inline-block;
-  color: black;
-}
-
-/* Circular icon */
-.circle-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-}
-/* live Casino  */
-.casino-box {
-  background: linear-gradient(-180deg, #f4b501 0%, #f68700 100%);
-  box-shadow: 0 5px 9px -3px;
-  border-radius: 4px;
-  margin-bottom: 15px;
-  cursor: pointer;
-  position: relative;
-}
-
-.casino-box img {
-  width: 100%;
-}
-
-.casino-bottom {
-  text-align: center;
-  font-size: 14px;
-  padding: 4px 0;
-}
-
-@media (max-width: 1024px) {
-  .casino-box img {
-    min-height: 110px;
-    height: auto;
-  }
-}
-.casino-bottom {
-  font-family: "Roboto Condensed", sans-serif;
-  background: linear-gradient(180deg, #030a12, #444647 42%, #58595a);
-  padding: 4px 0;
-  text-align: center;
-  font-size: 16px;
-  line-height: 18px;
-  color: #fff;
-  letter-spacing: 0px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  right: 0;
-  left: 0;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  min-height: 32px;
-}
-
-@media only screen and (max-width: 767px) {
-  .casino-bottom {
-    font-size: 12px;
-    line-height: 13px;
-    min-height: 32px;
-    font-family: "Roboto Condensed", sans-serif;
-  }
-}
+ 
 
 .no-scrollbar::-webkit-scrollbar {
   display: none;
@@ -146,50 +35,56 @@ body {
   scrollbar-width: none;
 }
 
-.btn-clr {
-  background: linear-gradient(180deg, #030a12, #444647 42%, #58595a);
-}
-.heading-clr {
-  background: linear-gradient(-180deg, #f4b501 0%, #f68700 100%);
+ .announcement-root {
+  margin: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.57143;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  background-color: rgba(7, 141, 238, 0.16);
+  color: rgb(7, 141, 238);
+  padding-left: 32px;
 }
 
-@keyframes pulseColor {
+/* Icon */
+.announcement-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.announcement-svg {
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  flex-shrink: 0;
+}
+
+/* Marquee text */
+.announcement-message {
+  display: inline-flex;
+  animation: marquee-scroll 24.37s linear infinite;
+}
+
+/* Animation (same MUI behavior) */
+@keyframes marquee-scroll {
   0% {
-    color: #16a34a;
-  }
-  50% {
-    color: #dc2626;
+    transform: translateX(100%);
   }
   100% {
-    color: #16a34a;
+    transform: translateX(-100%);
   }
 }
-.animate-pulse {
-  animation: pulseColor 1s ease-in-out infinite;
-}
 
-.no-scrollbar {
-  -ms-overflow-style: none; /* IE */
-  scrollbar-width: none; /* Firefox */
-}
-
-.font-roboto {
-  font-family: Roboto, "Helvetica Neue", sans-serif;
-}
-
-.rules-content a{
-  color: #0D6EfD;
-  text-decoration: underline;
-}
-.rules-content a:hover{
-  color: #0a58ca;
-}
-
-.animate-spin {
-  animation: spin-slow 2s linear infinite !important;
-}
-@keyframes spin-slow {
-  to {
-    transform: rotate(360deg);
-  }
-}

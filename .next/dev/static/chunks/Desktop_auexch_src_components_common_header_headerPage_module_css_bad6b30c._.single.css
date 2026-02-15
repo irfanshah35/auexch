@@ -1,0 +1,77 @@
+/* [project]/Desktop/auexch/src/components/common/header/headerPage.module.css [app-client] (css) */
+.headerPage-module__R1cCna__header {
+  color: #fff;
+  box-sizing: border-box;
+  background: linear-gradient(#111822, #0b1118);
+  align-items: center;
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+  display: flex;
+}
+
+.headerPage-module__R1cCna__left {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.headerPage-module__R1cCna__iconBtn {
+  color: #9aa4b2;
+  cursor: pointer;
+  background: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  font-size: 20px;
+  display: flex;
+}
+
+.headerPage-module__R1cCna__logo {
+  align-items: center;
+  display: flex;
+}
+
+.headerPage-module__R1cCna__nav {
+  align-items: center;
+  gap: 18px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.headerPage-module__R1cCna__navItem {
+  color: #e5e7eb;
+  opacity: .9;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  text-decoration: none;
+  display: flex;
+}
+
+.headerPage-module__R1cCna__navItem:hover {
+  opacity: 1;
+}
+
+.headerPage-module__R1cCna__right {
+  align-items: center;
+  gap: 12px;
+  display: flex;
+}
+
+.headerPage-module__R1cCna__loginBtn {
+  color: #fff;
+  border: 1px solid #3b82f6;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.headerPage-module__R1cCna__loginBtn:hover {
+  background: #3b82f6;
+}
+
+/*# sourceMappingURL=Desktop_auexch_src_components_common_header_headerPage_module_css_bad6b30c._.single.css.map*/
