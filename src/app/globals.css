@@ -88,3 +88,32 @@ body {
   }
 }
 
+
+.custom-swiper-container .swiper-pagination {
+  position: absolute !important;
+  top: 16px !important;
+  left: 16px !important;
+  width: auto !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  z-index: 50 !important;
+  /* Z-index barha diya hai */
+}
+
+.custom-swiper-container .swiper-pagination-bullet {
+  width: 6px !important;
+  height: 6px !important;
+  background: rgba(255, 255, 255, 0.4) !important;
+  opacity: 1 !important;
+  border-radius: 50% !important;
+  transition: all 0.3s ease !important;
+  margin: 0 !important;
+}
+
+.custom-swiper-container .swiper-pagination-bullet-active {
+  width: 20px !important;
+  background: #40c4ff !important;
+  border-radius: 10px !important;
+  opacity: 1 !important;
+}
