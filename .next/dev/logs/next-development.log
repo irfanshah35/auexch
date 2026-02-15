@@ -32901,3 +32901,241 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [01:19:07.323] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
 [01:19:07.323] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
 [01:19:07.323] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[01:19:20.316] Server  LOG      ✓ Compiled in 40ms
+[01:19:21.255] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[01:19:21.255] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[01:19:21.255] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[01:19:21.255] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[01:19:21.255] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[01:19:29.674] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:19:29.846] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:19:29.846] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:19:29.846] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[01:19:29.846] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[01:19:29.846] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[01:19:29.846] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[01:19:29.846] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[01:19:29.846] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[01:33:15.827] Server  LOG      ✓ Compiled in 159ms
+[01:34:52.040] Server  LOG      ✓ Compiled in 169ms
+[01:34:53.195] Server  LOG      ✓ Compiled in 58ms
+[01:35:01.728] Server  LOG      ✓ Compiled in 35ms
+[01:35:35.798] Server  LOG      ✓ Compiled in 33ms
+[01:35:41.086] Server  LOG      ✓ Compiled in 38ms
+[01:35:43.345] Server  LOG      ✓ Compiled in 18ms
+[01:35:48.525] Server  LOG      ✓ Compiled in 15ms
+[01:37:10.529] Server  LOG      ✓ Compiled in 24ms
+[01:37:12.368] Server  LOG      ✓ Compiled in 23ms
+[01:37:14.477] Server  LOG      ✓ Compiled in 65ms
+[01:37:16.491] Server  LOG      ✓ Compiled in 21ms
+[01:37:17.322] Server  LOG      ✓ Compiled in 15ms
+[01:37:21.212] Server  LOG      ✓ Compiled in 21ms
+[01:37:23.409] Server  LOG      ✓ Compiled in 36ms
+[01:37:31.789] Server  LOG      ✓ Compiled in 42ms
+[01:37:33.685] Server  LOG      ✓ Compiled in 40ms
+[01:37:34.723] Server  LOG      ✓ Compiled in 35ms
+[01:37:46.432] Server  LOG      ✓ Compiled in 56ms
+[01:37:52.357] Server  LOG      ✓ Compiled in 48ms
+[01:37:53.925] Server  LOG      ✓ Compiled in 21ms
+[01:38:08.674] Server  LOG      ✓ Compiled in 87ms
+[01:38:10.901] Server  LOG      ✓ Compiled in 21ms
+[01:38:13.770] Server  LOG      ✓ Compiled in 39ms
+[01:38:39.126] Server  LOG      ✓ Compiled in 45ms
+[01:39:18.974] Server  LOG      ✓ Compiled in 37ms
+[01:39:24.654] Server  LOG      ✓ Compiled in 25ms
+[01:39:26.472] Server  LOG      ✓ Compiled in 23ms
+[01:39:32.261] Server  LOG      ✓ Compiled in 21ms
+[01:39:39.397] Server  LOG      ✓ Compiled in 38ms
+[01:39:41.841] Server  LOG      ✓ Compiled in 26ms
+[01:39:44.593] Server  LOG      ✓ Compiled in 28ms
+[01:39:46.725] Server  LOG      ✓ Compiled in 21ms
+[01:39:47.957] Server  LOG      ✓ Compiled in 19ms
+[01:39:49.663] Server  LOG      ✓ Compiled in 32ms
+[01:40:42.720] Server  LOG      ✓ Compiled in 38ms
+[01:40:44.424] Server  LOG      ✓ Compiled in 21ms
+[01:40:46.559] Server  LOG      ✓ Compiled in 24ms
+[01:40:50.073] Server  LOG      ✓ Compiled in 37ms
+[01:40:57.902] Server  LOG      ✓ Compiled in 40ms
+[01:41:12.188] Server  LOG      ✓ Compiled in 49ms
+[01:41:13.382] Server  LOG      ✓ Compiled in 35ms
+[01:41:37.709] Server  LOG      ✓ Compiled in 65ms
+[01:41:38.325] Browser ERROR   ./Desktop/web_project/auexch/src/components/sidebar/index.tsx:10:15
+Ecmascript file had an error
+   8 |           <div className="bg-[rgba(145,158,171,8%)] hover:bg-[rgba(145,158,171,16%)] pr-2 cursor-pointer rounded-lg mt-2">
+   9 |             <span className="p-2 text-[#919EAB] inline-flex">
+> 10 |               <svg
+     |               ^^^^
+> 11 |                 xmlns="http://www.w3.org/2000/svg"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 12 |                 xmlns:xlink="http://www.w3.org/1999/xlink"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |                 aria-hidden="true"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |                 role="img"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 |                 class="iconify iconify--eva minimal__iconify__root css-eadae1"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 16 |                 id="_r_9n_"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 17 |                 width="1em"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 18 |                 height="1em"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 19 |                 viewBox="0 0 24 24"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 20 |               >
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 21 |                 <path
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 22 |                   fill="currentColor"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 23 |                   d="m20.71 19.29l-3.4-3.39A7.92 7.92 0 0 0 19 11a8 8 0 1 0-8 8a7.92 7.92 0 0 0 4.9-1.69l3.39 3.4a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42M5 11a6 6 0 1 1 6 6a6 6 0 0 1-6-6"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 24 |                 ></path>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 25 |               </svg>
+     | ^^^^^^^^^^^^^^^^^^^^^
+  26 |             </span>
+  27 |           </div>
+  28 |         </div>
+
+JSX Namespace is disabled by default because react does not support it yet. You can specify jsc.transform.react.throwIfNamespace to false to override default behavior
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+[01:42:31.427] Server  LOG      ✓ Compiled in 67ms
+[01:43:18.252] Server  LOG      ✓ Compiled in 45ms
+[01:43:19.324] Browser ERROR   ./Desktop/web_project/auexch/src/components/sidebar/index.tsx:28:20
+Parsing ecmascript source code failed
+  26 |                 </svg>
+  27 |               </span>
+> 28 |             </span>
+     |                    ^
+> 29 |           </div>
+     | ^^^^^^^^^^^
+  30 |         </div>
+  31 |       </div>
+  32 |     </>
+
+Expected '</', got 'jsx text (
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+[01:43:20.149] Server  LOG      ✓ Compiled in 30ms
+[01:43:34.053] Server  LOG      ✓ Compiled in 46ms
+[01:43:34.323] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true clas clas true clas
+[01:43:39.994] Server  LOG      ✓ Compiled in 24ms
+[01:43:51.883] Server  LOG      ✓ Compiled in 60ms
+[01:43:55.484] Server  LOG      ✓ Compiled in 113ms
+[01:43:58.979] Server  LOG      ✓ Compiled in 21ms
+[01:44:03.191] Server  LOG      ✓ Compiled in 129ms
+[01:44:18.820] Server  LOG      ✓ Compiled in 161ms
+[01:45:42.138] Server  LOG      ✓ Compiled in 59ms
+[01:45:45.643] Server  LOG      ✓ Compiled in 158ms
+[01:45:51.217] Server  LOG      ✓ Compiled in 29ms
+[01:46:07.827] Server  LOG      ✓ Compiled in 52ms
+[01:46:13.202] Server  LOG      ✓ Compiled in 58ms
+[01:46:13.322] Browser ERROR   ./Desktop/web_project/auexch/src/components/sidebar/index.tsx:27:27
+Parsing ecmascript source code failed
+  25 |               </svg>
+  26 |             </span>
+> 27 |             <spanclassName="inline-flex text-[#1C252E]">
+     |                           ^
+  28 |               ⌘K
+  29 |             </spanclassName=>
+  30 |           </div>
+
+Expected '</', got '='
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+[01:46:38.118] Server  LOG      ✓ Compiled in 27ms
+[01:46:38.324] Browser ERROR   ./Desktop/web_project/auexch/src/components/sidebar/index.tsx:27:27
+Parsing ecmascript source code failed
+  25 |               </svg>
+  26 |             </span>
+> 27 |             <spanclassName="inline-flex text-[#1C252E]">
+     |                           ^
+  28 |               ⌘K
+  29 |             </spanclassName=>
+  30 |           </div>
+
+Expected '</', got '='
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+[01:47:06.805] Server  LOG      ✓ Compiled in 48ms
+[01:47:09.005] Server  LOG      ✓ Compiled in 38ms
+[01:47:15.719] Server  LOG      ✓ Compiled in 60ms
+[01:47:19.179] Server  LOG      ✓ Compiled in 16ms
+[01:47:22.094] Server  LOG      ✓ Compiled in 19ms
+[01:47:26.193] Server  LOG      ✓ Compiled in 24ms
+[01:52:39.551] Server  LOG      ✓ Compiled in 157ms
+[01:53:08.040] Server  LOG      ✓ Compiled in 67ms
+[01:53:12.710] Server  LOG      ✓ Compiled in 211ms
+[01:53:35.130] Server  LOG      ✓ Compiled in 92ms
+[01:53:46.220] Server  LOG      ✓ Compiled in 33ms
+[01:53:48.998] Server  LOG      ✓ Compiled in 320ms
+[01:54:10.500] Server  LOG      ✓ Compiled in 160ms
+[01:54:18.558] Server  LOG      ✓ Compiled in 42ms
+[01:54:20.875] Server  LOG      ✓ Compiled in 21ms
+[01:54:21.971] Server  LOG      ✓ Compiled in 39ms
+[01:54:41.569] Server  LOG      ✓ Compiled in 62ms
+[01:55:04.777] Server  LOG      ✓ Compiled in 38ms
+[01:55:05.865] Server  LOG      ✓ Compiled in 25ms
+[01:55:49.023] Server  LOG      ✓ Compiled in 37ms
+[01:55:51.517] Server  LOG      ✓ Compiled in 62ms
+[01:56:48.090] Server  LOG      ✓ Compiled in 71ms
+[01:57:33.206] Server  LOG      ✓ Compiled in 55ms
+[01:57:38.225] Server  LOG      ✓ Compiled in 23ms
+[01:57:40.799] Server  LOG      ✓ Compiled in 35ms
+[01:58:10.709] Server  LOG      ✓ Compiled in 43ms
+[01:58:12.716] Server  LOG      ✓ Compiled in 25ms
+[01:58:18.934] Server  LOG      ✓ Compiled in 46ms
+[01:58:32.514] Server  LOG      ✓ Compiled in 39ms
+[01:58:36.551] Server  LOG      ✓ Compiled in 22ms
+[01:58:40.671] Server  LOG      ✓ Compiled in 51ms
+[01:58:43.648] Server  LOG      ✓ Compiled in 18ms
+[01:58:46.844] Server  LOG      ✓ Compiled in 97ms
+[01:58:52.286] Server  LOG      ✓ Compiled in 90ms
+[01:59:03.759] Server  LOG      ✓ Compiled in 1266ms
+[01:59:07.469] Server  LOG      ✓ Compiled in 77ms
+[01:59:15.489] Server  LOG      ✓ Compiled in 57ms
+[01:59:31.788] Server  LOG      ✓ Compiled in 45ms
+[01:59:40.926] Server  LOG      ✓ Compiled in 60ms
