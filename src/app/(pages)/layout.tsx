@@ -5,6 +5,11 @@ import Marque from "@/components/common/marque";
 import Header from "@/components/common/header";
 import Footer from "@/components/common/footer";
 import Sidebar from "@/components/sidebar";
+import { useAppStore } from "@/lib/store/store";
+import { usePathname } from "next/navigation";
+import { useAuthStore } from "@/lib/store/authStore";
+import { fetchData } from "@/lib/functions";
+import { CONFIG } from "@/lib/config";
 
 export default function PagesLayout({ children }: { children: ReactNode }) {
   const [isMobile, setIsMobile] = useState(false);
@@ -35,6 +40,74 @@ export default function PagesLayout({ children }: { children: ReactNode }) {
 
     return { minMain, maxMain, dividerPx, available };
   };
+  const {
+      setCasinoEvents,
+      setAllEventsList,
+      setExchangeTypeList,
+      setMenuList,
+      setExchangeNews,
+      setUserBalance,
+      setStakeValue,
+      setBannersList
+    } = useAppStore();
+  
+    const pathname = usePathname();
+    const { checkLogin, isLoggedIn } = useAuthStore();
+  // API Calls
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    checkLogin(token || "");
+
+    fetchData({
+      url: CONFIG.getAllEventsList,
+      payload: { key: CONFIG.siteKey },
+      cachedKey: "allEventsList",
+      setFn: setAllEventsList,
+      expireIn: CONFIG.getAllEventsListTime,
+    });
+
+    fetchData({
+      url: CONFIG.getTopCasinoGame,
+      payload: { key: CONFIG.siteKey },
+      cachedKey: "casinoEvents",
+      setFn: setCasinoEvents,
+      expireIn: CONFIG.getTopCasinoGameTime,
+    });
+
+    fetchData({
+      url: CONFIG.menuList,
+      payload: { key: CONFIG.siteKey },
+      cachedKey: "menuList",
+      setFn: setMenuList,
+      expireIn: CONFIG.menuListTime,
+    });
+
+    fetchData({
+      url: CONFIG.exchangeTypeList,
+      payload: { key: CONFIG.siteKey },
+      cachedKey: "exchangeTypeList",
+      setFn: setExchangeTypeList,
+      expireIn: CONFIG.exchangeTypeListTime,
+    });
+    
+
+    fetchData({
+      url: CONFIG.getExchangeNews,
+      payload: { key: CONFIG.siteKey },
+      cachedKey: "exchangeNews",
+      setFn: setExchangeNews,
+      expireIn: CONFIG.getExchangeNewsTime,
+
+    });
+
+    // fetchData({
+    //   url: CONFIG.getUserBetStake,
+    //   payload: { key: CONFIG.siteKey },
+    //   cachedKey: "betStake",
+    //   setFn: setStakeValue,
+    //   expireIn: CONFIG.getUserBetStakeTime,
+    // });
+  }, []);
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 1200);

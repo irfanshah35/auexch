@@ -28621,3 +28621,267 @@ It can also happen if the client has a browser extension installed which messes 
 [01:21:38.893] Browser LOG     Data saved to cache with timestamp
 [01:21:39.879] Browser LOG     Data saved to cache with timestamp
 >>>>>>> 7a67178e1ebbcadc0a4191c9e1d6f996ddc9afdb
+[01:26:14.440] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:14.446] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:14.447] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:14.447] Browser LOG     Cache expired — fetching fresh API data...
+[01:26:14.447] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:14.447] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:14.447] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:14.447] Browser LOG     Cache expired — fetching fresh API data...
+[01:26:14.447] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:14.447] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:14.447] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:14.447] Browser LOG     Cache expired — fetching fresh API data...
+[01:26:14.447] Browser LOG     Cache expired — fetching fresh API data...
+[01:26:14.447] Browser LOG     Cache expired — fetching fresh API data...
+[01:26:14.447] Browser LOG     Cache expired — fetching fresh API data...
+[01:26:15.495] Browser LOG     Data saved to cache with timestamp
+[01:26:15.495] Browser LOG     Data saved to cache with timestamp
+[01:26:15.495] Browser LOG     Data saved to cache with timestamp
+[01:26:17.477] Browser LOG     Data saved to cache with timestamp
+[01:26:17.612] Browser LOG     Data saved to cache with timestamp
+[01:26:17.612] Browser LOG     Data saved to cache with timestamp
+[01:26:20.005] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:26:20.567] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:20.567] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:20.567] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:20.567] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:20.567] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:20.567] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:20.567] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:20.567] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:20.567] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:20.567] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:20.567] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:20.567] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:20.567] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:20.567] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:20.567] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:21.156] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:21.156] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:21.156] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:21.156] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:21.156] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:22.315] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:22.315] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:22.315] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:22.316] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:22.316] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:22.316] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:22.316] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:22.316] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:22.316] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:22.316] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:24.014] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:26:24.317] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:24.318] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:24.318] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:24.318] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:24.318] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:24.318] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:24.318] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:24.318] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:24.318] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:24.318] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:24.318] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:24.318] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:24.318] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:24.318] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:24.318] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:27.264] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:27.265] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:27.265] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:27.265] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:26:27.265] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:27:13.434] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:27:13.689] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:27:13.689] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:27:13.689] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:27:13.689] Browser LOG     Cache expired — fetching fresh API data...
+[01:27:13.689] Browser LOG     Cache expired — fetching fresh API data...
+[01:27:14.078] Browser LOG     Data saved to cache with timestamp
+[01:27:15.435] Browser LOG     Data saved to cache with timestamp
+[01:27:18.234] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:27:18.539] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:27:18.539] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:27:18.539] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:27:18.539] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:27:18.539] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:32:03.758] Server  LOG      ✓ Compiled in 483ms
+[01:32:21.974] Server  LOG      ✓ Compiled in 56ms
+[01:32:22.520] Browser ERROR   uncaughtError: ReferenceError: checkLogin is not defined
+[01:32:46.206] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:32:46.219] Server  LOG      ✓ Compiled in 65ms
+[01:32:46.356] Browser ERROR   uncaughtError: ReferenceError: useAppStore is not defined
+[01:32:47.364] Server  ERROR    ⨯ ReferenceError: useAppStore is not defined
+[01:32:48.337] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:32:49.137] Browser ERROR   uncaughtError: ReferenceError: useAppStore is not defined
+[01:32:51.485] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:32:52.038] Server  ERROR    ⨯ ReferenceError: usePathname is not defined
+[01:32:52.061] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/api/users..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/a...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className={"\n          geist_a71539c9-module__T19VSG__variable\n          geist_mono_8d4..."}
+                            cz-shortcut-listen="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+-                           __processed_bc57fa78-8605-44d5-aef2-c309815401dc__="true"
+                          >
+                  ...
+
+[01:32:52.061] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:32:52.390] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:32:52.683] Browser ERROR   uncaughtError: ReferenceError: usePathname is not defined
+[01:32:54.692] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:32:55.152] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:32:55.152] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/api/users..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/a...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className={"\n          geist_a71539c9-module__T19VSG__variable\n          geist_mono_8d4..."}
+                            cz-shortcut-listen="true"
+-                           __processed_103119f4-3aa6-4392-b1a5-ae83a036f0e6__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[01:32:55.280] Server  ERROR    ⨯ ReferenceError: useAuthStore is not defined
+[01:32:55.319] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:32:55.335] Server  ERROR    ⨯ ReferenceError: useAuthStore is not defined
+[01:32:55.464] Server  LOG      ✓ Compiled in 21ms
+[01:32:55.682] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:32:55.858] Browser ERROR   uncaughtError: ReferenceError: useAuthStore is not defined
+[01:32:57.920] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:32:58.786] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:32:58.790] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/api/users..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/a...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className={"\n          geist_a71539c9-module__T19VSG__variable\n          geist_mono_8d4..."}
+                            cz-shortcut-listen="true"
+-                           __processed_1f3d02c5-da11-400f-a8ac-1438e8b67ae6__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[01:32:58.905] Browser ERROR   uncaughtError: ReferenceError: fetchData is not defined
+[01:33:00.490] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:33:00.516] Server  LOG      ✓ Compiled in 117ms
+[01:33:01.137] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:33:01.339] Browser ERROR   uncaughtError: ReferenceError: CONFIG is not defined
+[01:33:03.725] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:33:03.756] Server  LOG      ✓ Compiled in 56ms
+[01:33:04.419] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:33:05.138] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:33:05.138] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:33:05.138] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:33:05.138] Browser LOG     Cache expired — fetching fresh API data...
+[01:33:05.138] Browser LOG     Cache expired — fetching fresh API data...
+[01:33:05.138] Browser LOG     Data saved to cache with timestamp
+[01:33:07.099] Browser LOG     Data saved to cache with timestamp
+[01:33:09.353] Server  LOG      ✓ Compiled in 93ms
+[01:33:11.768] Server  LOG      ✓ Compiled in 46ms
+[01:33:13.089] Server  LOG      ✓ Compiled in 50ms
+[01:33:13.225] Browser ERROR   uncaughtError: ReferenceError: setIsMobile is not defined
+[01:33:15.112] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:33:15.147] Server  LOG      ✓ Compiled in 43ms
+[01:33:15.596] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:33:15.596] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:33:15.596] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:33:15.596] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:33:15.597] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:33:15.890] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:33:16.160] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:33:16.160] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:33:16.160] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:33:16.160] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:33:16.160] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:33:18.754] Server  LOG      ✓ Compiled in 33ms
+[01:33:28.676] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:33:29.337] Browser LOG     Data saved to cache with timestamp
+[01:33:29.337] Browser LOG     Data saved to cache with timestamp
+[01:33:29.337] Browser LOG     Data saved to cache with timestamp
+[01:33:30.026] Browser LOG     Data saved to cache with timestamp
+[01:33:30.710] Browser LOG     Data saved to cache with timestamp
