@@ -40,6 +40,7 @@ Import traces:
 [00:00:58.427] Browser LOG     Cache expired — fetching fresh API data...
 [00:00:58.427] Browser LOG     Data loaded from IndexedDB cache (fresh)
 [00:00:59.558] Browser LOG     Data saved to cache with timestamp
+<<<<<<< HEAD
 [00:07:34.870] Server  LOG      ✓ Compiled in 357ms
 [00:07:35.638] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:07:36.053] Browser LOG     Cache expired — fetching fresh API data...
@@ -28612,3 +28613,11 @@ It can also happen if the client has a browser extension installed which messes 
 [01:23:03.483] Browser LOG     Data saved to cache with timestamp
 [01:23:04.217] Browser LOG     Data saved to cache with timestamp
 [01:23:04.691] Browser LOG     Data saved to cache with timestamp
+=======
+[01:21:35.431] Server  LOG      ✓ Compiled in 1392ms
+[01:21:37.895] Browser LOG     Data saved to cache with timestamp
+[01:21:37.895] Browser LOG     Data saved to cache with timestamp
+[01:21:37.896] Browser LOG     Data saved to cache with timestamp
+[01:21:38.893] Browser LOG     Data saved to cache with timestamp
+[01:21:39.879] Browser LOG     Data saved to cache with timestamp
+>>>>>>> 7a67178e1ebbcadc0a4191c9e1d6f996ddc9afdb
