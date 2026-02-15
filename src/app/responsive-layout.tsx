@@ -36,13 +36,13 @@ export default function ResponsiveLayout({
   return (
     <div className="w-full h-screen overflow-hidden  ">
 
-      <div className="fixed top-0 left-0 w-full z-50">
+      <div className="fixed top-0 left-0 w-full z-50 ">
         <Marque />
         <Header />
       </div>
 
 
-      <div className="flex pt-[92px] h-full w-100%">
+      <div className="flex pt-[92px] h-full w-100% mt-5">
 
         <aside className="w-[20.764%] h-full overflow-y-auto no-scrollbar border-r border-white/5">
           <Sidebar />

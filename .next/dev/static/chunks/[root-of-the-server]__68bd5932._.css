@@ -768,8 +768,24 @@
 }
 
 /* [project]/Desktop/auexch/src/app/globals.css [app-client] (css) */
+@layer properties {
+  @supports (((-webkit-hyphens: none)) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color: rgb(from red r g b)))) {
+    *, :before, :after, ::backdrop {
+      --tw-rotate-x: initial;
+      --tw-rotate-y: initial;
+      --tw-rotate-z: initial;
+      --tw-skew-x: initial;
+      --tw-skew-y: initial;
+      --tw-border-style: solid;
+    }
+  }
+}
+
 @layer theme {
   :root, :host {
+    --color-black: #000;
+    --color-white: #fff;
+    --spacing: .25rem;
     --default-font-family: var(--font-geist-sans);
     --default-mono-font-family: var(--font-geist-mono);
   }
@@ -1024,28 +1040,40 @@
 @layer components;
 
 @layer utilities {
-  .relative {
-    position: relative;
+  .fixed {
+    position: fixed;
   }
 
   .static {
     position: static;
   }
 
+  .top-0 {
+    top: calc(var(--spacing) * 0);
+  }
+
+  .left-0 {
+    left: calc(var(--spacing) * 0);
+  }
+
+  .z-50 {
+    z-index: 50;
+  }
+
+  .mt-3 {
+    margin-top: calc(var(--spacing) * 3);
+  }
+
+  .mt-5 {
+    margin-top: calc(var(--spacing) * 5);
+  }
+
+  .mb-3 {
+    margin-bottom: calc(var(--spacing) * 3);
+  }
+
   .flex {
     display: flex;
-  }
-
-  .h-\[30\] {
-    height: 30px;
-  }
-
-  .h-\[100px\] {
-    height: 100px;
-  }
-
-  .h-\[142px\] {
-    height: 142px;
   }
 
   .h-full {
@@ -1056,8 +1084,32 @@
     height: 100vh;
   }
 
+  .min-h-screen {
+    min-height: 100vh;
+  }
+
+  .w-\[0\.279\%\] {
+    width: .279%;
+  }
+
+  .w-\[20\.764\%\] {
+    width: 20.764%;
+  }
+
+  .w-\[27\.778\%\] {
+    width: 27.778%;
+  }
+
+  .w-\[51\.179\%\] {
+    width: 51.179%;
+  }
+
   .w-full {
     width: 100%;
+  }
+
+  .transform {
+    transform: var(--tw-rotate-x, ) var(--tw-rotate-y, ) var(--tw-rotate-z, ) var(--tw-skew-x, ) var(--tw-skew-y, );
   }
 
   .resize {
@@ -1070,6 +1122,34 @@
 
   .overflow-y-auto {
     overflow-y: auto;
+  }
+
+  .border-r {
+    border-right-style: var(--tw-border-style);
+    border-right-width: 1px;
+  }
+
+  .border-l {
+    border-left-style: var(--tw-border-style);
+    border-left-width: 1px;
+  }
+
+  .border-white\/5 {
+    border-color: #ffffff0d;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .border-white\/5 {
+      border-color: color-mix(in oklab, var(--color-white) 5%, transparent);
+    }
+  }
+
+  .bg-black {
+    background-color: var(--color-black);
+  }
+
+  .pt-\[92px\] {
+    padding-top: 92px;
   }
 
   .antialiased {
@@ -1155,80 +1235,38 @@ body {
   }
 }
 
+@property --tw-rotate-x {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-rotate-y {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-rotate-z {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-skew-x {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-skew-y {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+
 /* [project]/Desktop/auexch/src/components/common/header/headerPage.module.css [app-client] (css) */
-.headerPage-module__R1cCna__header {
-  color: #fff;
-  box-sizing: border-box;
-  background: linear-gradient(#111822, #0b1118);
-  align-items: center;
-  width: 100%;
-  height: 48px;
-  padding: 0 16px;
-  display: flex;
-}
 
-.headerPage-module__R1cCna__left {
-  align-items: center;
-  gap: 10px;
-  display: flex;
-}
-
-.headerPage-module__R1cCna__iconBtn {
-  color: #9aa4b2;
-  cursor: pointer;
-  background: none;
-  border: none;
-  justify-content: center;
-  align-items: center;
-  width: 36px;
-  height: 36px;
-  font-size: 20px;
-  display: flex;
-}
-
-.headerPage-module__R1cCna__logo {
-  align-items: center;
-  display: flex;
-}
-
-.headerPage-module__R1cCna__nav {
-  align-items: center;
-  gap: 18px;
-  margin: 0 auto;
-  display: flex;
-}
-
-.headerPage-module__R1cCna__navItem {
-  color: #e5e7eb;
-  opacity: .9;
-  align-items: center;
-  gap: 6px;
-  font-size: 14px;
-  text-decoration: none;
-  display: flex;
-}
-
-.headerPage-module__R1cCna__navItem:hover {
-  opacity: 1;
-}
-
-.headerPage-module__R1cCna__right {
-  align-items: center;
-  gap: 12px;
-  display: flex;
-}
-
-.headerPage-module__R1cCna__loginBtn {
-  color: #fff;
-  border: 1px solid #3b82f6;
-  border-radius: 8px;
-  padding: 6px 14px;
-  font-size: 14px;
-  text-decoration: none;
-}
-
-.headerPage-module__R1cCna__loginBtn:hover {
-  background: #3b82f6;
-}
 
 /*# sourceMappingURL=%5Broot-of-the-server%5D__68bd5932._.css.map*/
