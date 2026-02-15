@@ -14,8 +14,8 @@ export default function SportsNave() {
   const [navItems, setNavItems] = useState<{ label: string; href: string }[]>([]);
 
   const navData = ["cricket", "soccer", "tennis"];
-   const [isMobile, setIsMobile] = useState(false);
-   const {
+  const [isMobile, setIsMobile] = useState(false);
+  const {
     setCasinoEvents,
     setAllEventsList,
     setExchangeTypeList,
@@ -23,6 +23,7 @@ export default function SportsNave() {
     setExchangeNews,
     setUserBalance,
     setStakeValue,
+    setBannersList
   } = useAppStore();
 
   const pathname = usePathname();
@@ -64,12 +65,13 @@ export default function SportsNave() {
     });
 
     fetchData({
-      url: CONFIG.getExchangeTypeList,
+      url: CONFIG.exchangeTypeList,
       payload: { key: CONFIG.siteKey },
       cachedKey: "exchangeTypeList",
       setFn: setExchangeTypeList,
-      expireIn: CONFIG.getExchangeTypeListTime,
+      expireIn: CONFIG.exchangeTypeListTime,
     });
+    
 
     fetchData({
       url: CONFIG.getExchangeNews,
@@ -77,6 +79,7 @@ export default function SportsNave() {
       cachedKey: "exchangeNews",
       setFn: setExchangeNews,
       expireIn: CONFIG.getExchangeNewsTime,
+
     });
 
     // fetchData({

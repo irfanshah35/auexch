@@ -1,9 +1,21 @@
 "use client";
 
+import { useAppStore } from "@/lib/store/store";
+import { useEffect } from "react";
+
 export default function Marque() {
+  const { exchangeNews } = useAppStore();  
+
+  useEffect(() => {
+    if (exchangeNews && exchangeNews.length > 0) {
+      console.log("Exchange News:", exchangeNews);
+    }
+  }, [exchangeNews]);
+
+  if (!exchangeNews || exchangeNews.length === 0) return null;  
+
   return (
     <div className="announcement-root">
-      {/* Icon */}
       <div className="announcement-icon">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -21,11 +33,8 @@ export default function Marque() {
         </svg>
       </div>
 
-      {/* Message */}
       <div className="announcement-message">
-        First in Live Casino, Try our Real Time Chat in our casino and chat with
-        Dealer in Real Time. Live Casino Launched! Bet Now and Chase Unlimited
-        Wins!
+        {exchangeNews[0]?.message || "First in Live Casino, Try our Real Time Chat in our casino and chat with Dealer in Real Time. Live Casino Launched! Bet Now and Chase Unlimited Wins!"}
       </div>
     </div>
   );
