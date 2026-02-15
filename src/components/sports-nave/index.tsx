@@ -3,6 +3,10 @@
 import { useState, useEffect, useCallback } from "react";
 import styles from "./sportsPage.module.css";
 import { useAppStore } from "@/lib/store/store";
+import { CONFIG } from "@/lib/config";
+import { useAuthStore } from "@/lib/store/authStore";
+import { usePathname } from "next/navigation";
+import { fetchData } from "@/lib/functions";
 
 export default function SportsNave() {
   const { menuList } = useAppStore();
@@ -10,6 +14,79 @@ export default function SportsNave() {
   const [navItems, setNavItems] = useState<{ label: string; href: string }[]>([]);
 
   const navData = ["cricket", "soccer", "tennis"];
+   const [isMobile, setIsMobile] = useState(false);
+   const {
+    setCasinoEvents,
+    setAllEventsList,
+    setExchangeTypeList,
+    setMenuList,
+    setExchangeNews,
+    setUserBalance,
+    setStakeValue,
+  } = useAppStore();
+
+  const pathname = usePathname();
+  const { checkLogin, isLoggedIn } = useAuthStore();
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 1200);
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+  // API Calls
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    checkLogin(token || "");
+
+    fetchData({
+      url: CONFIG.getAllEventsList,
+      payload: { key: CONFIG.siteKey },
+      cachedKey: "allEventsList",
+      setFn: setAllEventsList,
+      expireIn: CONFIG.getAllEventsListTime,
+    });
+
+    fetchData({
+      url: CONFIG.getTopCasinoGame,
+      payload: { key: CONFIG.siteKey },
+      cachedKey: "casinoEvents",
+      setFn: setCasinoEvents,
+      expireIn: CONFIG.getTopCasinoGameTime,
+    });
+
+    fetchData({
+      url: CONFIG.menuList,
+      payload: { key: CONFIG.siteKey },
+      cachedKey: "menuList",
+      setFn: setMenuList,
+      expireIn: CONFIG.menuListTime,
+    });
+
+    fetchData({
+      url: CONFIG.getExchangeTypeList,
+      payload: { key: CONFIG.siteKey },
+      cachedKey: "exchangeTypeList",
+      setFn: setExchangeTypeList,
+      expireIn: CONFIG.getExchangeTypeListTime,
+    });
+
+    fetchData({
+      url: CONFIG.getExchangeNews,
+      payload: { key: CONFIG.siteKey },
+      cachedKey: "exchangeNews",
+      setFn: setExchangeNews,
+      expireIn: CONFIG.getExchangeNewsTime,
+    });
+
+    // fetchData({
+    //   url: CONFIG.getUserBetStake,
+    //   payload: { key: CONFIG.siteKey },
+    //   cachedKey: "betStake",
+    //   setFn: setStakeValue,
+    //   expireIn: CONFIG.getUserBetStakeTime,
+    // });
+  }, []);
 
   useEffect(() => {
     const eventsType = menuList?.eventTypes;
