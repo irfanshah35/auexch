@@ -96150,3 +96150,82 @@ Import traces:
 [17:08:18.227] Server  LOG      ✓ Compiled in 108ms
 [17:08:23.393] Server  LOG      ✓ Compiled in 38ms
 [17:08:39.172] Server  LOG      ✓ Compiled in 50ms
+[17:12:17.012] Server  LOG      ✓ Compiled in 466ms
+[17:12:19.252] Server  LOG      ✓ Compiled in 94ms
+[17:13:03.415] Server  LOG      ✓ Compiled in 143ms
+[17:13:07.502] Server  LOG      ✓ Compiled in 82ms
+[17:13:14.258] Server  LOG      ✓ Compiled in 48ms
+[17:13:20.135] Server  LOG      ✓ Compiled in 67ms
+[17:13:32.380] Server  LOG      ✓ Compiled in 206ms
+[17:13:38.643] Server  LOG      ✓ Compiled in 304ms
+[17:13:44.154] Server  LOG      ✓ Compiled in 92ms
+[17:13:52.207] Server  LOG      ✓ Compiled in 156ms
+[17:13:57.154] Server  LOG      ✓ Compiled in 68ms
+[17:14:01.339] Server  LOG      ✓ Compiled in 166ms
+[17:15:38.336] Server  LOG      ✓ Compiled in 197ms
+[17:15:42.102] Server  LOG      ✓ Compiled in 87ms
+[17:15:55.971] Server  LOG      ✓ Compiled in 68ms
+[17:15:59.124] Server  LOG      ✓ Compiled in 61ms
+[17:16:06.543] Server  LOG      ✓ Compiled in 54ms
+[17:17:23.907] Server  LOG      ✓ Compiled in 202ms
+[17:17:25.459] Server  LOG      ✓ Compiled in 120ms
+[17:17:27.602] Server  LOG      ✓ Compiled in 76ms
+[17:17:48.422] Server  LOG      ✓ Compiled in 74ms
+[17:17:50.113] Server  LOG      ✓ Compiled in 71ms
+[17:18:20.043] Server  LOG      ✓ Compiled in 107ms
+[17:18:25.078] Server  LOG      ✓ Compiled in 54ms
+[17:18:32.280] Server  LOG      ✓ Compiled in 40ms
+[17:18:36.063] Server  LOG      ✓ Compiled in 56ms
+[17:18:48.309] Server  LOG      ✓ Compiled in 167ms
+[17:19:03.209] Server  LOG      ✓ Compiled in 118ms
+[17:19:08.099] Server  LOG      ✓ Compiled in 73ms
+[17:19:16.866] Server  LOG      ✓ Compiled in 33ms
+[17:19:23.166] Server  LOG      ✓ Compiled in 127ms
+[17:19:29.205] Server  LOG      ✓ Compiled in 60ms
+[17:19:33.134] Server  LOG      ✓ Compiled in 65ms
+[17:19:37.118] Server  LOG      ✓ Compiled in 58ms
+[17:19:39.122] Server  LOG      ✓ Compiled in 58ms
+[17:19:42.346] Server  LOG      ✓ Compiled in 50ms
+[17:19:45.114] Server  LOG      ✓ Compiled in 58ms
+[17:19:50.248] Server  LOG      ✓ Compiled in 67ms
+[17:21:02.970] Server  LOG      ✓ Compiled in 156ms
+[17:21:05.764] Server  LOG      ✓ Compiled in 52ms
+[17:23:32.581] Server  LOG      ✓ Compiled in 438ms
+[17:23:41.660] Server  LOG      ✓ Compiled in 194ms
+[17:23:48.794] Server  LOG      ✓ Compiled in 474ms
+[17:23:49.964] Browser ERROR   ./Desktop/auexch/src/app/responsive-layout.tsx:56:14
+Parsing ecmascript source code failed
+  54 |           <Footer />
+  55 |         </main>
+> 56 |       <div w-[]>
+     |              ^
+  57 |
+  58 |       </div>
+  59 |
+
+Expected '</', got '['
+
+Import trace:
+  Server Component:
+    ./Desktop/auexch/src/app/responsive-layout.tsx
+    ./Desktop/auexch/src/app/layout.tsx
+[17:23:52.447] Server  LOG      ✓ Compiled in 115ms
+[17:23:59.123] Server  LOG      ✓ Compiled in 703ms
+[17:24:05.206] Server  LOG      ✓ Compiled in 182ms
+[17:24:31.378] Server  LOG      ✓ Compiled in 374ms
+[17:24:32.689] Server  LOG      ✓ Compiled in 295ms
+[17:24:40.986] Server  LOG      ✓ Compiled in 386ms
+[17:24:47.452] Server  LOG      ✓ Compiled in 199ms
+[17:24:53.561] Server  LOG      ✓ Compiled in 279ms
+[17:24:58.216] Server  LOG      ✓ Compiled in 228ms
+[17:25:00.661] Server  LOG      ✓ Compiled in 533ms
+[17:25:05.725] Server  LOG      ✓ Compiled in 262ms
+[17:25:18.139] Server  LOG      ✓ Compiled in 205ms
+[17:25:23.195] Server  LOG      ✓ Compiled in 124ms
+[17:25:27.410] Server  LOG      ✓ Compiled in 262ms
+[17:25:39.197] Server  LOG      ✓ Compiled in 138ms
+[17:25:45.842] Server  LOG      ✓ Compiled in 135ms
+[17:25:49.977] Server  LOG      ✓ Compiled in 112ms
+[17:26:24.281] Server  LOG      ✓ Compiled in 131ms
+[17:27:05.135] Server  LOG      ✓ Compiled in 173ms
+[17:28:21.414] Server  LOG      ✓ Compiled in 252ms

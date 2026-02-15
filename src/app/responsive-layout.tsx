@@ -42,20 +42,22 @@ export default function ResponsiveLayout({
       </div>
 
 
-      <div className="flex pt-[92px] h-full">
+      <div className="flex pt-[92px] h-full w-100%">
 
-        <aside className="w-[25%] h-full overflow-y-auto no-scrollbar border-r border-white/5">
+        <aside className="w-[20.764%] h-full overflow-y-auto no-scrollbar border-r border-white/5">
           <Sidebar />
         </aside>
 
 
-        <main className="w-[50%] h-full overflow-y-auto no-scrollbar px-3">
+        <main className="w-[51.179%] h-full overflow-y-auto no-scrollbar  ">
           {children}
           <Footer />
         </main>
+        <div className="w-[0.279%] bg-black">
+        </div>
 
 
-        <aside className="w-[25%] h-full overflow-y-auto no-scrollbar border-l border-white/5">
+        <aside className="w-[27.778%] h-full overflow-y-auto no-scrollbar border-l border-white/5">
           <Sidebar />
         </aside>
       </div>
