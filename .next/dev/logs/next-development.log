@@ -1,2 +1,848 @@
-[00:00:00.973] Server  LOG      ✓ Ready in 753ms
-[00:00:07.908] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:01.454] Server  LOG      ✓ Ready in 1114ms
+[00:00:09.422] Server  LOG      ○ Compiling / ...
+[00:00:09.983] Server  ERROR    ⨯ ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:4:1
+Module not found: Can't resolve 'swiper/css'
+  2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+> 4 | import "swiper/css";
+    | ^^^^^^^^^^^^^^^^^^^^
+  5 | import "swiper/css/navigation";
+  6 | import "swiper/css/pagination";
+  7 | import Image from "next/image";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./Desktop/web_project/auexch/src/components/home-slider/page.tsx:5:1
+Module not found: Can't resolve 'swiper/css/navigation'
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+  4 | import "swiper/css";
+> 5 | import "swiper/css/navigation";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "swiper/css/pagination";
+  7 | import Image from "next/image";
+  8 | import { useEffect, useState } from "react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./Desktop/web_project/auexch/src/components/home-slider/page.tsx:6:1
+Module not found: Can't resolve 'swiper/css/pagination'
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+> 6 | import "swiper/css/pagination";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Image from "next/image";
+  8 | import { useEffect, useState } from "react";
+  9 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./Desktop/web_project/auexch/src/components/home-slider/page.tsx:3:1
+Module not found: Can't resolve 'swiper/modules'
+  1 | "use client";
+  2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+> 3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+  6 | import "swiper/css/pagination";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./Desktop/web_project/auexch/src/components/home-slider/page.tsx:2:1
+Module not found: Can't resolve 'swiper/react'
+  1 | "use client";
+> 2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:11.558] Browser ERROR   uncaughtError: Error: ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:4:1
+Module not found: Can't resolve 'swiper/css'
+  2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+> 4 | import "swiper/css";
+    | ^^^^^^^^^^^^^^^^^^^^
+  5 | import "swiper/css/navigation";
+  6 | import "swiper/css/pagination";
+  7 | import Image from "next/image";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:11.879] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:4:1
+Module not found: Can't resolve 'swiper/css'
+  2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+> 4 | import "swiper/css";
+    | ^^^^^^^^^^^^^^^^^^^^
+  5 | import "swiper/css/navigation";
+  6 | import "swiper/css/pagination";
+  7 | import Image from "next/image";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:11.879] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:5:1
+Module not found: Can't resolve 'swiper/css/navigation'
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+  4 | import "swiper/css";
+> 5 | import "swiper/css/navigation";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "swiper/css/pagination";
+  7 | import Image from "next/image";
+  8 | import { useEffect, useState } from "react";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:11.879] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:6:1
+Module not found: Can't resolve 'swiper/css/pagination'
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+> 6 | import "swiper/css/pagination";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Image from "next/image";
+  8 | import { useEffect, useState } from "react";
+  9 |
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:11.879] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:3:1
+Module not found: Can't resolve 'swiper/modules'
+  1 | "use client";
+  2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+> 3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+  6 | import "swiper/css/pagination";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:11.879] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:2:1
+Module not found: Can't resolve 'swiper/react'
+  1 | "use client";
+> 2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:12.879] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:4:1
+Module not found: Can't resolve 'swiper/css'
+  2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+> 4 | import "swiper/css";
+    | ^^^^^^^^^^^^^^^^^^^^
+  5 | import "swiper/css/navigation";
+  6 | import "swiper/css/pagination";
+  7 | import Image from "next/image";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:12.879] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:5:1
+Module not found: Can't resolve 'swiper/css/navigation'
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+  4 | import "swiper/css";
+> 5 | import "swiper/css/navigation";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "swiper/css/pagination";
+  7 | import Image from "next/image";
+  8 | import { useEffect, useState } from "react";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:12.880] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:6:1
+Module not found: Can't resolve 'swiper/css/pagination'
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+> 6 | import "swiper/css/pagination";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Image from "next/image";
+  8 | import { useEffect, useState } from "react";
+  9 |
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:12.880] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:3:1
+Module not found: Can't resolve 'swiper/modules'
+  1 | "use client";
+  2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+> 3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+  6 | import "swiper/css/pagination";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:12.880] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:2:1
+Module not found: Can't resolve 'swiper/react'
+  1 | "use client";
+> 2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:23.880] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:4:1
+Module not found: Can't resolve 'swiper/css'
+  2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+> 4 | import "swiper/css";
+    | ^^^^^^^^^^^^^^^^^^^^
+  5 | import "swiper/css/navigation";
+  6 | import "swiper/css/pagination";
+  7 | import Image from "next/image";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:23.881] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:5:1
+Module not found: Can't resolve 'swiper/css/navigation'
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+  4 | import "swiper/css";
+> 5 | import "swiper/css/navigation";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "swiper/css/pagination";
+  7 | import Image from "next/image";
+  8 | import { useEffect, useState } from "react";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:23.881] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:6:1
+Module not found: Can't resolve 'swiper/css/pagination'
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+> 6 | import "swiper/css/pagination";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Image from "next/image";
+  8 | import { useEffect, useState } from "react";
+  9 |
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:23.881] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:3:1
+Module not found: Can't resolve 'swiper/modules'
+  1 | "use client";
+  2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+> 3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+  6 | import "swiper/css/pagination";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:23.881] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:2:1
+Module not found: Can't resolve 'swiper/react'
+  1 | "use client";
+> 2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:28.074] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:4:1
+Module not found: Can't resolve 'swiper/css'
+  2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+> 4 | import "swiper/css";
+    | ^^^^^^^^^^^^^^^^^^^^
+  5 | import "swiper/css/navigation";
+  6 | import "swiper/css/pagination";
+  7 | import Image from "next/image";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:28.074] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:5:1
+Module not found: Can't resolve 'swiper/css/navigation'
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+  4 | import "swiper/css";
+> 5 | import "swiper/css/navigation";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "swiper/css/pagination";
+  7 | import Image from "next/image";
+  8 | import { useEffect, useState } from "react";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:28.074] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:6:1
+Module not found: Can't resolve 'swiper/css/pagination'
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+> 6 | import "swiper/css/pagination";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Image from "next/image";
+  8 | import { useEffect, useState } from "react";
+  9 |
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:28.074] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:3:1
+Module not found: Can't resolve 'swiper/modules'
+  1 | "use client";
+  2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+> 3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+  6 | import "swiper/css/pagination";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:28.074] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:2:1
+Module not found: Can't resolve 'swiper/react'
+  1 | "use client";
+> 2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:28.074] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:4:1
+Module not found: Can't resolve 'swiper/css'
+  2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+> 4 | import "swiper/css";
+    | ^^^^^^^^^^^^^^^^^^^^
+  5 | import "swiper/css/navigation";
+  6 | import "swiper/css/pagination";
+  7 | import Image from "next/image";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:28.074] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:5:1
+Module not found: Can't resolve 'swiper/css/navigation'
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+  4 | import "swiper/css";
+> 5 | import "swiper/css/navigation";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "swiper/css/pagination";
+  7 | import Image from "next/image";
+  8 | import { useEffect, useState } from "react";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:28.074] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:6:1
+Module not found: Can't resolve 'swiper/css/pagination'
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+> 6 | import "swiper/css/pagination";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Image from "next/image";
+  8 | import { useEffect, useState } from "react";
+  9 |
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:28.074] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:3:1
+Module not found: Can't resolve 'swiper/modules'
+  1 | "use client";
+  2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+> 3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+  6 | import "swiper/css/pagination";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:28.074] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:2:1
+Module not found: Can't resolve 'swiper/react'
+  1 | "use client";
+> 2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:28.074] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:4:1
+Module not found: Can't resolve 'swiper/css'
+  2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+> 4 | import "swiper/css";
+    | ^^^^^^^^^^^^^^^^^^^^
+  5 | import "swiper/css/navigation";
+  6 | import "swiper/css/pagination";
+  7 | import Image from "next/image";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:28.074] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:5:1
+Module not found: Can't resolve 'swiper/css/navigation'
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+  4 | import "swiper/css";
+> 5 | import "swiper/css/navigation";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "swiper/css/pagination";
+  7 | import Image from "next/image";
+  8 | import { useEffect, useState } from "react";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:28.074] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:6:1
+Module not found: Can't resolve 'swiper/css/pagination'
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+> 6 | import "swiper/css/pagination";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Image from "next/image";
+  8 | import { useEffect, useState } from "react";
+  9 |
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:28.074] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:3:1
+Module not found: Can't resolve 'swiper/modules'
+  1 | "use client";
+  2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+> 3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+  6 | import "swiper/css/pagination";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:28.074] Browser ERROR   ./Desktop/web_project/auexch/src/components/home-slider/page.tsx:2:1
+Module not found: Can't resolve 'swiper/react'
+  1 | "use client";
+> 2 | import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Autoplay, Navigation, Pagination } from "swiper/modules";
+  4 | import "swiper/css";
+  5 | import "swiper/css/navigation";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/home-slider/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:28.107] Server  LOG      ✓ Compiled in 236ms
+[00:00:29.070] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:50.368] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:13.879] Browser ERROR   ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx:8:3
+Parsing ecmascript source code failed
+   6 |   <div>
+   7 |     <Sidebbar
+>  8 |   </div>
+     |   ^
+   9 |   {children}
+  10 |   </>;
+  11 | }
+
+Expression expected
+[00:07:13.879] Browser ERROR   ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx:8:4
+Parsing ecmascript source code failed
+   6 |   <div>
+   7 |     <Sidebbar
+>  8 |   </div>
+     |    ^^^^^
+   9 |   {children}
+  10 |   </>;
+  11 | }
+
+Unterminated regexp literal
+[00:07:16.836] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:31.879] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true c c true c
+[00:09:54.663] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:08.518] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:18.672] Server  LOG      ✓ Compiled in 755ms
+[00:12:51.860] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
