@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #141A21;
+  --background: #141a21;
   --foreground: #171717;
 }
 
@@ -10,7 +10,10 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-sans:
+    var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,10 +26,10 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol !important;
+  font-family: "Inter, -apple-system, BlinkMacSystemFont, " Segoe UI ", Roboto, " Helvetica Neue ", Arial, sans-serif, " Apple Color Emoji ", "
+    Segoe UI Emoji ", " Segoe UI Symbol !important;
   /* ✅ Override font */
 }
- 
 
 .no-scrollbar::-webkit-scrollbar {
   display: none;
@@ -37,10 +40,17 @@ body {
   scrollbar-width: none;
 }
 
- .announcement-root {
+.announcement-root {
   margin: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.57143;
@@ -85,11 +95,11 @@ body {
   0% {
     transform: translateX(100%);
   }
+
   100% {
     transform: translateX(-100%);
   }
 }
-
 
 .custom-swiper-container .swiper-pagination {
   position: absolute !important;
@@ -127,4 +137,8 @@ body {
 
 .scrollbar-hide::-webkit-scrollbar {
   display: none !important;
+}
+
+.\[\&_\.custom-pagination\]\:z-50 .custom-pagination {
+  z-index: 20 !important;
 }

@@ -41,12 +41,20 @@ export const useAuthStore = create<AuthState>((set, get) => ({
   ) => {
     set({ error: null });
 
+    // const result: any = await loginRequest({
+    //   url: CONFIG.userLogin,
+    //   username,
+    //   password,
+    //   setState: set,
+    // });
+
     const result: any = await loginRequest({
-      url: CONFIG.userLogin,
+      url: (CONFIG as any).userLogin,
       username,
       password,
       setState: set,
     });
+
 
     // ---- Toast
     if (showToast) {
