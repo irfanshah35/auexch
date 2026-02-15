@@ -5,7 +5,7 @@ export default function Sidebbar() {
     <>
       <div className="px-4 w-full">
         <ul className="flex flex-col gap-1">
-          <div className="bg-[rgba(145,158,171,8%)] hover:bg-[rgba(145,158,171,16%)] pr-2 cursor-pointer rounded-lg mt-2 flex items-center">
+          <div className="bg-[rgba(145,158,171,8%)] hover:bg-[rgba(145,158,171,16%)] pr-2 cursor-pointer rounded-[12px] mt-[22px] flex items-center">
             <span className="p-2 text-[#919EAB] inline-flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
