@@ -1,2 +1,1467 @@
 [00:00:00.973] Server  LOG      ✓ Ready in 753ms
 [00:00:07.908] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:42.343] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:42.346] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:42.353] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:42.358] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:42.359] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:42.360] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:42.361] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:42.362] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:42.363] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:42.366] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:42.367] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:42.367] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:42.368] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:42.369] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:42.370] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:42.371] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:42.372] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:42.372] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:42.374] Server  LOG      ✓ Compiled in 166ms
+[00:08:43.067] Browser ERROR   ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:12.640] Browser ERROR   ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:12.849] Browser ERROR   ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:12.849] Browser ERROR   ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:34.682] Server  LOG      ✓ Compiled in 61ms
+[00:12:05.398] Server  LOG      ✓ Compiled in 91ms
+[00:12:28.825] Server  LOG      ✓ Compiled in 53ms
+[00:13:11.180] Server  LOG      ✓ Compiled in 54ms
+[00:18:06.831] Server  LOG      ✓ Compiled in 111ms
+[00:18:06.932] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:18:12.736] Server  LOG      ✓ Compiled in 50ms
+[00:18:15.624] Server  LOG      ✓ Compiled in 45ms
+[00:18:15.681] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:22:02.173] Server  LOG      ✓ Compiled in 137ms
+[00:22:07.299] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css:82:16
+Module not found: Can't resolve 'ic_cricket.svg'
+  80 | .icon-cricket {
+  81 |   mask-image: url("ic_cricket.svg");
+> 82 | }
+     |  ^
+  83 |
+  84 |  
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component Browser]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component SSR]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:07.313] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css:82:16
+Module not found: Can't resolve 'ic_cricket.svg'
+  80 | .icon-cricket {
+  81 |   mask-image: url("ic_cricket.svg");
+> 82 | }
+     |  ^
+  83 |
+  84 |  
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component Browser]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component SSR]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:07.314] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css:82:16
+Module not found: Can't resolve 'ic_cricket.svg'
+  80 | .icon-cricket {
+  81 |   mask-image: url("ic_cricket.svg");
+> 82 | }
+     |  ^
+  83 |
+  84 |  
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component Browser]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component SSR]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:07.316] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css:82:16
+Module not found: Can't resolve 'ic_cricket.svg'
+  80 | .icon-cricket {
+  81 |   mask-image: url("ic_cricket.svg");
+> 82 | }
+     |  ^
+  83 |
+  84 |  
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component Browser]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component SSR]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:07.317] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css:82:16
+Module not found: Can't resolve 'ic_cricket.svg'
+  80 | .icon-cricket {
+  81 |   mask-image: url("ic_cricket.svg");
+> 82 | }
+     |  ^
+  83 |
+  84 |  
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component Browser]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component SSR]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:07.318] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css:82:16
+Module not found: Can't resolve 'ic_cricket.svg'
+  80 | .icon-cricket {
+  81 |   mask-image: url("ic_cricket.svg");
+> 82 | }
+     |  ^
+  83 |
+  84 |  
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component Browser]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component SSR]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:07.319] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css:82:16
+Module not found: Can't resolve 'ic_cricket.svg'
+  80 | .icon-cricket {
+  81 |   mask-image: url("ic_cricket.svg");
+> 82 | }
+     |  ^
+  83 |
+  84 |  
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component Browser]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component SSR]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:07.326] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css:82:16
+Module not found: Can't resolve 'ic_cricket.svg'
+  80 | .icon-cricket {
+  81 |   mask-image: url("ic_cricket.svg");
+> 82 | }
+     |  ^
+  83 |
+  84 |  
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component Browser]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component SSR]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:07.328] Server  LOG      ✓ Compiled in 221ms
+[00:22:08.076] Browser ERROR   ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css:82:16
+Module not found: Can't resolve 'ic_cricket.svg'
+  80 | .icon-cricket {
+  81 |   mask-image: url("ic_cricket.svg");
+> 82 | }
+     |  ^
+  83 |
+  84 |  
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component Browser]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component SSR]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:10.111] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css:82:16
+Module not found: Can't resolve 'ic_cricket.svg'
+  80 | .icon-cricket {
+  81 |   mask-image: url("ic_cricket.svg");
+> 82 | }
+     |  ^
+  83 |
+  84 |  
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component Browser]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component SSR]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:10.232] Browser ERROR   ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css:82:16
+Module not found: Can't resolve 'ic_cricket.svg'
+  80 | .icon-cricket {
+  81 |   mask-image: url("ic_cricket.svg");
+> 82 | }
+     |  ^
+  83 |
+  84 |  
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component Browser]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component SSR]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:10.747] Browser ERROR   ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css:82:16
+Module not found: Can't resolve 'ic_cricket.svg'
+  80 | .icon-cricket {
+  81 |   mask-image: url("ic_cricket.svg");
+> 82 | }
+     |  ^
+  83 |
+  84 |  
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component Browser]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component SSR]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:10.747] Browser ERROR   ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css:82:16
+Module not found: Can't resolve 'ic_cricket.svg'
+  80 | .icon-cricket {
+  81 |   mask-image: url("ic_cricket.svg");
+> 82 | }
+     |  ^
+  83 |
+  84 |  
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component Browser]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component SSR]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:11.169] Browser ERROR   ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css:82:16
+Module not found: Can't resolve 'ic_cricket.svg'
+  80 | .icon-cricket {
+  81 |   mask-image: url("ic_cricket.svg");
+> 82 | }
+     |  ^
+  83 |
+  84 |  
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component Browser]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component SSR]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:11.458] Browser ERROR   uncaughtError: Error: ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css:82:16
+Module not found: Can't resolve 'ic_cricket.svg'
+  80 | .icon-cricket {
+  81 |   mask-image: url("ic_cricket.svg");
+> 82 | }
+     |  ^
+  83 |
+  84 |  
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component Browser]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component SSR]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:11.708] Browser ERROR   ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css:82:16
+Module not found: Can't resolve 'ic_cricket.svg'
+  80 | .icon-cricket {
+  81 |   mask-image: url("ic_cricket.svg");
+> 82 | }
+     |  ^
+  83 |
+  84 |  
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component Browser]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component SSR]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:12.102] Browser ERROR   ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css:82:16
+Module not found: Can't resolve 'ic_cricket.svg'
+  80 | .icon-cricket {
+  81 |   mask-image: url("ic_cricket.svg");
+> 82 | }
+     |  ^
+  83 |
+  84 |  
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component Browser]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/sportsPage.module.css [Client Component SSR]
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:32.900] Server  LOG      ✓ Compiled in 66ms
+[00:22:33.472] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:34.409] Server  LOG      ✓ Compiled in 24ms
+[00:24:39.526] Server  LOG      ✓ Compiled in 42ms
+[00:24:42.028] Server  LOG      ✓ Compiled in 19ms
+[00:24:51.246] Server  LOG      ✓ Compiled in 34ms
+[00:25:01.397] Server  LOG      ✓ Compiled in 80ms
+[00:25:01.502] Browser ERROR   uncaughtError: ReferenceError: tab is not defined
+[00:25:04.053] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:25:04.128] Server  LOG      ✓ Compiled in 28ms
+[00:25:04.251] Browser ERROR   uncaughtError: ReferenceError: tab is not defined
+[00:25:04.320] Server  ERROR    ⨯ ReferenceError: tab is not defined
+[00:25:04.617] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:04.862] Browser ERROR   uncaughtError: ReferenceError: tab is not defined
+[00:25:37.144] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:25:37.146] Server  LOG      ✓ Compiled in 35ms
+[00:25:37.702] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:39.945] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:48.200] Server  LOG      ✓ Compiled in 48ms
+[00:26:21.364] Server  LOG      ✓ Compiled in 72ms
+[00:28:13.360] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:13.362] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:13.385] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:13.385] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:13.386] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:13.391] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:13.396] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:13.401] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:13.403] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:13.409] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:13.412] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:13.415] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:13.424] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:13.426] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:13.430] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:13.432] Server  ERROR    ⨯ ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:13.447] Server  LOG      ✓ Compiled in 803ms
+[00:28:13.892] Browser ERROR   ./Desktop/auexch/src/components/sports-nave/index.tsx:4:1
+Module not found: Can't resolve './sports-nav.css'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import "./sports-nav.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const tabs = [
+  7 |   "Cricket",
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/sports-nave/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:28:18.613] Server  LOG      ✓ Compiled in 171ms
+[00:29:39.182] Server  LOG      ✓ Compiled in 51ms
+[00:33:02.195] Server  LOG      ✓ Compiled in 129ms
+[00:33:03.066] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:33:09.016] Server  LOG      ✓ Compiled in 186ms
+[00:33:14.781] Server  LOG      ✓ Compiled in 50ms
+[00:33:21.879] Server  LOG      ✓ Compiled in 44ms
