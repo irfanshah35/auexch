@@ -129,7 +129,7 @@ export default function PagesLayout({ children }: { children: ReactNode }) {
 
         {/* MAIN (resizable width) */}
         <main
-          className="h-full overflow-y-auto no-scrollbar min-w-[560px] px-2.5"
+          className="h-full overflow-y-auto no-scrollbar min-w-[560px]"
           style={
             mainWidth
               ? { width: `${mainWidth}px`, flex: `0 0 ${mainWidth}px` }
