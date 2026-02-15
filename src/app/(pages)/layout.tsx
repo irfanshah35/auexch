@@ -198,7 +198,7 @@ export default function PagesLayout({ children }: { children: ReactNode }) {
         <Header />
       </div>
 
-      <div ref={containerRef} className="flex pt-[60px] h-full w-100% mt-5">
+      <div ref={containerRef} className="flex pt-[50px] h-full w-100% mt-5 ">
         {/* LEFT (fixed) */}
         <aside className="w-[300px] min-w-[300px] h-full overflow-y-auto no-scrollbar border-r border-white/5">
           <Sidebar />
@@ -206,7 +206,7 @@ export default function PagesLayout({ children }: { children: ReactNode }) {
 
         {/* MAIN (resizable width) */}
         <main
-          className="h-full overflow-y-auto no-scrollbar min-w-[560px] px-3 w-[calc(100dvw-650px)]"
+          className="h-full overflow-y-auto no-scrollbar min-w-[560px] ps-3 pe-2 mt-[10px]"
           style={
             mainWidth
               ? { width: `${mainWidth}px`, flex: `0 0 ${mainWidth}px` }
@@ -218,7 +218,7 @@ export default function PagesLayout({ children }: { children: ReactNode }) {
         </main>
 
         {/* DIVIDER (keep exact design) */}
-        <div className="w-[0.279%] bg-[rgba(145,158,171,0.2)] relative text-white ml-1">
+        <div className="w-[0.279%] bg-[rgba(145,158,171,0.2)] text-white ml-1 relative top-[-15px]">
           <svg
             onPointerDown={startDrag}
             onPointerMove={onDrag}

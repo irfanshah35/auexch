@@ -40,7 +40,10 @@ export default function HomeSlider() {
         const res = await fetch(CONFIG.bannersList, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ key: CONFIG.siteKey }),
+          body: JSON.stringify({
+            layout: "desktop",
+            type: "SLIDER"
+          }),
         });
         const json = await res.json();
         const sliders: SliderItem[] = json?.data?.slider?.map((item: any) => ({
