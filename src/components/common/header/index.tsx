@@ -89,7 +89,7 @@ export default function Header() {
           )}
 
           <Link
-            href="/auth/login"
+            href="/login"
             className="text-sm leading-[1.71429] [text-transform:unset] min-w-16 py-[5px] px-3 flex justify-center items-center text-sm border-1 border-[#919eab52] rounded-[8px] text-white  font-bold transition-all duration-300 mr-1"
           >
             Login
