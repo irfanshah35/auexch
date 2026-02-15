@@ -28885,3 +28885,3134 @@ It can also happen if the client has a browser extension installed which messes 
 [01:33:29.337] Browser LOG     Data saved to cache with timestamp
 [01:33:30.026] Browser LOG     Data saved to cache with timestamp
 [01:33:30.710] Browser LOG     Data saved to cache with timestamp
+[01:39:50.706] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.721] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.722] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.727] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.786] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.789] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.791] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.792] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.794] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.797] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.798] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.800] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.805] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.806] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.807] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.812] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.818] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.824] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.827] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.834] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.845] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.847] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.848] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.851] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.854] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.857] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.857] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.861] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.868] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.871] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.878] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.880] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.884] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.893] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.894] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.914] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.917] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.918] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.919] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.920] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.925] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.931] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.934] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.936] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.939] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.940] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.940] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.941] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.943] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.945] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.945] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.947] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.948] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.948] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.955] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.956] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:39:50.958] Server  LOG      ✓ Compiled in 888ms
+[01:39:51.087] Browser ERROR   ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:39:51.747] Browser ERROR   ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:40:21.092] Browser ERROR   ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:40:21.740] Browser ERROR   ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/icons/icons'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/icons/icons";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/icons/icons' inside of [project]/Desktop/auexch
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:40:28.148] Server  LOG      ✓ Compiled in 318ms
+[01:40:29.070] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Header`.
+[01:40:29.783] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[01:40:30.464] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:31.276] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:31.429] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Header`.
+[01:40:31.748] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/api/users..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <meta>
+                    <__next_viewport_boundary__>
+                    <Next.Metadata>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                    ...
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/a...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className={"\n          geist_a71539c9-module__T19VSG__variable\n          geist_mono_8d4..."}
+                            cz-shortcut-listen="true"
+-                           __processed_36e43258-68bb-46ab-9c29-fdf31844eb66__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                            ...
+                              <SegmentViewNode type="page" pagePath="__next_bui...">
+                                <SegmentTrieNode>
+                                <NotFound>
+                                  <HTTPAccessErrorFallback>
+                                    <title>
+                                    <NotFound>
+                                      <HTTPAccessErrorFallback>
+                                        <div
+                                          style={{fontFamily:"system-ui,...",height:"100vh",textAlign:"center",display:"flex", ...}}
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+-                                           bis_skin_checked="1"
+                                          >
+                                            <style>
+                                            <h1>
+                                            <div
+                                              style={{display:"inline-block"}}
+-                                             bis_skin_checked="1"
+                                            >
+                              ...
+                  ...
+
+[01:40:45.017] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:40:45.022] Server  LOG      ✓ Compiled in 208ms
+[01:40:45.600] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/%5Broot-of-the-server%5D__7e08d9b3._.css
+[01:40:46.352] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:47.025] Browser LOG     Cache expired — fetching fresh API data...
+[01:40:47.025] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:40:47.025] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:40:47.025] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:40:47.025] Browser LOG     Cache expired — fetching fresh API data...
+[01:40:47.025] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:40:47.025] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[01:40:48.242] Browser LOG     Data saved to cache with timestamp
+[01:40:49.773] Browser LOG     Data saved to cache with timestamp
+[01:40:50.694] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.695] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.697] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.699] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.724] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.726] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.728] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.731] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.732] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.732] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.733] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.733] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.735] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.740] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.742] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.776] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.780] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.781] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.782] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.783] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.785] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.785] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.786] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.787] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.788] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.788] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.789] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.789] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.790] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.791] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.792] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.794] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.801] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.802] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.803] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.804] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.812] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.812] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.813] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.813] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.815] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.815] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.816] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.820] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.821] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.822] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.823] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.826] Server  ERROR    ⨯ ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:40:50.828] Server  LOG      ✓ Compiled in 143ms
+[01:40:50.967] Browser ERROR   ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:40:51.746] Browser ERROR   ./Desktop/auexch/src/components/common/header/index.tsx:6:1
+Module not found: Can't resolve '@/'
+  4 | import Image from "next/image";
+  5 | import styles from "./headerPage.module.css";
+> 6 | import Icon from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { useEffect, useState } from "react";
+  8 |
+  9 | export default function Header() {
+
+Import map: aliased to relative './src/' inside of [project]/Desktop/auexch
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/common/header/index.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:40:53.208] Server  LOG      ✓ Compiled in 101ms
+[01:40:54.131] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:54.477] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="layout" pagePath="/Desktop/a...">
+                  <SegmentTrieNode>
+                  <script>
+                  <script>
+                  <script>
+                  <ClientSegmentRoot Component={function PagesLayout} slots={{...}} ...>
+                    <PagesLayout params={Promise}>
+                      <div className="w-full h-s...">
+                        <div className="fixed top-...">
+                          <Marque>
+                          <Header>
++                           <header
++                             className="w-full bg-[#121A1F] border-b border-gray-800 text-white sticky top-0 z-[100]"
++                           >
+                        ...
+              ...
+
+[01:40:54.519] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:54.520] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/api/users..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/a...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className={"\n          geist_a71539c9-module__T19VSG__variable\n          geist_mono_8d4..."}
+                            cz-shortcut-listen="true"
+-                           __processed_3a427a94-c333-4733-8f27-f7ae543f29db__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[01:40:54.629] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:40:54.629] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:40:54.629] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:40:54.629] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:40:54.629] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[01:40:54.629] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:40:54.629] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[01:41:13.944] Server  LOG      ✓ Compiled in 191ms
+[01:41:35.262] Server  LOG      ✓ Compiled in 166ms
