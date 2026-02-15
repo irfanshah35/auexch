@@ -33,19 +33,19 @@ export default function Header() {
           </Link>
         </div>
 
-        <nav className="hidden min-[960px]:flex items-center gap-2 font-bold text-white relative left-[2px]">
+        <nav className="hidden min-[960px]:flex items-center gap-2 font-bold text-white relative left-[3px]">
           <Link href="/" className="flex p-1 items-center text-[13px] font-bold text-white hover:text-white transition-colors group">
             <span className=" group-hover:text-white transition-colors mr-[2px]">
               <Icon name="exchange" className="h-6 w-6" />
             </span>
-            Exchange
+            <span className="relative top-[1px]">Exchange</span>
           </Link>
 
           <Link href="/casinos/q-tech/aviator" className="flex p-1 items-center text-[13px] font-medium text-white hover:text-white transition-colors relative left-[1px]">
             <span className=" group-hover:text-white transition-colors mr-[2px]">
               <Icon name="aviator" className="h-8 w-8" />
             </span>
-            <span className="font-bold text-white">Aviator</span>
+            <span className="font-bold text-white relative top-[1px]">Aviator</span>
           </Link>
 
 
@@ -55,28 +55,28 @@ export default function Header() {
             </span>
           </Link>
 
-          <Link href="/slot" className="flex p-1 items-center justify-center text-[13px] font-bold text-white hover:text-white transition-colors w-[70px] relative left-[3px]">
+          <Link href="/slot" className="flex p-1 items-center justify-center text-[13px] font-bold text-white hover:text-white transition-colors w-[70px] relative left-[2px]">
             <span className=" group-hover:text-white transition-colors mr-[2px]">
               <Icon name="slot" className="h-5 w-5" />
             </span>
-            <span className="text-white font-bold">
+            <span className="text-white font-bold relative left-[1px] top-[1px]">
               Slot
             </span>
           </Link>
 
-          <Link href="/live-casino" className="flex p-1 items-center text-[13px] text-white hover:text-white transition-colors group relative left-[4px] font-bold">
+          <Link href="/live-casino" className="flex p-1 items-center text-[13px] text-white hover:text-white transition-colors group relative left-[2px] font-bold">
             {/* Live Casino Icon */}
             <span className=" group-hover:text-white transition-colors mr-[2px]">
               <Icon name="casino" className="h-6 w-6" />
             </span>
-            Live Casino
+            <span className="relative top-[1px]">Live Casino</span>
           </Link>
         </nav>
 
         <div className="flex items-center gap-2 sm:gap-[10px]">
           <button
             onClick={toggleTheme}
-            className="text-gray-400 hover:text-white transition-colors p-1 cursor-pointer"
+            className="text-gray-400 hover:text-white hidden min-[600]:flex transition-colors p-1 cursor-pointer"
             aria-label="Toggle color scheme"
           >
             <Icon name={isDark ? "moon" : "sun"} className="w-[24.96px] h-[24.96px] transition-transform" />
@@ -129,9 +129,9 @@ export default function Header() {
             </span>
           </Link>
 
-          <Link href="/live-casino" className="flex p-1 items-center text-[13px] font-medium text-white hover:text-white transition-colors group whitespace-nowrap">
+          <Link href="/live-casino" className="flex p-1 items-center text-[13px] font-medium text-white hover:text-white transition-colors group whitespace-nowrap relative left-[3px] font-bold">
             {/* Live Casino Icon */}
-            <span className="text-gray-400 group-hover:text-white transition-colors mr-[2px] ">
+            <span className=" group-hover:text-white transition-colors mr-[2px] ">
               <Icon name="casino" className="h-6 w-6" />
             </span>
             <span className="relative top-[1px]">
