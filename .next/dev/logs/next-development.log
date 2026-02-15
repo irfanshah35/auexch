@@ -32895,3 +32895,9 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [01:00:11.199] Browser LOG     Cache expired — fetching fresh API data...
 [01:00:12.033] Browser LOG     Data saved to cache with timestamp
 [01:00:15.013] Browser LOG     Data saved to cache with timestamp
+[01:19:06.799] Server  LOG      ✓ Compiled in 64ms
+[01:19:07.323] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[01:19:07.323] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[01:19:07.323] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[01:19:07.323] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[01:19:07.323] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
