@@ -1,46 +1,81 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 import styles from "./sportsPage.module.css";
-
-const tabs = ["Cricket", "Soccer", "Tennis"];
+import { useAppStore } from "@/lib/store/store";
 
 export default function SportsNave() {
+  const { menuList } = useAppStore();
   const [activeTab, setActiveTab] = useState("Cricket");
+  const [navItems, setNavItems] = useState<{ label: string; href: string }[]>([]);
+
+  const navData = ["cricket", "soccer", "tennis"];
+
+  useEffect(() => {
+    const eventsType = menuList?.eventTypes;
+
+    if (!eventsType) {
+      setNavItems([]);
+      return;
+    }
+
+    type NavItem = { label: string; href: string };
+
+    const newItems: NavItem[] = eventsType
+      .filter((item: any) => navData.includes(item?.eventType?.name?.toLowerCase()))
+      .map((item: any) => ({
+        label: item?.eventType?.name?.toUpperCase(),
+        href: `/game-list/${item?.eventType?.name}/${item?.eventType?.id}`,
+      }));
+
+    setNavItems(newItems);
+
+    // ✅ Explicitly typed `item`
+    if (!newItems.some((item: NavItem) => item.label === activeTab)) {
+      const cricketTab = newItems.find((item: NavItem) => item.label.toLowerCase() === "cricket");
+      setActiveTab(cricketTab ? cricketTab.label : newItems[0]?.label);
+    }
+  }, [menuList]);
+
+
+
+  const isActive = useCallback(
+    (href: string) => {
+      if (!href) return false;
+      return href === "/" ? window.location.pathname === "/" : window.location.pathname.startsWith(href);
+    },
+    []
+  );
 
   return (
     <section>
-      <h2 className={styles["sr-only"]}>Explore Cricket Betting</h2>
-
       <div className={styles["tabs-root"]}>
-        <div className="MuiButtonBase-root MuiTabScrollButton-root MuiTabScrollButton-horizontal Mui-disabled MuiTabs-scrollButtons css-xuc7kg"><svg className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-qgieeu" focusable="false" aria-hidden="true" viewBox="0 0 24 24"><path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"></path></svg><span className="MuiTouchRipple-root css-4mb1j7"></span></div>
         <div className={styles["tabs-scroller"]}>
           <div role="tablist" className={styles["tabs-list"]}>
-            {tabs.map((tab) => (
+            {navItems.map((item, idx) => (
               <button
-                key={tab}
+                key={idx}
                 role="tab"
-                aria-selected={activeTab === tab}
-                className={`${styles["tab-btn"]} ${activeTab === tab ? styles.active : ""
+                aria-selected={activeTab === item.label}
+                className={`${styles["tab-btn"]} ${activeTab === item.label ? styles.active : ""
                   }`}
-                onClick={() => setActiveTab(tab)}
+                onClick={() => setActiveTab(item.label)}
               >
-                {tab}
+                {item.label}
+
+                {/* Tab icon placeholder (optional) */}
                 <span
-                  className={`${styles["tab-icon"]} ${styles[`icon-${tab.toLowerCase().replace(/\s/g, "-")}`]
+                  className={`${styles["tab-icon"]} ${styles[`icon-${item.label.toLowerCase().replace(/\s/g, "-")}`]
                     }`}
                 />
+
+                {/* Active underline */}
+                {activeTab === item.label && (
+                  <span className={styles["tab-indicator"]}></span>
+                )}
               </button>
             ))}
           </div>
-
-          {/* Indicator */}
-          <span
-            className={styles["tab-indicator"]}
-            style={{
-              /* optional: move indicator dynamically later */
-            }}
-          />
         </div>
       </div>
     </section>

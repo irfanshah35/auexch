@@ -14,7 +14,7 @@
 /* Root container */
 .tabs-root {
   overflow: hidden;
-  min-height: 48px;
+  /* min-height: 48px; */
   display: flex;
   background-color: #28323D;
   border: 1px dashed rgba(145, 158, 171, 0.2);
@@ -39,7 +39,7 @@
 .tabs-list {
   display: flex;
   gap: 40px;
-  padding: 0 8px;
+  padding:  8px;
 }
 
 /* Tab button */
@@ -52,8 +52,8 @@
   cursor: pointer;
   font-size: 0.875rem;
   font-weight: 500;
-  min-height: 48px;
-  padding: 8px 0;
+  /* min-height: 48px; */
+  padding: 0px 8px;
   color: #919EAB;
   font-family: Inter, sans-serif;
   transition: color 0.2s ease;
