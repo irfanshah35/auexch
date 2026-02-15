@@ -147,6 +147,12 @@ export const icons = {
             </g>
         </svg>
     ),
+    leftArrow: (
+        <svg focusable="false" fill="currentColor" aria-hidden="true" viewBox="0 0 24 24"><path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"></path></svg>
+    ),
+    rightArrow: (
+        <svg fill="currentColor" focusable="false" aria-hidden="true" viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path></svg>
+    ),
 
 } as any;
 
