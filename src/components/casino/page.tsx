@@ -1,61 +1,60 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { useAppStore } from "@/lib/store/store";
 
 interface GameItem {
-  id: string;
-  dealer: string;
-  title: string;
-  range: string;
-  bg: string;
+   id: string;
+   dealer: string;
+   title: string;
+   range: string;
+   bg: string;
 }
 
-const games: GameItem[] = [
-  {
-    id: "1",
-    dealer: "Emily",
-    title: "Teenpatti One Day",
-    range: "10-500000",
-    bg: "https://bintu-vod-eu-02-ak.nanocosmos.de/Nlb8p/thumbnails/Nlb8p-H2srA.jpg",
-  },
-];
 
 export default function Casino() {
 
-  // ✅ Hooks MUST be inside component
-  const { casinoEvents } = useAppStore();
-  const pathname = usePathname();
+   const { casinoEvents } = useAppStore();
+   const pathname = usePathname();
+   const [activeIndex, setActiveIndex] = useState("1");
+   useEffect(() => {
+      //  console.log("casinoEvents", casinoEvents);
+   }, [casinoEvents]);
+   const filteredItems = React.useMemo(() => {
+      if (!casinoEvents?.lobby?.length) return [];
+      if (activeIndex === "1") {
+         return casinoEvents.lobby.filter((item: any) => item.popular);
+      }
+      return casinoEvents.lobby.filter((item: any) => item.menuId === activeIndex);
+   }, [casinoEvents, activeIndex]);
+   return (
+      <ul className="grid grid-cols-2 gap-4 list-none p-0 m-0">
+         {filteredItems?.map((item: any, index: number) => (
+            <li key={index} className="w-full">
+               <article className="w-full">
+                  <div className="relative w-full pb-[56.25%]">
+                     <div className="absolute inset-0 rounded-md overflow-hidden bg-[#141A21] cursor-pointer">
+                        <div
+                           className="absolute inset-0 bg-cover bg-no-repeat"
+                           style={{
+                              backgroundImage:
+                                 "url(https://bintu-vod-eu-02-ak.nanocosmos.de/Nlb8p/thumbnails/Nlb8p-H2srA.jpg)",
+                           }}
+                        />
+                        <div className="absolute top-0 left-1">
+                           <span className="text-xs font-medium text-white">
+                              {item.dealer}
+                           </span>
+                        </div>
+                     </div>
+                  </div>
 
-  useEffect(() => {
-    console.log("casinoEvents", casinoEvents);
-  }, [casinoEvents]);
+                  <div className="flex flex-col cursor-pointer">
+                     <h6 className="mt-1 text-sm font-semibold text-white truncate">
+                        {item?.eventName}
+                     </h6>
 
-  return (
-    <ul className="grid grid-cols-2 gap-4 list-none p-0 m-0">
-      {games.map((item) => (
-        <li key={item.id} className="w-full">
-          <article className="w-full">
-            <div className="relative w-full pb-[56.25%]">
-              <div className="absolute inset-0 rounded-md overflow-hidden bg-[#141A21] cursor-pointer">
-                <div
-                  className="absolute inset-0 bg-cover bg-no-repeat"
-                  style={{ backgroundImage: `url(${item.bg})` }}
-                />
-                <div className="absolute top-0 left-1">
-                  <span className="text-xs font-medium text-white">
-                    {item.dealer}
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-col cursor-pointer">
-              <h6 className="mt-1 text-sm font-semibold text-white truncate">
-                {item.title}
-              </h6>
-
-              <div className="flex items-center gap-1 mt-0.5 overflow-hidden">
+                     {/* <div className="flex items-center gap-1 mt-0.5 overflow-hidden">
                 <span className="text-xs text-white truncate">
                   {item.range}
                 </span>
@@ -68,11 +67,11 @@ export default function Casino() {
                   <circle cx="12" cy="6" r="4" />
                   <ellipse cx="12" cy="17" rx="7" ry="4" />
                 </svg>
-              </div>
-            </div>
-          </article>
-        </li>
-      ))}
-    </ul>
-  );
+              </div> */}
+                  </div>
+               </article>
+            </li>
+         ))}
+      </ul>
+   );
 }

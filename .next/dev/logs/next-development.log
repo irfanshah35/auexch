@@ -32348,3 +32348,195 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [02:19:36.231] Browser LOG     Cache expired — fetching fresh API data...
 [02:19:36.593] Browser LOG     Data saved to cache with timestamp
 [02:19:38.650] Browser LOG     Data saved to cache with timestamp
+[02:22:22.237] Server  LOG      ✓ Compiled in 144ms
+[02:22:22.389] Browser ERROR   uncaughtError: ReferenceError: filteredItems is not defined
+[02:22:46.663] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:22:46.676] Server  LOG      ✓ Compiled in 52ms
+[02:22:48.676] Browser ERROR   uncaughtError: ReferenceError: filteredItems is not defined
+[02:22:49.829] Server  ERROR    ⨯ ReferenceError: filteredItems is not defined
+[02:22:51.417] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:22:52.943] Browser ERROR   uncaughtError: ReferenceError: filteredItems is not defined
+[02:23:02.979] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:23:02.984] Server  LOG      ✓ Compiled in 321ms
+[02:23:04.193] Server  ERROR    ⨯ ReferenceError: activeIndex is not defined
+[02:23:04.543] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:23:04.835] Browser ERROR   uncaughtError: ReferenceError: activeIndex is not defined
+[02:23:16.947] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:23:16.995] Server  LOG      ✓ Compiled in 46ms
+[02:23:17.565] Server  ERROR    ⨯ ReferenceError: activeIndex is not defined
+[02:23:18.218] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:23:18.599] Browser ERROR   uncaughtError: ReferenceError: activeIndex is not defined
+[02:23:20.776] Server  LOG      ✓ Compiled in 262ms
+[02:23:21.024] Browser ERROR   ./Desktop/auexch/src/components/casino/page.tsx:37:7
+Parsing ecmascript source code failed
+  35 |     
+  36 |     return casinoEvents.lobby.filter((item: any) => item.menuId === activeIndex);
+> 37 |   },  ;
+     |       ^
+  38 |   return (
+  39 |     <ul className="grid grid-cols-2 gap-4 list-none p-0 m-0">
+  40 |       {filteredItems?.map((item: any, index: number) => (
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/casino/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/casino/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Server Component]
+[02:23:22.939] Server  LOG      ✓ Compiled in 60ms
+[02:23:23.047] Browser ERROR   ./Desktop/auexch/src/components/casino/page.tsx:37:4
+Parsing ecmascript source code failed
+  35 |     
+  36 |     return casinoEvents.lobby.filter((item: any) => item.menuId === activeIndex);
+> 37 |   };
+     |    ^
+  38 |   return (
+  39 |     <ul className="grid grid-cols-2 gap-4 list-none p-0 m-0">
+  40 |       {filteredItems?.map((item: any, index: number) => (
+
+Expected ',', got ';'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/casino/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/casino/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Server Component]
+[02:23:25.293] Server  LOG      ✓ Compiled in 69ms
+[02:23:25.397] Browser ERROR   ./Desktop/auexch/src/components/casino/page.tsx:38:3
+Parsing ecmascript source code failed
+  36 |     return casinoEvents.lobby.filter((item: any) => item.menuId === activeIndex);
+  37 |   },
+> 38 |   return (
+     |   ^^^^^^
+  39 |     <ul className="grid grid-cols-2 gap-4 list-none p-0 m-0">
+  40 |       {filteredItems?.map((item: any, index: number) => (
+  41 |         <li key={item.id} className="w-full">
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/casino/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/casino/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Server Component]
+[02:23:27.350] Server  LOG      ✓ Compiled in 82ms
+[02:23:27.465] Browser ERROR   ./Desktop/auexch/src/components/casino/page.tsx:37:4
+Parsing ecmascript source code failed
+  35 |     
+  36 |     return casinoEvents.lobby.filter((item: any) => item.menuId === activeIndex);
+> 37 |   };
+     |    ^
+  38 |   return (
+  39 |     <ul className="grid grid-cols-2 gap-4 list-none p-0 m-0">
+  40 |       {filteredItems?.map((item: any, index: number) => (
+
+Expected ',', got ';'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/auexch/src/components/casino/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Client Component Browser]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/auexch/src/components/casino/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Client Component SSR]
+    ./Desktop/auexch/src/app/(pages)/page.tsx [Server Component]
+[02:23:35.139] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:23:35.158] Server  LOG      ✓ Compiled in 57ms
+[02:23:36.123] Server  ERROR    ⨯ ReferenceError: activeIndex is not defined
+[02:23:36.612] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:23:36.832] Browser ERROR   uncaughtError: ReferenceError: activeIndex is not defined
+[02:23:47.135] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:23:47.149] Server  LOG      ✓ Compiled in 49ms
+[02:23:49.003] Server  ERROR    ⨯ ReferenceError: useState is not defined
+[02:23:50.085] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:23:50.928] Browser ERROR   uncaughtError: ReferenceError: useState is not defined
+[02:23:55.649] Server  LOG      ✓ Compiled in 442ms
+[02:23:55.752] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:23:58.566] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:23:59.885] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:23:59.885] Browser LOG     casinoEvents null
+[02:23:59.885] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:23:59.885] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[02:23:59.885] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[02:23:59.890] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `Casino`. 
+[02:23:59.890] Browser LOG     casinoEvents {"lobby":[{"companyName":"UNIVERSE","eventId":"99.0010","eventName":"20-20 TEENPATTI","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":1,"url":"/api/users/images/20-20 teenpatti.webp"},{"companyName":"UNIVERSE","eventId":"99.0030","eventName":"LUCKY 7","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":2,"url":"/api/users/images/Lucky-7.webp"},{"companyName":"UNIVERSE","eventId":"99.0019","eventName":"20-20 DRAGON TIGER","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":3,"url":"/api/users/images/Dragontiger.webp"},{"companyName":"UNIVERSE","eventId":"99.0013","eventName":"1DAY TEEN PATTI","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":4,"url":"/api/users/images/1 Day teenpatti.webp"},{"companyName":"UNIVERSE","eventId":"99.0001","eventName":"BACCARAT","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":5,"url":"/api/users/images/Baccarat.webp"},{"companyName":"UNIVERSE","eventId":"99.0025","eventName":"ANDAR BAHAR","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":6,"url":"/api/users/images/Andar Bahar.webp"},{"companyName":"UNIVERSE","eventId":"99.0007","eventName":"POKER","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":7,"url":"/api/users/images/Poker.webp"},{"companyName":"UNIVERSE","eventId":"99.0022","eventName":"32 CARDS","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":8,"url":"/api/users/images/32 cards.webp"},{"companyName":"UNIVERSE","eventId":"99.0041","eventName":"DTL","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":9,"url":"/api/users/images/DTL.webp"},{"companyName":"UNIVERSE","eventId":"99.0021","eventName":"1 DAY DRAGON TIGER","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":10,"url":"/api/users/images/1 Day Dragon tiger.webp"},{"companyName":"UNIVERSE","eventId":"99.0046","eventName":"CARD RACE","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":11,"url":"/api/users/images/CardRace.webp"},{"companyName":"UNIVERSE","eventId":"88.0022","eventName":"VIMAAN","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"99","menuName":"Universe Original","popular":true,"room":"virtual","sequence":12,"url":"/api/users/images/Vimaan1.webp"},{"companyName":"UNIVERSE","eventId":"88.0023","eventName":"BALLOON","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"99","menuName":"Universe Original","popular":true,"room":"virtual","sequence":13,"url":"/api/users/images/Balloon.webp"},{"companyName":"INTERNATIONAL","eventId":"102386588468","eventName":"EVOLUTION","link":"https://pi.njoybingo.com/game.do?token={$token}&pn=t20exchange&lang=en&game=EVOLUTION-baccarat-lobby&type=CHARGED","menuId":"199","menuName":"INT","popular":true,"room":"asian","sequence":20,"url":"https://universe-studio.s3.ap-south-1.amazonaws.com/abevolution+gaming-min.png"},{"companyName":"INTERNATIONAL","eventId":"1023865884689","eventName":"EZUGI","link":"https://pi.njoybingo.com/game.do?token={$token}&pn=t20exchange&lang=en&game=EZUGI-lobby&type=CHARGED","menuId":"199","menuName":"INT","popular":true,"room":"asian","sequence":21,"url":"https://universe-studio.s3.ap-south-1.amazonaws.com/Ezugi+(4)-min.png"},{"companyName":"UNIVERSE","eventId":"88.0021","eventName":"HEADS & TAILS","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"99","menuName":"Universe Original","popular":true,"room":"virtual","sequence":21,"url":"/api/users/images/Joker Teen Patti-min.png"},{"companyName":"UNIVERSE","eventId":"88.0019","eventName":"LUCKY 0 TO 9","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"99","menuName":"Universe Original","popular":true,"room":"virtual","sequence":21,"url":"/api/users/images/Joker Teen Patti-min.png"},{"companyName":"INTERNATIONAL","eventId":"10238658846812","eventName":"TVBET","link":"https://pi.njoybingo.com/game.do?token={$token}&pn=t20exchange&lang=en&game=TVBET-lobby&type=CHARGED","menuId":"199","menuName":"INT","popular":true,"room":"asian","sequence":22,"url":"https://universe-studio.s3.ap-south-1.amazonaws.com/abevolution+gaming-2-min.png"},{"companyName":"INTERNATIONAL","eventId":"10238658846815","eventName":"BETGAMES CASINO","link":"https://pi.njoybingo.com/game.do?token={$token}&pn=t20exchange&lang=en&game=BGAMES-betgames&type=CHARGED","menuId":"199","menuName":"INT","popular":true,"room":"asian","sequence":23,"url":"https://universe-studio.s3.ap-south-1.amazonaws.com/abevolution+gaming-3-min.png"}],"menu":[{"menuId":"1","menuName":"Popular","sequence":1},{"menuId":"6","menuName":"Universe Live","sequence":2},{"menuId":"99","menuName":"Universe Original","sequence":3},{"menuId":"199","menuName":"INT","sequence":4}]}
+[02:23:59.890] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[02:23:59.890] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[02:23:59.890] Browser LOG     Cache expired — fetching fresh API data...
+[02:23:59.890] Browser LOG     Cache expired — fetching fresh API data...
+[02:24:00.361] Browser LOG     Data saved to cache with timestamp
+[02:24:02.359] Browser LOG     Data saved to cache with timestamp
+[02:25:01.274] Server  LOG      ✓ Compiled in 158ms
+[02:25:01.370] Browser LOG     casinoEvents {"lobby":[{"companyName":"UNIVERSE","eventId":"99.0010","eventName":"20-20 TEENPATTI","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":1,"url":"/api/users/images/20-20 teenpatti.webp"},{"companyName":"UNIVERSE","eventId":"99.0030","eventName":"LUCKY 7","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":2,"url":"/api/users/images/Lucky-7.webp"},{"companyName":"UNIVERSE","eventId":"99.0019","eventName":"20-20 DRAGON TIGER","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":3,"url":"/api/users/images/Dragontiger.webp"},{"companyName":"UNIVERSE","eventId":"99.0013","eventName":"1DAY TEEN PATTI","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":4,"url":"/api/users/images/1 Day teenpatti.webp"},{"companyName":"UNIVERSE","eventId":"99.0001","eventName":"BACCARAT","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":5,"url":"/api/users/images/Baccarat.webp"},{"companyName":"UNIVERSE","eventId":"99.0025","eventName":"ANDAR BAHAR","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":6,"url":"/api/users/images/Andar Bahar.webp"},{"companyName":"UNIVERSE","eventId":"99.0007","eventName":"POKER","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":7,"url":"/api/users/images/Poker.webp"},{"companyName":"UNIVERSE","eventId":"99.0022","eventName":"32 CARDS","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":8,"url":"/api/users/images/32 cards.webp"},{"companyName":"UNIVERSE","eventId":"99.0041","eventName":"DTL","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":9,"url":"/api/users/images/DTL.webp"},{"companyName":"UNIVERSE","eventId":"99.0021","eventName":"1 DAY DRAGON TIGER","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":10,"url":"/api/users/images/1 Day Dragon tiger.webp"},{"companyName":"UNIVERSE","eventId":"99.0046","eventName":"CARD RACE","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":11,"url":"/api/users/images/CardRace.webp"},{"companyName":"UNIVERSE","eventId":"88.0022","eventName":"VIMAAN","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"99","menuName":"Universe Original","popular":true,"room":"virtual","sequence":12,"url":"/api/users/images/Vimaan1.webp"},{"companyName":"UNIVERSE","eventId":"88.0023","eventName":"BALLOON","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"99","menuName":"Universe Original","popular":true,"room":"virtual","sequence":13,"url":"/api/users/images/Balloon.webp"},{"companyName":"INTERNATIONAL","eventId":"102386588468","eventName":"EVOLUTION","link":"https://pi.njoybingo.com/game.do?token={$token}&pn=t20exchange&lang=en&game=EVOLUTION-baccarat-lobby&type=CHARGED","menuId":"199","menuName":"INT","popular":true,"room":"asian","sequence":20,"url":"https://universe-studio.s3.ap-south-1.amazonaws.com/abevolution+gaming-min.png"},{"companyName":"INTERNATIONAL","eventId":"1023865884689","eventName":"EZUGI","link":"https://pi.njoybingo.com/game.do?token={$token}&pn=t20exchange&lang=en&game=EZUGI-lobby&type=CHARGED","menuId":"199","menuName":"INT","popular":true,"room":"asian","sequence":21,"url":"https://universe-studio.s3.ap-south-1.amazonaws.com/Ezugi+(4)-min.png"},{"companyName":"UNIVERSE","eventId":"88.0021","eventName":"HEADS & TAILS","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"99","menuName":"Universe Original","popular":true,"room":"virtual","sequence":21,"url":"/api/users/images/Joker Teen Patti-min.png"},{"companyName":"UNIVERSE","eventId":"88.0019","eventName":"LUCKY 0 TO 9","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"99","menuName":"Universe Original","popular":true,"room":"virtual","sequence":21,"url":"/api/users/images/Joker Teen Patti-min.png"},{"companyName":"INTERNATIONAL","eventId":"10238658846812","eventName":"TVBET","link":"https://pi.njoybingo.com/game.do?token={$token}&pn=t20exchange&lang=en&game=TVBET-lobby&type=CHARGED","menuId":"199","menuName":"INT","popular":true,"room":"asian","sequence":22,"url":"https://universe-studio.s3.ap-south-1.amazonaws.com/abevolution+gaming-2-min.png"},{"companyName":"INTERNATIONAL","eventId":"10238658846815","eventName":"BETGAMES CASINO","link":"https://pi.njoybingo.com/game.do?token={$token}&pn=t20exchange&lang=en&game=BGAMES-betgames&type=CHARGED","menuId":"199","menuName":"INT","popular":true,"room":"asian","sequence":23,"url":"https://universe-studio.s3.ap-south-1.amazonaws.com/abevolution+gaming-3-min.png"}],"menu":[{"menuId":"1","menuName":"Popular","sequence":1},{"menuId":"6","menuName":"Universe Live","sequence":2},{"menuId":"99","menuName":"Universe Original","sequence":3},{"menuId":"199","menuName":"INT","sequence":4}]}
+[02:25:07.685] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:25:08.463] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:25:08.463] Browser LOG     casinoEvents null
+[02:25:08.463] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:25:08.463] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[02:25:08.463] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[02:25:08.463] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `Casino`. 
+[02:25:08.463] Browser LOG     casinoEvents {"lobby":[{"companyName":"UNIVERSE","eventId":"99.0010","eventName":"20-20 TEENPATTI","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":1,"url":"/api/users/images/20-20 teenpatti.webp"},{"companyName":"UNIVERSE","eventId":"99.0030","eventName":"LUCKY 7","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":2,"url":"/api/users/images/Lucky-7.webp"},{"companyName":"UNIVERSE","eventId":"99.0019","eventName":"20-20 DRAGON TIGER","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":3,"url":"/api/users/images/Dragontiger.webp"},{"companyName":"UNIVERSE","eventId":"99.0013","eventName":"1DAY TEEN PATTI","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":4,"url":"/api/users/images/1 Day teenpatti.webp"},{"companyName":"UNIVERSE","eventId":"99.0001","eventName":"BACCARAT","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":5,"url":"/api/users/images/Baccarat.webp"},{"companyName":"UNIVERSE","eventId":"99.0025","eventName":"ANDAR BAHAR","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":6,"url":"/api/users/images/Andar Bahar.webp"},{"companyName":"UNIVERSE","eventId":"99.0007","eventName":"POKER","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":7,"url":"/api/users/images/Poker.webp"},{"companyName":"UNIVERSE","eventId":"99.0022","eventName":"32 CARDS","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":8,"url":"/api/users/images/32 cards.webp"},{"companyName":"UNIVERSE","eventId":"99.0041","eventName":"DTL","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":9,"url":"/api/users/images/DTL.webp"},{"companyName":"UNIVERSE","eventId":"99.0021","eventName":"1 DAY DRAGON TIGER","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":10,"url":"/api/users/images/1 Day Dragon tiger.webp"},{"companyName":"UNIVERSE","eventId":"99.0046","eventName":"CARD RACE","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"6","menuName":"Universe Live","popular":true,"room":"asian","sequence":11,"url":"/api/users/images/CardRace.webp"},{"companyName":"UNIVERSE","eventId":"88.0022","eventName":"VIMAAN","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"99","menuName":"Universe Original","popular":true,"room":"virtual","sequence":12,"url":"/api/users/images/Vimaan1.webp"},{"companyName":"UNIVERSE","eventId":"88.0023","eventName":"BALLOON","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"99","menuName":"Universe Original","popular":true,"room":"virtual","sequence":13,"url":"/api/users/images/Balloon.webp"},{"companyName":"INTERNATIONAL","eventId":"102386588468","eventName":"EVOLUTION","link":"https://pi.njoybingo.com/game.do?token={$token}&pn=t20exchange&lang=en&game=EVOLUTION-baccarat-lobby&type=CHARGED","menuId":"199","menuName":"INT","popular":true,"room":"asian","sequence":20,"url":"https://universe-studio.s3.ap-south-1.amazonaws.com/abevolution+gaming-min.png"},{"companyName":"INTERNATIONAL","eventId":"1023865884689","eventName":"EZUGI","link":"https://pi.njoybingo.com/game.do?token={$token}&pn=t20exchange&lang=en&game=EZUGI-lobby&type=CHARGED","menuId":"199","menuName":"INT","popular":true,"room":"asian","sequence":21,"url":"https://universe-studio.s3.ap-south-1.amazonaws.com/Ezugi+(4)-min.png"},{"companyName":"UNIVERSE","eventId":"88.0021","eventName":"HEADS & TAILS","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"99","menuName":"Universe Original","popular":true,"room":"virtual","sequence":21,"url":"/api/users/images/Joker Teen Patti-min.png"},{"companyName":"UNIVERSE","eventId":"88.0019","eventName":"LUCKY 0 TO 9","link":"https://casino./authentication/{$token}/{$eventId}","menuId":"99","menuName":"Universe Original","popular":true,"room":"virtual","sequence":21,"url":"/api/users/images/Joker Teen Patti-min.png"},{"companyName":"INTERNATIONAL","eventId":"10238658846812","eventName":"TVBET","link":"https://pi.njoybingo.com/game.do?token={$token}&pn=t20exchange&lang=en&game=TVBET-lobby&type=CHARGED","menuId":"199","menuName":"INT","popular":true,"room":"asian","sequence":22,"url":"https://universe-studio.s3.ap-south-1.amazonaws.com/abevolution+gaming-2-min.png"},{"companyName":"INTERNATIONAL","eventId":"10238658846815","eventName":"BETGAMES CASINO","link":"https://pi.njoybingo.com/game.do?token={$token}&pn=t20exchange&lang=en&game=BGAMES-betgames&type=CHARGED","menuId":"199","menuName":"INT","popular":true,"room":"asian","sequence":23,"url":"https://universe-studio.s3.ap-south-1.amazonaws.com/abevolution+gaming-3-min.png"}],"menu":[{"menuId":"1","menuName":"Popular","sequence":1},{"menuId":"6","menuName":"Universe Live","sequence":2},{"menuId":"99","menuName":"Universe Original","sequence":3},{"menuId":"199","menuName":"INT","sequence":4}]}
+[02:25:08.463] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[02:25:08.463] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[02:25:08.463] Browser LOG     Cache expired — fetching fresh API data...
+[02:25:08.463] Browser LOG     Cache expired — fetching fresh API data...
+[02:25:08.614] Browser LOG     Data saved to cache with timestamp
+[02:25:10.597] Browser LOG     Data saved to cache with timestamp
+[02:25:20.894] Server  LOG      ✓ Compiled in 47ms
+[02:25:32.905] Server  LOG      ✓ Compiled in 57ms
+[02:27:04.215] Server  LOG      ✓ Compiled in 229ms
+[02:27:09.077] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:27:09.955] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:27:09.957] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:27:09.957] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[02:27:09.957] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[02:27:09.957] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `Casino`. 
+[02:27:09.957] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[02:27:09.957] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[02:27:09.957] Browser LOG     Cache expired — fetching fresh API data...
+[02:27:09.957] Browser LOG     Cache expired — fetching fresh API data...
+[02:27:10.709] Browser LOG     Data saved to cache with timestamp
+[02:27:12.876] Browser LOG     Data saved to cache with timestamp
+[02:27:32.057] Server  LOG      ✓ Compiled in 165ms
+[02:27:34.477] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:27:35.117] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:27:35.120] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:27:35.122] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[02:27:35.122] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[02:27:35.122] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[02:27:35.122] Browser LOG     Data loaded from IndexedDB cache (fresh)
+[02:27:35.122] Browser LOG     Cache expired — fetching fresh API data...
+[02:27:35.122] Browser LOG     Cache expired — fetching fresh API data...
+[02:27:35.844] Browser LOG     Data saved to cache with timestamp
+[02:27:37.789] Browser LOG     Data saved to cache with timestamp
+[02:28:17.592] Server  LOG      ✓ Compiled in 47ms
+[02:28:20.014] Server  LOG      ✓ Compiled in 49ms
+[02:29:34.213] Server  LOG      ✓ Compiled in 215ms
