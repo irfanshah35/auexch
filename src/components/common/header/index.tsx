@@ -20,7 +20,7 @@ export default function Header() {
     }
   };
   return (
-    <header className="w-full   text-white sticky top-0 z-[100]">
+    <header className="w-full   text-white sticky top-0 z-50 bg-[rgba(20,26,33,96%)]">
       <div className="max-w-[1600px] mx-auto px-2 h-12 flex items-center justify-between">
 
         {/* 👇 Left: Hamburger & Logo */}

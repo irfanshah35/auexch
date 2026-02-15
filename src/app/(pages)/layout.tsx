@@ -183,6 +183,8 @@ export default function PagesLayout({ children }: { children: ReactNode }) {
         </div>
         <main className="pt-28 px-2 h-screen overflow-y-auto">
           {children}
+          {children}
+
           <Footer />
         </main>
       </div>
