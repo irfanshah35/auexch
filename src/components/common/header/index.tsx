@@ -5,10 +5,19 @@ import Image from "next/image";
 import styles from "./headerPage.module.css";
 import Icon from "@/icons/icons";
 import { useEffect, useState } from "react";
+import { CONFIG } from "@/lib/config";
+import { useAppStore } from "@/lib/store/store";
+import { fetchData } from "@/lib/functions";
+import { useAuthStore } from "@/lib/store/authStore";
 
 export default function Header() {
 
   const [isDark, setIsDark] = useState(true);
+  // New state for checkbox toggles - default true
+  const [showBalance, setShowBalance] = useState(true);
+  const [showExposure, setShowExposure] = useState(true);
+  const { userBalance, setUserBalance } = useAppStore();
+  const { isLoggedIn } = useAuthStore();
 
 
   const toggleTheme = () => {
@@ -19,6 +28,26 @@ export default function Header() {
       document.documentElement.classList.add('dark');
     }
   };
+//   useEffect(() => {
+//   console.log("isLoggedIn:", isLoggedIn);
+// }, [isLoggedIn]);
+
+  const { accessToken } = useAuthStore();
+
+useEffect(() => {
+  if (accessToken) {
+    fetchData({
+      url: CONFIG.getUserBalance,
+      payload: {},
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+      },
+      setFn: setUserBalance,
+    });
+  }
+}, [accessToken]);
+
+
   return (
     <header className="w-full   text-white sticky top-0 z-50 bg-[rgba(20,26,33,96%)]">
       <div className="max-w-[1600px] mx-auto px-2 h-12 flex items-center justify-between">

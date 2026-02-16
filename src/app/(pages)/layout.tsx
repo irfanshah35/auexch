@@ -82,13 +82,13 @@ export default function PagesLayout({ children }: { children: ReactNode }) {
       expireIn: CONFIG.menuListTime,
     });
 
-    fetchData({
-      url: CONFIG.exchangeTypeList,
-      payload: { key: CONFIG.siteKey },
-      cachedKey: "exchangeTypeList",
-      setFn: setExchangeTypeList,
-      expireIn: CONFIG.exchangeTypeListTime,
-    });
+    // fetchData({
+    //   url: CONFIG.exchangeTypeList,
+    //   payload: { key: CONFIG.siteKey },
+    //   cachedKey: "exchangeTypeList",
+    //   setFn: setExchangeTypeList,
+    //   expireIn: CONFIG.exchangeTypeListTime,
+    // });
 
     fetchData({
       url: CONFIG.getExchangeNews,
@@ -216,7 +216,7 @@ export default function PagesLayout({ children }: { children: ReactNode }) {
         </main>
 
         {/* DIVIDER (keep exact design) */}
-        <div className="w-[0.279%] bg-[rgba(145,158,171,0.2)] text-white ml-1 relative top-[-15px]">
+        <div className="w-[0.279%] bg-[rgba(145,158,171,0.2)] text-white ml-[3px] relative top-[-15px]">
           <svg
             onPointerDown={startDrag}
             onPointerMove={onDrag}
