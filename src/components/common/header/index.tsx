@@ -96,7 +96,7 @@ export default function Header() {
 
         <hr className="m-0 shrink-0 border-0 border-t-[1px] border-dashed border-[#919eab33] absolute top-0 left-0 w-full z-[9]" />
 
-        <nav className="flex items-center gap-[8.5px] w-full lg:gap-4 font-bold text-white overflow-x-auto scrollbar-hide h-[30px]">
+        <nav className="flex items-center gap-[8.5px] w-full lg:gap-4 font-bold text-white overflow-x-auto overflow-y-hidden scrollbar-hide h-[30px]">
           <Link href="/" className="flex p-1 items-center text-[13px] font-bold text-white hover:text-white transition-colors group whitespace-nowrap">
             <span className=" group-hover:text-white transition-colors mr-[2px] ml-[-1px]">
               <Icon name="exchange" className="h-6 w-6" />
