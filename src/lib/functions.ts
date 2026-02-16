@@ -2,6 +2,9 @@ import { http } from "./axios-instance";
 import { CryptoService } from "./crypto-service";
 import { getData, saveData } from "./index-db";
 
+/* ---------------------------------- */
+/* UTIL: SPLIT MESSAGE */
+/* ---------------------------------- */
 export function splitMsg(text: any) {
   const parts =
     text
@@ -15,16 +18,20 @@ export function splitMsg(text: any) {
   };
 }
 
+/* ---------------------------------- */
+/* GENERIC FETCH DATA */
+/* ---------------------------------- */
 export async function fetchData({
   cachedKey,
   url,
   payload,
   setFn,
   showToast,
-  expireIn = 60 * 5, // default 5 minutes (in seconds),
+  headers = {},
+  expireIn = 60 * 5,
   forceApiCall,
 }: {
-  cachedKey?: string | null | undefined;
+  cachedKey?: string | null;
   url: string;
   payload: any;
   setFn?: (value: any) => void;
@@ -33,68 +40,74 @@ export async function fetchData({
     title: string,
     desc: string
   ) => void;
-  expireIn?: number; // cache expiry in seconds
+  headers?: Record<string, string>;
+  expireIn?: number;
   forceApiCall?: boolean;
 }) {
+  /* ---------------- CACHE ---------------- */
   if (cachedKey) {
     const cached = await getData(cachedKey);
 
-    if (!forceApiCall&&cached) {
-      const now = Date.now();
-      const diff = (now - cached.timestamp) / 1000; // seconds
-
+    if (!forceApiCall && cached) {
+      const diff = (Date.now() - cached.timestamp) / 1000;
       if (diff < expireIn) {
-        // Cache Fresh
-        setFn && setFn(cached.data);
-        console.log("Data loaded from IndexedDB cache (fresh)");
+        setFn?.(cached.data);
         return;
-      } else {
-        console.log("Cache expired — fetching fresh API data...");
       }
     }
   }
 
-  // API CALL
+  /* ---------------- TOKEN ---------------- */
+  let token = "";
+  if (typeof window !== "undefined") {
+    token = localStorage.getItem("token") || "";
+  }
+
+  /* ---------------- API CALL ---------------- */
   try {
-    const response: any = await http.post(url, payload);
-const apiData = response?.data?.data ?? response?.data;
-    setFn && setFn(apiData);
+    const response: any = await http.post(url, payload, {
+      headers: {
+        Authorization: token ? `Bearer ${token}` : "",
+        ...headers,
+      },
+    });
 
-    // SHOW TOAST
+    const apiData = response?.data?.data ?? response?.data;
+    setFn?.(apiData);
 
+    /* ------------ TOAST ------------ */
     if (showToast) {
-      if (
-        typeof response?.meta?.message === "string" ||
-        typeof response?.data?.meta?.message === "string"
-      ) {
-        const msg = splitMsg(
-          response?.meta?.message || response?.data?.meta?.message
-        );
+      const message =
+        response?.data?.meta?.message || response?.meta?.message;
+
+      if (typeof message === "string") {
+        const msg = splitMsg(message);
         showToast(msg.status, msg.title, msg.desc);
       } else {
-        showToast("success", "Successfully", response?.meta?.message);
+        showToast("success", "Success", "Request successful");
       }
     }
 
-    // Save to cache
+    /* ------------ CACHE SAVE ------------ */
     if (cachedKey) {
       await saveData(cachedKey, apiData);
-      console.log("Data saved to cache with timestamp");
     }
   } catch (error: any) {
-    console.error("API fetch error:", error);
+    console.error("API Error:", error);
 
     if (showToast) {
-      if (typeof error?.meta?.message === "string") {
-        const msg = splitMsg(error.meta.message);
-        showToast(msg.status, msg.title, msg.desc);
-      } else {
-        showToast("error", "Failed", error?.meta?.message);
-      }
+      showToast(
+        "error",
+        "Failed",
+        error?.response?.data?.meta?.message || "Unauthorized / API Error"
+      );
     }
   }
 }
 
+/* ---------------------------------- */
+/* LOGIN REQUEST */
+/* ---------------------------------- */
 export async function loginRequest({
   url,
   username,
@@ -104,34 +117,31 @@ export async function loginRequest({
   url: string;
   username: string;
   password: string;
-  setState?: (value: any) => void; // same as setFn
+  setState?: (value: any) => void;
 }) {
   try {
     username = username.trim().toLowerCase();
-    const reqBody = {
-      userName: username,
-      password: password,
-      ts: Date.now(),
-    };
-    const encrypted = await CryptoService.encryptJSON1(reqBody);
 
-    const requestBody = {
-      data: encrypted.iv + "###" + encrypted.payload,
-    };
+    const encrypted = await CryptoService.encryptJSON1({
+      userName: username,
+      password,
+      ts: Date.now(),
+    });
 
     const response = await fetch(url, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(requestBody),
+      body: JSON.stringify({
+        data: encrypted.iv + "###" + encrypted.payload,
+      }),
     });
 
     const encryptedResponse = await response.text();
-
     const result: any = await CryptoService.decryptApiResponse(
       encryptedResponse
     );
+
     if (result?.meta?.status_code === 200) {
-      // Save tokens
       if (typeof window !== "undefined") {
         localStorage.setItem("token", result.data.accessToken);
         localStorage.setItem("intCasino", result.data.intCasino);
@@ -142,135 +152,27 @@ export async function loginRequest({
         localStorage.setItem("newLogin", "true");
       }
 
-      // update zustand state (optional)
-      setState &&
-        setState({
-          isLoggedIn: true,
-          token: result.data.accessToken,
-          userDetail: result.data.userDetail,
-          error: null,
-          showModal: false,
-        });
+      setState?.({
+        isLoggedIn: true,
+        accessToken: result.data.accessToken,
+        userDetail: result.data.userDetail,
+        error: null,
+        showModal: false,
+      });
 
-      return {
-        success: true,
-        meta: result.meta,
-        data: result.data,
-      };
+      return { success: true, data: result.data, meta: result.meta };
     }
 
-    // ---------------------------------------------------
-    // 7) FAILURE
-    // ---------------------------------------------------
-    const errMsg = result?.meta?.message || "Login failed";
+    setState?.({
+      isLoggedIn: false,
+      accessToken: null,
+      userDetail: null,
+      error: result?.meta?.message,
+    });
 
-    setState &&
-      setState({
-        isLoggedIn: false,
-        token: null,
-        userDetail: null,
-        error: errMsg,
-      });
-
-    return {
-      success: false,
-      meta: result.meta,
-      data: null,
-    };
-  } catch (err: any) {
-    console.log("🔴 Login Error:", err);
-
-    let errorMsg = "Something went wrong";
-
-    // Try decrypting backend error
-    try {
-      const decryptedErr = await CryptoService.decryptApiResponse(
-        err?.response?.data
-      );
-
-      errorMsg =
-        decryptedErr?.meta?.message ||
-        decryptedErr?.message ||
-        decryptedErr?.error ||
-        errorMsg;
-    } catch {}
-
-    setState &&
-      setState({
-        isLoggedIn: false,
-        token: null,
-        userDetail: null,
-        meta: errorMsg,
-      });
-
-    return {
-      success: false,
-      meta: { message: errorMsg, status_code: 500 },
-    };
+    return { success: false, meta: result.meta };
+  } catch (err) {
+    console.error("Login Error:", err);
+    return { success: false };
   }
 }
-
-// export function formatDateStamp(isoString: string) {
-//   if (!isoString) return "";
-
-//   const date = new Date(isoString);
-
-//   const formatted = date.toLocaleString("en-GB", {
-//     day: "numeric",
-//     month: "numeric",
-//     year: "numeric",
-//     hour: "2-digit",
-//     minute: "2-digit",
-//     hour12: true,
-//   });
-
-//   return formatted.replace(",", ""); // remove comma
-// }
-export function formatDateStamp(isoString: string) {
-  if (!isoString) return "";
-
-  const date = new Date(isoString);
-  
-  // Add 5 hours for Pakistan timezone (UTC+5)
-  const pkDate = new Date(date.getTime() + (5 * 60 * 60 * 1000));
-
-  const day = pkDate.getUTCDate();
-  const month = pkDate.getUTCMonth() + 1;
-  const year = pkDate.getUTCFullYear();
-
-  let hours = pkDate.getUTCHours();
-  const minutes = pkDate.getUTCMinutes().toString().padStart(2, "0");
-
-  const ampm = hours >= 12 ? "PM" : "AM";
-
-  hours = hours % 12 || 12;
-
-  const time = `${hours.toString().padStart(2, "0")}:${minutes} ${ampm}`;
-
-  return `${day}/${month}/${year} ${time}`;
-}
-
-export function formatDateDetail(isoString: string) {
-  if (!isoString) return "";
-
-  const date = new Date(isoString);
-  
-  // Add 5 hours for Pakistan timezone (UTC+5)
-  const pkDate = new Date(date.getTime() + (5 * 60 * 60 * 1000));
-
-  const day = pkDate.getUTCDate().toString().padStart(2, "0");
-  const month = (pkDate.getUTCMonth() + 1).toString().padStart(2, "0");
-  const year = pkDate.getUTCFullYear();
-
-  let hours = pkDate.getUTCHours();
-  const minutes = pkDate.getUTCMinutes().toString().padStart(2, "0");
-  const seconds = pkDate.getUTCSeconds().toString().padStart(2, "0");
-
-  const ampm = hours >= 12 ? "PM" : "AM";
-  hours = hours % 12 || 12;
-
-  const time = `${hours.toString().padStart(2, "0")}:${minutes}:${seconds} ${ampm}`;
-
-  return `${day}-${month}-${year} ${time}`;
-}
-
