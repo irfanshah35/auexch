@@ -90,13 +90,13 @@ export default function PagesLayout({ children }: { children: ReactNode }) {
     //   expireIn: CONFIG.exchangeTypeListTime,
     // });
 
-    fetchData({
-      url: CONFIG.getExchangeNews,
-      payload: { key: CONFIG.siteKey },
-      cachedKey: "exchangeNews",
-      setFn: setExchangeNews,
-      expireIn: CONFIG.getExchangeNewsTime,
-    });
+    // fetchData({
+    //   url: CONFIG.getExchangeNews,
+    //   payload: { key: CONFIG.siteKey },
+    //   cachedKey: "exchangeNews",
+    //   setFn: setExchangeNews,
+    //   expireIn: CONFIG.getExchangeNewsTime,
+    // });
 
     // fetchData({
     //   url: CONFIG.getUserBetStake,

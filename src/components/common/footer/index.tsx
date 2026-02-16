@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Icon from "@/icons/icons";
 
 export default function Footer() {
    return (
@@ -15,7 +16,7 @@ export default function Footer() {
                   <div className="md:mb-[3.5px] md:w-[140px] lg:mb-0 lg:w-[200px]">
 
                      <Image
-                        src="/assets/secure.png"
+                        src="/secure-ssl-3.webp"
                         alt="Secure"
                         width={106}
                         height={54}
@@ -35,10 +36,10 @@ export default function Footer() {
                      </span>
 
                      <div className="mb-2 mt-[9px] flex items-center gap-[4px]">
-                        <img src="/assets/visa.svg" className="h-[12px] w-[34px]" />
-                        <img src="/assets/mastercard.svg" className="h-[12px] w-[45px]" />
-                        <img src="/assets/paypal.svg" className="h-[12px] w-[47px]" />
-                        <img src="/assets/gpay.svg" className="h-[12px] w-[34px]" />
+                        <Icon name="crossPay" className="h-5 w-5 " />
+                        <Icon name="gPay" className="h-5 w-11 ml-1 mr-1" />
+                        <Icon name="upi" className="h-5 w-11" />
+                        <Icon name="home" className="h-5 w-5" />
                      </div>
 
                      {/* MOBILE LANGUAGE SELECT */}
