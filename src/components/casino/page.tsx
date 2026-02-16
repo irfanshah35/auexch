@@ -28,7 +28,7 @@ export default function Casino() {
       return casinoEvents.lobby.filter((item: any) => item.menuId === activeIndex);
    }, [casinoEvents, activeIndex]);
    return (
-      <ul className="grid grid-cols-2 gap-4 list-none p-0 m-0">
+      <ul className="grid grid-cols-1 min-[324px]:grid-cols-2 min-[624px]:grid-cols-4 gap-4 list-none p-0 m-0">
          {filteredItems?.map((item: any, index: number) => (
             <li key={index} className="w-full">
                <article className="w-full">
@@ -50,24 +50,27 @@ export default function Casino() {
                   </div>
 
                   <div className="flex flex-col cursor-pointer">
-                     <h6 className="mt-1 text-sm font-semibold text-white truncate">
+                     <h6 className="mt-1 min-[900px]:mt-2 text-sm font-semibold text-white truncate leading-[14px]">
                         {item?.eventName}
                      </h6>
 
-                     {/* <div className="flex items-center gap-1 mt-0.5 overflow-hidden">
-                <span className="text-xs text-white truncate">
-                  {item.range}
-                </span>
+                     <div className="flex items-center gap-1 mt-0.5 min-[900px]:mt-1 overflow-hidden leading-[12px]">
+                        {/* <span className="text-xs text-white truncate">
+                           {item.range}
+                        </span> */}
+                        <span className="text-xs text-white truncate">
+                           10-500000
+                        </span>
 
-                <svg
-                  className="w-3.5 h-3.5 text-white shrink-0"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <circle cx="12" cy="6" r="4" />
-                  <ellipse cx="12" cy="17" rx="7" ry="4" />
-                </svg>
-              </div> */}
+                        <svg
+                           className="w-3.5 h-3.5 text-[#919eab] shrink-0"
+                           viewBox="0 0 24 24"
+                           fill="currentColor"
+                        >
+                           <circle cx="12" cy="6" r="4" />
+                           <ellipse cx="12" cy="17" rx="7" ry="4" />
+                        </svg>
+                     </div>
                   </div>
                </article>
             </li>
