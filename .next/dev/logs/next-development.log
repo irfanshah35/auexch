@@ -837,3 +837,132 @@ Import traces:
 [01:02:36.855] Server  LOG      ✓ Compiled in 24ms
 [01:02:59.965] Server  LOG      ✓ Compiled in 55ms
 [01:03:13.867] Server  LOG      ✓ Compiled in 78ms
+[18:04:13.531] Server  LOG      ✓ Compiled in 1813ms
+[18:04:14.772] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[18:04:14.772] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[18:04:14.772] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[18:04:14.772] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[18:04:14.772] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[18:05:35.596] Server  LOG      ✓ Compiled in 80ms
+[18:05:35.769] Browser ERROR   ./Desktop/web_project/auexch/src/components/sidebar/index.tsx:33:15
+Ecmascript file had an error
+  31 |           <li className="inline-block">
+  32 |             <div className="font-bold text-[0.6875rem] leading-normal uppercase text-[#637381]">
+> 33 |               <svg
+     |               ^^^^
+> 34 |                 xmlns="http://www.w3.org/2000/svg"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |                 xmlns:xlink="http://www.w3.org/1999/xlink"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 36 |                 aria-hidden="true"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 37 |                 role="img"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 38 |                 class="iconify iconify--eva minimal__iconify__root css-mihbd4"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 39 |                 id="_r_6_"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 40 |                 width="1em"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 41 |                 height="1em"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 42 |                 viewBox="0 0 24 24"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 43 |               >
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 44 |                 <path
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 45 |                   fill="currentColor"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 46 |                   d="M12 16a1 1 0 0 1-.64-.23l-6-5a1 1 0 1 1 1.28-1.54L12 13.71l5.36-4.32a1 1 0 0 1 1.41.15a1 1 0 0 1-.14 1.46l-6 4.83A1 1 0 0 1 12 16"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 47 |                 ></path>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 48 |               </svg>
+     | ^^^^^^^^^^^^^^^^^^^^^
+  49 |             </div>
+  50 |           </li>
+  51 |         </ul>
+
+JSX Namespace is disabled by default because react does not support it yet. You can specify jsc.transform.react.throwIfNamespace to false to override default behavior
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+[18:05:46.788] Server  LOG      ✓ Compiled in 31ms
+[18:05:47.843] Browser ERROR   ./Desktop/web_project/auexch/src/components/sidebar/index.tsx:33:15
+Ecmascript file had an error
+  31 |           <li className="inline-block">
+  32 |             <div className="font-bold text-[0.6875rem] leading-normal uppercase text-[#637381]">
+> 33 |               <svg
+     |               ^^^^
+> 34 |                 xmlns="http://www.w3.org/2000/svg"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |                 xmlns:xlink="http://www.w3.org/1999/xlink"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 36 |                 aria-hidden="true"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 37 |                 role="img"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 38 |                 class="iconify iconify--eva minimal__iconify__root css-mihbd4"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 39 |                 id="_r_6_"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 40 |                 width="1em"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 41 |                 height="1em"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 42 |                 viewBox="0 0 24 24"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 43 |               >
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 44 |                 <path
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 45 |                   fill="currentColor"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 46 |                   d="M12 16a1 1 0 0 1-.64-.23l-6-5a1 1 0 1 1 1.28-1.54L12 13.71l5.36-4.32a1 1 0 0 1 1.41.15a1 1 0 0 1-.14 1.46l-6 4.83A1 1 0 0 1 12 16"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 47 |                 ></path>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 48 |               </svg>
+     | ^^^^^^^^^^^^^^^^^^^^^
+  49 |               <span>Sports</span>
+  50 |             </div>
+  51 |           </li>
+
+JSX Namespace is disabled by default because react does not support it yet. You can specify jsc.transform.react.throwIfNamespace to false to override default behavior
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+[18:07:14.030] Server  LOG      ✓ Compiled in 53ms
+[18:09:42.372] Server  LOG      ✓ Compiled in 43ms
+[18:09:44.558] Server  LOG      ✓ Compiled in 59ms
+[18:09:50.604] Server  LOG      ✓ Compiled in 990ms
+[18:10:03.016] Server  LOG      ✓ Compiled in 37ms
+[18:10:06.321] Server  LOG      ✓ Compiled in 78ms
+[18:10:11.079] Server  LOG      ✓ Compiled in 177ms
+[18:10:21.904] Server  LOG      ✓ Compiled in 57ms
+[18:10:27.632] Server  LOG      ✓ Compiled in 40ms
+[18:10:29.936] Server  LOG      ✓ Compiled in 116ms
+[18:10:37.934] Server  LOG      ✓ Compiled in 63ms
+[18:11:08.036] Server  LOG      ✓ Compiled in 41ms
+[18:11:10.923] Server  LOG      ✓ Compiled in 22ms
+[18:11:14.141] Server  LOG      ✓ Compiled in 20ms
+[18:11:19.131] Server  LOG      ✓ Compiled in 19ms
+[18:11:22.804] Server  LOG      ✓ Compiled in 25ms
+[18:11:28.811] Server  LOG      ✓ Compiled in 83ms
