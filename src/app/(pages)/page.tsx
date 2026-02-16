@@ -40,7 +40,9 @@ export default function Home() {
           <div className="mb-3">
             <SportsNave />
           </div>
-          <SingleaMarket />
+          <div className="mb-3">
+            <SingleaMarket />
+          </div>
           <Casino />
         </div>
       )}
