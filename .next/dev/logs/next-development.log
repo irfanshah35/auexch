@@ -2325,3 +2325,146 @@ Import traces:
 [02:01:40.869] Server  LOG      ✓ Compiled in 47ms
 [02:02:00.842] Server  LOG      ✓ Compiled in 51ms
 [02:02:07.365] Server  LOG      ✓ Compiled in 86ms
+[02:05:56.522] Server  LOG      ✓ Compiled in 953ms
+[02:05:57.024] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Ford Trophy
+[02:05:57.024] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Ford Trophy
+[02:06:03.070] Server  LOG      ✓ Compiled in 46ms
+[02:06:57.094] Server  LOG      ✓ Compiled in 53ms
+[02:07:18.815] Server  LOG      ✓ Compiled in 123ms
+[02:07:26.550] Server  LOG      ✓ Compiled in 47ms
+[02:08:07.893] Server  LOG      ✓ Compiled in 72ms
+[02:08:48.826] Server  LOG      ✓ Compiled in 28ms
+[02:11:01.988] Server  LOG      ✓ Compiled in 186ms
+[02:11:16.303] Server  LOG      ✓ Compiled in 111ms
+[02:18:13.178] Server  LOG      ✓ Compiled in 204ms
+[02:18:14.022] Browser ERROR   ./Desktop/web_project/auexch/src/components/sidebar/index.tsx:313:15
+Parsing ecmascript source code failed
+  311 |                     </div>
+  312 |                 </div>
+> 313 |               </li>
+      |               ^
+  314 |             ))}
+  315 |           </ul>
+  316 |         </li>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+[02:18:14.022] Browser ERROR   ./Desktop/web_project/auexch/src/components/sidebar/index.tsx:313:16
+Parsing ecmascript source code failed
+  311 |                     </div>
+  312 |                 </div>
+> 313 |               </li>
+      |                ^^^^
+  314 |             ))}
+  315 |           </ul>
+  316 |         </li>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+[02:18:33.689] Server  LOG      ✓ Compiled in 5.9s
+[02:18:34.027] Browser ERROR   ./Desktop/web_project/auexch/src/components/sidebar/index.tsx:313:15
+Parsing ecmascript source code failed
+  311 |                     </div>
+  312 |                 </div>
+> 313 |               </li>
+      |               ^
+  314 |             ))}
+  315 |           </ul>
+  316 |         </li>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+[02:18:34.027] Browser ERROR   ./Desktop/web_project/auexch/src/components/sidebar/index.tsx:313:16
+Parsing ecmascript source code failed
+  311 |                     </div>
+  312 |                 </div>
+> 313 |               </li>
+      |                ^^^^
+  314 |             ))}
+  315 |           </ul>
+  316 |         </li>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
+    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
+[02:22:56.464] Server  LOG      ✓ Compiled in 269ms
+[02:22:59.507] Browser ERROR   API Error: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbmNyeXB0ZWRUb2tlbiI6IlUyRnNkR1ZrWDE5UlVDQy9lbkdpOEV0NFBLckJ3TCt2S05zS21pNVAxMDdUYnBPMGY5VWJrSkVic3hta084c1F1TEFJTjNidzI1NjVHM1pSek5ES0l4bFhWRFVaOSs5cnZ0ZmxWTUdwd0hhUnByY2laSGFJZm1vOUduSS9qb1YzTWptdjFpUjhPMG1OaUxBZUJmWVVybEM0UzlWOWFFSGtIUWRVamFBMzNDTlN2b1JQL0FEL1h6YUc2NndrUy9jL25PdDlIUEFydDJkdmgrUmxuRkx4MlE9PSIsImlhdCI6MTc3MTEzNjI5NCwiZXhwIjoxNzcxMTU0Mjk0fQ.FA8bYDTIgKagiIaQoHoByugsW549XhVf7bPfPRgt-Ew","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/app/exchange/users/userBalance","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 401","name":"AxiosError","stack":"AxiosError: Request failed with status code 401\n    at settle (http://localhost:3000/_next/static/chunks/dd48c_3e230c54._.js:7932:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/dd48c_3e230c54._.js:8447:210)\n    at Axios.request (http://localhost:3000/_next/static/chunks/dd48c_3e230c54._.js:9251:49)\n    at async fetchData (http://localhost:3000/_next/static/chunks/Desktop_web_project_auexch_src_cf466304._.js:1463:26)","status":401}
+[02:23:00.378] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:23:02.065] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:23:02.065] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[02:23:02.066] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[02:23:02.066] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[02:23:02.066] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[02:23:02.066] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[02:23:02.066] Browser ERROR   API Error: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbmNyeXB0ZWRUb2tlbiI6IlUyRnNkR1ZrWDE5UlVDQy9lbkdpOEV0NFBLckJ3TCt2S05zS21pNVAxMDdUYnBPMGY5VWJrSkVic3hta084c1F1TEFJTjNidzI1NjVHM1pSek5ES0l4bFhWRFVaOSs5cnZ0ZmxWTUdwd0hhUnByY2laSGFJZm1vOUduSS9qb1YzTWptdjFpUjhPMG1OaUxBZUJmWVVybEM0UzlWOWFFSGtIUWRVamFBMzNDTlN2b1JQL0FEL1h6YUc2NndrUy9jL25PdDlIUEFydDJkdmgrUmxuRkx4MlE9PSIsImlhdCI6MTc3MTEzNjI5NCwiZXhwIjoxNzcxMTU0Mjk0fQ.FA8bYDTIgKagiIaQoHoByugsW549XhVf7bPfPRgt-Ew","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/app/exchange/users/userBalance","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 401","name":"AxiosError","stack":"AxiosError: Request failed with status code 401\n    at settle (http://localhost:3000/_next/static/chunks/dd48c_axios_lib_68e9c74b._.js:1954:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/dd48c_axios_lib_68e9c74b._.js:2469:210)\n    at Axios.request (http://localhost:3000/_next/static/chunks/dd48c_axios_lib_68e9c74b._.js:3273:49)\n    at async fetchData (http://localhost:3000/_next/static/chunks/Desktop_web_project_auexch_src_cf466304._.js:1463:26)","status":401}
+[02:24:05.434] Browser WARN    Image with src "https://static.assetsdelivery.net/marketing-posters/DOLLAR365COM/1770989232480743.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:26:12.562] Server  LOG      ✓ Compiled in 792ms
+[02:26:13.686] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:26:15.021] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:26:15.021] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[02:26:15.021] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[02:26:15.021] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[02:26:15.021] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[02:26:15.021] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[02:26:16.021] Browser ERROR   API Error: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbmNyeXB0ZWRUb2tlbiI6IlUyRnNkR1ZrWDE5UlVDQy9lbkdpOEV0NFBLckJ3TCt2S05zS21pNVAxMDdUYnBPMGY5VWJrSkVic3hta084c1F1TEFJTjNidzI1NjVHM1pSek5ES0l4bFhWRFVaOSs5cnZ0ZmxWTUdwd0hhUnByY2laSGFJZm1vOUduSS9qb1YzTWptdjFpUjhPMG1OaUxBZUJmWVVybEM0UzlWOWFFSGtIUWRVamFBMzNDTlN2b1JQL0FEL1h6YUc2NndrUy9jL25PdDlIUEFydDJkdmgrUmxuRkx4MlE9PSIsImlhdCI6MTc3MTEzNjI5NCwiZXhwIjoxNzcxMTU0Mjk0fQ.FA8bYDTIgKagiIaQoHoByugsW549XhVf7bPfPRgt-Ew","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/app/exchange/users/userBalance","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 401","name":"AxiosError","stack":"AxiosError: Request failed with status code 401\n    at settle (http://localhost:3000/_next/static/chunks/dd48c_axios_lib_68e9c74b._.js:1954:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/dd48c_axios_lib_68e9c74b._.js:2469:210)\n    at Axios.request (http://localhost:3000/_next/static/chunks/dd48c_axios_lib_68e9c74b._.js:3273:49)\n    at async fetchData (http://localhost:3000/_next/static/chunks/Desktop_web_project_auexch_src_cf466304._.js:1463:26)","status":401}
+[02:26:17.327] Server  LOG      ✓ Compiled in 226ms
+[02:29:25.507] Server  LOG      ✓ Compiled in 195ms
+[02:29:52.756] Server  LOG      ✓ Compiled in 360ms
+[02:30:11.142] Server  LOG      ✓ Compiled in 94ms
+[02:34:05.004] Server  LOG      ✓ Compiled in 53ms
+[02:34:06.758] Server  LOG      ✓ Compiled in 33ms
+[02:34:08.359] Server  LOG      ✓ Compiled in 28ms
+[02:34:15.251] Server  LOG      ✓ Compiled in 50ms
+[02:35:55.753] Server  LOG      ✓ Compiled in 121ms
+[02:36:19.719] Server  LOG      ✓ Compiled in 35ms
+[02:36:35.093] Server  LOG      ✓ Compiled in 42ms
+[02:36:36.512] Server  LOG      ✓ Compiled in 20ms
+[02:36:39.359] Server  LOG      ✓ Compiled in 97ms
+[02:36:52.857] Server  LOG      ✓ Compiled in 38ms
+[02:36:54.436] Server  LOG      ✓ Compiled in 21ms
+[02:37:21.948] Server  LOG      ✓ Compiled in 107ms
+[02:37:52.954] Server  LOG      ✓ Compiled in 58ms
+[02:38:04.576] Server  LOG      ✓ Compiled in 28ms
+[02:38:15.491] Server  LOG      ✓ Compiled in 27ms
+[02:40:56.176] Server  LOG      ✓ Compiled in 83ms
+[02:41:06.083] Server  LOG      ✓ Compiled in 83ms

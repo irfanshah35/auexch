@@ -1,8 +1,94 @@
 "use client";
 
+import { motion } from "framer-motion";
+import { type MouseEvent, useState } from "react";
 import styles from "./sidebar.module.css";
 
+const sportsItems = [
+  {
+    name: "Cricket",
+    iconUrl: "/sidebar/ic_cricket.svg",
+    count: 34,
+    tournaments: [
+      {
+        name: "Ford Trophy",
+        count: 34,
+        thirdItems: [{ name: "Central Stags v Canterbury Kings", count: 34 }],
+      },
+      {
+        name: "ICC Men's T20 World Cup",
+        count: 34,
+        thirdItems: [{ name: "Otago Volts v Auckland Aces", count: 34 }],
+      },
+      {
+        name: "Ford Trophy",
+        count: 34,
+        thirdItems: [{ name: "Central Stags v Canterbury Kings", count: 34 }],
+      },
+      {
+        name: "ICC Men's T20 World Cup",
+        count: 34,
+        thirdItems: [{ name: "Otago Volts v Auckland Aces", count: 34 }],
+      },
+      {
+        name: "Ford Trophy",
+        count: 34,
+        thirdItems: [{ name: "Central Stags v Canterbury Kings", count: 34 }],
+      },
+      {
+        name: "ICC Men's T20 World Cup",
+        count: 34,
+        thirdItems: [{ name: "Otago Volts v Auckland Aces", count: 34 }],
+      },
+    ],
+  },
+  {
+    name: "Football",
+    iconUrl: "/sidebar/ic_football.svg",
+    count: 22,
+    tournaments: [
+      {
+        name: "Premier League",
+        count: 22,
+        thirdItems: [{ name: "Arsenal v Chelsea", count: 22 }],
+      },
+      {
+        name: "La Liga",
+        count: 18,
+        thirdItems: [{ name: "Barcelona v Sevilla", count: 18 }],
+      },
+    ],
+  },
+];
+
 export default function Sidebbar() {
+  const [openSportIndex, setOpenSportIndex] = useState<number | null>(null);
+  const [openTournamentKey, setOpenTournamentKey] = useState<string | null>(
+    null,
+  );
+
+  const handleSportClick = (
+    event: MouseEvent<HTMLAnchorElement>,
+    index: number,
+  ) => {
+    event.preventDefault();
+    setOpenTournamentKey(null);
+    setOpenSportIndex((prev) => {
+      const next = prev === index ? null : index;
+      return next;
+    });
+  };
+
+  const handleTournamentClick = (
+    event: MouseEvent<HTMLAnchorElement>,
+    sportIndex: number,
+    tournamentIndex: number,
+  ) => {
+    event.preventDefault();
+    const key = `${sportIndex}-${tournamentIndex}`;
+    setOpenTournamentKey((prev) => (prev === key ? null : key));
+  };
+
   return (
     <div className={styles.container}>
       <ul className={styles.list}>
@@ -110,128 +196,200 @@ export default function Sidebbar() {
           </div>
 
           <ul className={styles.subList}>
-            <li className={styles.item}>
-              <a className={styles.link}>
-                <span className={styles.linkIconWrap}>
-                  <span className={styles.sportImage}></span>
-                </span>
-                <span className={styles.linkText}>Cricket</span>
-                <span className={styles.badgeWrap}>
-                  <span className={styles.badge}>34</span>
-                </span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlnsXlink="http://www.w3.org/1999/xlink"
-                  aria-hidden="true"
-                  role="img"
-                  className={`${styles.navArrow}`}
-                  id="_r_r_"
-                  width="1em"
-                  height="1em"
-                  viewBox="0 0 24 24"
+            {sportsItems.map((sport, sportIndex) => (
+              <li className={styles.item} key={`${sport.name}-${sportIndex}`}>
+                <a
+                  className={styles.link}
+                  href="#"
+                  onClick={(event) => handleSportClick(event, sportIndex)}
                 >
-                  <path
-                    fill="currentColor"
-                    d="M10 19a1 1 0 0 1-.64-.23a1 1 0 0 1-.13-1.41L13.71 12L9.39 6.63a1 1 0 0 1 .15-1.41a1 1 0 0 1 1.46.15l4.83 6a1 1 0 0 1 0 1.27l-5 6A1 1 0 0 1 10 19"
-                  ></path>
-                </svg>
-              </a>
-              <div className={`${styles.navItem}`}>
-                <div className="flex w-full">
-                  <div className="w-full">
-                    <ul className={`${styles.navItemWrapper}`}>
-                      <li className={`${styles.navItemLi}`}>
-                        <a className={`${styles.navLink}`}>
-                          <span className={`${styles.navItemText}`}>
-                            Ford Trophy
-                          </span>
-                          <span className={styles.badgeWrap}>
-                            <span className={styles.badge}>34</span>
-                          </span>
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlnsXlink="http://www.w3.org/1999/xlink"
-                            aria-hidden="true"
-                            role="img"
-                            className={`${styles.navArrow}`}
-                            id="_r_r_"
-                            width="1em"
-                            height="1em"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              fill="currentColor"
-                              d="M10 19a1 1 0 0 1-.64-.23a1 1 0 0 1-.13-1.41L13.71 12L9.39 6.63a1 1 0 0 1 .15-1.41a1 1 0 0 1 1.46.15l4.83 6a1 1 0 0 1 0 1.27l-5 6A1 1 0 0 1 10 19"
-                            ></path>
-                          </svg>
-                        </a>
-                        <div className={`${styles.navItem}`}>
-                          <div className="flex w-full">
-                            <div className="w-full">
-                              <ul className={`${styles.navItemWrapper}`}>
-                                <li className={`${styles.navItemLi}`}>
-                                  <a className={`${styles.navLink}`}>
-                                    <span className={`${styles.thirdItemText}`}>
-                                      third item
-                                    </span>
-                                    <span className={styles.badgeWrap}>
-                                      <span className={styles.badge}>34</span>
-                                    </span>
-                                    <svg
-                                      xmlns="http://www.w3.org/2000/svg"
-                                      xmlnsXlink="http://www.w3.org/1999/xlink"
-                                      aria-hidden="true"
-                                      role="img"
-                                      className={`${styles.navArrow}`}
-                                      id="_r_r_"
-                                      width="1em"
-                                      height="1em"
-                                      viewBox="0 0 24 24"
-                                    >
-                                      <path
-                                        fill="currentColor"
-                                        d="M10 19a1 1 0 0 1-.64-.23a1 1 0 0 1-.13-1.41L13.71 12L9.39 6.63a1 1 0 0 1 .15-1.41a1 1 0 0 1 1.46.15l4.83 6a1 1 0 0 1 0 1.27l-5 6A1 1 0 0 1 10 19"
-                                      ></path>
-                                    </svg>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
+                  <span className={styles.linkIconWrap}>
+                    <span
+                      className={styles.sportImage}
+                      style={
+                        {
+                          "--sport-icon": `url(${sport.iconUrl})`,
+                        } as { [key: string]: string }
+                      }
+                    ></span>
+                  </span>
+                  <span className={styles.linkText}>{sport.name}</span>
+                  <span className={styles.badgeWrap}>
+                    <span className={styles.badge}>{sport.count}</span>
+                  </span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    className={`${styles.navArrow} ${
+                      openSportIndex === sportIndex ? styles.navArrowOpen : ""
+                    }`}
+                    id="_r_r_"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M10 19a1 1 0 0 1-.64-.23a1 1 0 0 1-.13-1.41L13.71 12L9.39 6.63a1 1 0 0 1 .15-1.41a1 1 0 0 1 1.46.15l4.83 6a1 1 0 0 1 0 1.27l-5 6A1 1 0 0 1 10 19"
+                    ></path>
+                  </svg>
+                </a>
+                <motion.div
+                  className={`${styles.navItem} ${styles.sportDropdown}`}
+                  initial={false}
+                  animate={
+                    openSportIndex === sportIndex
+                      ? { height: "auto", opacity: 1 }
+                      : { height: 0, opacity: 0 }
+                  }
+                  transition={{
+                    height: { duration: 0.3, ease: "easeOut" },
+                    opacity: { duration: 0.3, ease: "easeOut" },
+                  }}
+                >
+                  <div className="flex w-full">
+                    <div className="w-full">
+                      <ul className={`${styles.navItemWrapper}`}>
+                        {sport.tournaments.map(
+                          (tournament, tournamentIndex) => (
+                            <li
+                              className={`${styles.navItemLi}`}
+                              key={`${tournament.name}-${tournamentIndex}`}
+                            >
+                              <a
+                                className={`${styles.navLink}`}
+                                href={
+                                  tournament.thirdItems.length > 0
+                                    ? "#"
+                                    : undefined
+                                }
+                                onClick={
+                                  tournament.thirdItems.length > 0
+                                    ? (event) =>
+                                        handleTournamentClick(
+                                          event,
+                                          sportIndex,
+                                          tournamentIndex,
+                                        )
+                                    : undefined
+                                }
+                              >
+                                <span className={`${styles.navItemText}`}>
+                                  {tournament.name}
+                                </span>
+                                <span className={styles.badgeWrap}>
+                                  <span className={styles.badge}>
+                                    {tournament.count}
+                                  </span>
+                                </span>
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                                  aria-hidden="true"
+                                  role="img"
+                                  className={`${styles.navArrow} ${
+                                    openTournamentKey ===
+                                    `${sportIndex}-${tournamentIndex}`
+                                      ? styles.navArrowOpen
+                                      : ""
+                                  }`}
+                                  id="_r_r_"
+                                  width="1em"
+                                  height="1em"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    fill="currentColor"
+                                    d="M10 19a1 1 0 0 1-.64-.23a1 1 0 0 1-.13-1.41L13.71 12L9.39 6.63a1 1 0 0 1 .15-1.41a1 1 0 0 1 1.46.15l4.83 6a1 1 0 0 1 0 1.27l-5 6A1 1 0 0 1 10 19"
+                                  ></path>
+                                </svg>
+                              </a>
 
-                      <li className={`${styles.navItemLi}`}>
-                        <a className={`${styles.navLink}`}>
-                          <span className={`${styles.navItemText}`}>
-                            Ford Trophy
-                          </span>
-                          <span className={styles.badgeWrap}>
-                            <span className={styles.badge}>34</span>
-                          </span>
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlnsXlink="http://www.w3.org/1999/xlink"
-                            aria-hidden="true"
-                            role="img"
-                            className={`${styles.navArrow}`}
-                            id="_r_r_"
-                            width="1em"
-                            height="1em"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              fill="currentColor"
-                              d="M10 19a1 1 0 0 1-.64-.23a1 1 0 0 1-.13-1.41L13.71 12L9.39 6.63a1 1 0 0 1 .15-1.41a1 1 0 0 1 1.46.15l4.83 6a1 1 0 0 1 0 1.27l-5 6A1 1 0 0 1 10 19"
-                            ></path>
-                          </svg>
-                        </a>
-                      </li>
-                    </ul>
+                              {tournament.thirdItems.length > 0 && (
+                                <motion.div
+                                  className={`${styles.navItem} ${styles.sportDropdown}`}
+                                  initial={false}
+                                  animate={
+                                    openTournamentKey ===
+                                    `${sportIndex}-${tournamentIndex}`
+                                      ? { height: "auto", opacity: 1 }
+                                      : { height: 0, opacity: 0 }
+                                  }
+                                  transition={{
+                                    height: {
+                                      duration: 0.28,
+                                      ease: [0.22, 1, 0.36, 1],
+                                    },
+                                    opacity: {
+                                      duration: 0.18,
+                                      ease: "easeOut",
+                                    },
+                                  }}
+                                >
+                                  <div className="flex w-full">
+                                    <div className="w-full">
+                                      <ul
+                                        className={`${styles.navItemWrapper}`}
+                                      >
+                                        {tournament.thirdItems.map(
+                                          (thirdItem, thirdItemIndex) => (
+                                            <li
+                                              className={`${styles.navItemLi}`}
+                                              key={`${thirdItem.name}-${thirdItemIndex}`}
+                                            >
+                                              <a
+                                                className={`${styles.navLink}`}
+                                              >
+                                                <span
+                                                  className={`${styles.thirdItemText}`}
+                                                >
+                                                  {thirdItem.name}
+                                                </span>
+                                                <span
+                                                  className={styles.badgeWrap}
+                                                >
+                                                  <span
+                                                    className={styles.badge}
+                                                  >
+                                                    {thirdItem.count}
+                                                  </span>
+                                                </span>
+                                                <svg
+                                                  xmlns="http://www.w3.org/2000/svg"
+                                                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                                                  aria-hidden="true"
+                                                  role="img"
+                                                  className={`${styles.navArrow}`}
+                                                  id="_r_r_"
+                                                  width="1em"
+                                                  height="1em"
+                                                  viewBox="0 0 24 24"
+                                                >
+                                                  <path
+                                                    fill="currentColor"
+                                                    d="M10 19a1 1 0 0 1-.64-.23a1 1 0 0 1-.13-1.41L13.71 12L9.39 6.63a1 1 0 0 1 .15-1.41a1 1 0 0 1 1.46.15l4.83 6a1 1 0 0 1 0 1.27l-5 6A1 1 0 0 1 10 19"
+                                                  ></path>
+                                                </svg>
+                                              </a>
+                                            </li>
+                                          ),
+                                        )}
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </motion.div>
+                              )}
+                            </li>
+                          ),
+                        )}
+                      </ul>
+                    </div>
                   </div>
-                </div>
-              </div>
-            </li>
+                </motion.div>
+              </li>
+            ))}
           </ul>
         </li>
       </ul>
