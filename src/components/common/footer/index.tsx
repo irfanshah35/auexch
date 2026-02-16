@@ -19,6 +19,7 @@ export default function Footer() {
                         src="/secure-ssl-3.webp"
                         alt="Secure"
                         width={106}
+                        
                         height={54}
                         className="mb-[8px] lg:mb-0"
                      />
