@@ -135,6 +135,15 @@
   color: #919eab;
 }
 
+.marketIconWrap {
+  margin-right: 0.75rem;
+  display: inline-flex;
+  height: 20px;
+  width: 20px;
+  flex-shrink: 0;
+  color: #919eab;
+}
+
 .linkIcon {
   display: inline-flex;
   height: 100%;
