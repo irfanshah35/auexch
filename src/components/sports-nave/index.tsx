@@ -133,7 +133,7 @@ export default function SportsNave() {
         <div
           ref={scrollContainerRef}
           onScroll={checkArrowsVisibility}
-          className={`${styles["tabs-scroller"]} overflow-x-auto`}>
+          className={`${styles["tabs-scroller"]} overflow-x-auto overflow-y-hidden`}>
           <div role="tablist" className={styles["tabs-list"]} ref={tabsListRef}>
             <div
               className={styles["sliding-indicator"]}
