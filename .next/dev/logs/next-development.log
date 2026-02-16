@@ -1,394 +1,154 @@
-[00:00:00.977] Server  LOG      ✓ Ready in 747ms
-[00:00:06.029] Server  LOG      ○ Compiling / ...
-[00:00:06.759] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:07.022] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:07.022] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:07.022] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:00:07.980] Browser ERROR   API Error: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbmNyeXB0ZWRUb2tlbiI6IlUyRnNkR1ZrWDE5RG90d1dzOVZiVzhxTTZlVlRONHE3N1lCRjBvd2NJWG5Lek5SOXlsZEwxanlNek9TZHJjeHd0TmF5ZVhwRGYyYXgxQWI5anBnM1JEejN1ZGYxS3czVXA3bndZSTJHMmluNDAzMFpIVHlydk9POEZRdTZheTY4UVMwR3hvcmsxSzBjbmJHR1pJakZWUjdEZkEwYWNqUCtTME40cU5jbjRsUW5IdC9hazRhcTROTHJJOXo2MTYrRzhKQ1NZTDlVQVhHNDdGNjZ0bTVqcEhJU3ZITVpONWhWMzRTM1dhVWY0azg9IiwiaWF0IjoxNzcxMTcyMTQxLCJleHAiOjE3NzExOTAxNDF9.S47gYZI8LgW2qjpTOz7Cr8ALq5QZ_rmkppxiBDCU2gg","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/app/exchange/users/userBalance","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 401","name":"AxiosError","stack":"AxiosError: Request failed with status code 401\n    at settle (http://localhost:3000/_next/static/chunks/72895_18f755d6._.js:7932:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/72895_18f755d6._.js:8447:195)\n    at Axios.request (http://localhost:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://localhost:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)","status":401}
-[00:03:35.695] Server  WARN     ⚠ Cross origin request detected from 192.168.1.55 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
-Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:03:36.151] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:36.490] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:03:36.900] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:03:36.900] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:03:38.555] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/allEventsList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:03:38.555] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/exchangeNews","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:03:38.965] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/menuList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:03:38.965] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/casinoEvents","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:03:53.749] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:54.176] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:03:54.531] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:03:54.531] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:03:55.341] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/allEventsList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:03:55.341] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/menuList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:03:55.341] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/casinoEvents","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:03:55.341] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/exchangeNews","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:05:37.143] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:37.143] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:05:37.144] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:37.144] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:05:40.166] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/exchangeNews","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:05:40.166] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/allEventsList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:05:40.166] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/casinoEvents","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:05:40.166] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/menuList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:05:45.361] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:46.541] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:46.541] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:05:47.416] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/allEventsList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:05:47.416] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/menuList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:05:47.416] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/casinoEvents","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:05:47.416] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/exchangeNews","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:09:20.979] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:21.186] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:09:21.186] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:09:21.186] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:09:22.384] Browser ERROR   API Error: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbmNyeXB0ZWRUb2tlbiI6IlUyRnNkR1ZrWDE5RG90d1dzOVZiVzhxTTZlVlRONHE3N1lCRjBvd2NJWG5Lek5SOXlsZEwxanlNek9TZHJjeHd0TmF5ZVhwRGYyYXgxQWI5anBnM1JEejN1ZGYxS3czVXA3bndZSTJHMmluNDAzMFpIVHlydk9POEZRdTZheTY4UVMwR3hvcmsxSzBjbmJHR1pJakZWUjdEZkEwYWNqUCtTME40cU5jbjRsUW5IdC9hazRhcTROTHJJOXo2MTYrRzhKQ1NZTDlVQVhHNDdGNjZ0bTVqcEhJU3ZITVpONWhWMzRTM1dhVWY0azg9IiwiaWF0IjoxNzcxMTcyMTQxLCJleHAiOjE3NzExOTAxNDF9.S47gYZI8LgW2qjpTOz7Cr8ALq5QZ_rmkppxiBDCU2gg","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/app/exchange/users/userBalance","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 401","name":"AxiosError","stack":"AxiosError: Request failed with status code 401\n    at settle (http://localhost:3000/_next/static/chunks/72895_18f755d6._.js:7932:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/72895_18f755d6._.js:8447:195)\n    at Axios.request (http://localhost:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://localhost:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)","status":401}
-[00:09:28.812] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:28.812] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:09:28.812] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:09:28.812] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:09:32.107] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/menuList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:09:32.107] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/allEventsList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:09:32.476] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/casinoEvents","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:09:32.476] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/exchangeNews","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:12:13.979] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:14.387] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:12:14.387] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:12:14.387] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:12:17.111] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/casinoEvents","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:12:17.111] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/menuList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:12:17.514] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/exchangeNews","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:12:17.514] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/allEventsList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:12:43.333] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:44.228] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:12:44.228] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:12:44.228] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:12:45.014] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/allEventsList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:12:45.014] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/menuList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:12:45.014] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/casinoEvents","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:12:45.014] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/exchangeNews","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:12:55.358] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:55.358] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:12:55.358] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:12:56.466] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/allEventsList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:12:56.466] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/casinoEvents","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:12:56.466] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/menuList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:12:56.466] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/exchangeNews","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:14:29.629] Server  LOG      ✓ Compiled in 146ms
-[00:14:34.385] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/allEventsList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:14:34.386] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/exchangeNews","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:14:34.387] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/casinoEvents","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:14:34.387] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/menuList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:15:13.760] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:15:14.054] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:15:14.054] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:15:14.054] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:15:21.013] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:15:21.215] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:15:21.215] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:15:21.215] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:15:29.176] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:15:29.386] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:15:29.386] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:15:29.386] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:15:39.909] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:15:40.094] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:15:40.094] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:15:40.094] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:15:56.116] Server  LOG      ✓ Compiled in 142ms
-[00:15:59.122] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/casinoEvents","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:15:59.124] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/allEventsList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:15:59.125] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/exchangeNews","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:15:59.125] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/menuList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:19:43.020] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:43.020] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-<<<<<<< HEAD
-[00:44:46.533] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
-[00:44:46.533] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[00:44:46.533] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:44:46.533] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:44:46.533] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:44:46.533] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:44:46.533] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:44:46.533] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:44:46.533] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:44:46.827] Server  LOG      ✓ Compiled in 89ms
-[00:44:53.682] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:44:54.056] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:44:54.056] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[00:44:54.056] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:44:54.056] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:44:54.056] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:44:54.056] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:44:54.056] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:44:54.056] Browser LOG     Cache expired — fetching fresh API data...
-[00:44:54.056] Browser LOG     Cache expired — fetching fresh API data...
-[00:44:55.002] Browser LOG     Data saved to cache with timestamp
-[00:44:56.749] Browser LOG     Data saved to cache with timestamp
-[00:45:11.255] Server  LOG      ✓ Compiled in 67ms
-[00:45:14.867] Server  LOG      ✓ Compiled in 71ms
-[00:45:18.082] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:45:18.681] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:45:18.681] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:45:18.681] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:45:18.681] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:45:18.681] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:45:18.681] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:45:18.681] Browser LOG     Cache expired — fetching fresh API data...
-[00:45:18.681] Browser LOG     Cache expired — fetching fresh API data...
-[00:45:19.182] Browser LOG     Data saved to cache with timestamp
-[00:45:21.196] Browser LOG     Data saved to cache with timestamp
-[00:46:00.679] Server  LOG      ✓ Compiled in 164ms
-[00:46:02.883] Server  LOG      ✓ Compiled in 184ms
-[00:46:24.327] Server  LOG      ✓ Compiled in 147ms
-[00:46:24.752] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:46:24.752] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:46:24.752] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:46:24.752] Browser LOG     Cache expired — fetching fresh API data...
-[00:46:24.752] Browser LOG     Cache expired — fetching fresh API data...
-[00:46:25.997] Browser LOG     Data saved to cache with timestamp
-[00:46:27.562] Browser LOG     Data saved to cache with timestamp
-[00:47:10.255] Server  LOG      ✓ Compiled in 233ms
-[00:47:10.610] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:47:10.610] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:47:10.610] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:47:10.610] Browser LOG     Cache expired — fetching fresh API data...
-[00:47:10.610] Browser LOG     Cache expired — fetching fresh API data...
-[00:47:11.610] Browser LOG     Data saved to cache with timestamp
-[00:47:13.638] Browser LOG     Data saved to cache with timestamp
-[00:47:16.760] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:47:17.421] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:47:17.421] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:17.421] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:47:17.421] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:47:17.421] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:47:17.421] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:47:17.421] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:47:17.421] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:48:07.908] Server  LOG      ✓ Compiled in 185ms
-[00:48:08.197] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:48:08.197] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:48:08.197] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:48:08.197] Browser LOG     Cache expired — fetching fresh API data...
-[00:48:08.197] Browser LOG     Cache expired — fetching fresh API data...
-[00:48:09.223] Browser LOG     Data saved to cache with timestamp
-[00:48:11.630] Browser LOG     Data saved to cache with timestamp
-[00:48:44.023] Server  LOG      ✓ Compiled in 241ms
-[00:48:47.760] Server  LOG      ✓ Compiled in 59ms
-[00:50:41.240] Server  LOG      ✓ Compiled in 288ms
-[00:50:50.839] Server  LOG      ✓ Compiled in 87ms
-[00:50:53.765] Server  LOG      ✓ Compiled in 71ms
-[00:51:07.666] Server  LOG      ✓ Compiled in 680ms
-[00:52:24.001] Browser ERROR   ./Desktop/auexch/src/components/home-slider/page.tsx:114:14
-Parsing ecmascript source code failed
-  112 |                 />
-  113 |               </div>
-> 114 |             </SwiperSlide>
-      |              ^^^^^^^^^^^^^
-  115 |           ))}
-  116 |         </SwiperComponent>
-  117 |       </div>
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./Desktop/auexch/src/components/home-slider/page.tsx [Client Component Browser]
-    ./Desktop/auexch/src/app/(pages)/page.tsx [Client Component Browser]
-    ./Desktop/auexch/src/app/(pages)/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Desktop/auexch/src/components/home-slider/page.tsx [Client Component SSR]
-    ./Desktop/auexch/src/app/(pages)/page.tsx [Client Component SSR]
-    ./Desktop/auexch/src/app/(pages)/page.tsx [Server Component]
-[00:52:29.722] Server  LOG      ✓ Compiled in 1850ms
-[00:52:30.301] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `Context`.  It was passed a child from HomeSlider.
-[00:52:30.302] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:52:35.591] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:52:40.452] Server  LOG      ✓ Compiled in 64ms
-[00:52:44.948] Server  LOG      ✓ Compiled in 243ms
-[00:53:31.200] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:53:31.996] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:53:31.996] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:31.997] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:53:31.997] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:53:31.997] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:53:31.997] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:53:31.997] Browser LOG     Cache expired — fetching fresh API data...
-[00:53:31.997] Browser LOG     Cache expired — fetching fresh API data...
-[00:53:32.551] Browser LOG     Data saved to cache with timestamp
-[00:53:34.488] Browser LOG     Data saved to cache with timestamp
-[00:54:06.522] Server  LOG      ✓ Compiled in 127ms
-[00:54:09.030] Server  LOG      ✓ Compiled in 52ms
-[00:55:36.739] Server  LOG      ✓ Compiled in 133ms
-[00:55:39.196] Server  LOG      ✓ Compiled in 221ms
-[00:55:56.600] Server  LOG      ✓ Compiled in 56ms
-[00:55:58.759] Server  LOG      ✓ Compiled in 38ms
-[00:56:01.258] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:56:02.224] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:56:02.225] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:56:02.226] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:56:02.226] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:56:02.226] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:56:02.226] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:56:02.226] Browser LOG     Cache expired — fetching fresh API data...
-[00:56:02.226] Browser LOG     Cache expired — fetching fresh API data...
-[00:56:02.429] Browser LOG     Data saved to cache with timestamp
-[00:56:05.631] Browser LOG     Data saved to cache with timestamp
-[00:56:33.210] Server  LOG      ✓ Compiled in 3.1s
-[00:56:34.182] Server  LOG      ✓ Compiled in 305ms
-[00:58:39.076] Server  LOG      ✓ Compiled in 406ms
-[00:58:39.503] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:58:39.503] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:58:39.503] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:58:39.503] Browser LOG     Cache expired — fetching fresh API data...
-[00:58:39.504] Browser LOG     Cache expired — fetching fresh API data...
-[00:58:40.660] Browser LOG     Data saved to cache with timestamp
-[00:58:42.816] Browser LOG     Data saved to cache with timestamp
-[00:58:43.055] Server  LOG      ✓ Compiled in 108ms
-[00:58:43.310] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:58:43.310] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:58:43.310] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:58:43.310] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:58:43.310] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:58:46.614] Server  LOG      ✓ Compiled in 163ms
-[00:58:47.031] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:58:47.032] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:58:47.032] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:58:47.032] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:58:47.032] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[01:00:10.684] Server  LOG      ✓ Compiled in 455ms
-[01:00:11.199] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[01:00:11.199] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[01:00:11.199] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[01:00:11.199] Browser LOG     Cache expired — fetching fresh API data...
-[01:00:11.199] Browser LOG     Cache expired — fetching fresh API data...
-[01:00:12.033] Browser LOG     Data saved to cache with timestamp
-[01:00:15.013] Browser LOG     Data saved to cache with timestamp
-[01:19:06.799] Server  LOG      ✓ Compiled in 64ms
-[01:19:07.323] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[01:19:07.323] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[01:19:07.323] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[01:19:07.323] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[01:19:07.323] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[01:19:20.316] Server  LOG      ✓ Compiled in 40ms
-[01:19:21.255] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[01:19:21.255] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[01:19:21.255] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[01:19:21.255] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[01:19:21.255] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[01:19:29.674] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:19:29.846] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[01:19:29.846] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:19:29.846] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[01:19:29.846] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[01:19:29.846] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[01:19:29.846] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[01:19:29.846] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[01:19:29.846] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[01:33:15.827] Server  LOG      ✓ Compiled in 159ms
-[01:34:52.040] Server  LOG      ✓ Compiled in 169ms
-[01:34:53.195] Server  LOG      ✓ Compiled in 58ms
-[01:35:01.728] Server  LOG      ✓ Compiled in 35ms
-[01:35:35.798] Server  LOG      ✓ Compiled in 33ms
-[01:35:41.086] Server  LOG      ✓ Compiled in 38ms
-[01:35:43.345] Server  LOG      ✓ Compiled in 18ms
-[01:35:48.525] Server  LOG      ✓ Compiled in 15ms
-[01:37:10.529] Server  LOG      ✓ Compiled in 24ms
-[01:37:12.368] Server  LOG      ✓ Compiled in 23ms
-[01:37:14.477] Server  LOG      ✓ Compiled in 65ms
-[01:37:16.491] Server  LOG      ✓ Compiled in 21ms
-[01:37:17.322] Server  LOG      ✓ Compiled in 15ms
-[01:37:21.212] Server  LOG      ✓ Compiled in 21ms
-[01:37:23.409] Server  LOG      ✓ Compiled in 36ms
-[01:37:31.789] Server  LOG      ✓ Compiled in 42ms
-[01:37:33.685] Server  LOG      ✓ Compiled in 40ms
-[01:37:34.723] Server  LOG      ✓ Compiled in 35ms
-[01:37:46.432] Server  LOG      ✓ Compiled in 56ms
-[01:37:52.357] Server  LOG      ✓ Compiled in 48ms
-[01:37:53.925] Server  LOG      ✓ Compiled in 21ms
-[01:38:08.674] Server  LOG      ✓ Compiled in 87ms
-[01:38:10.901] Server  LOG      ✓ Compiled in 21ms
-[01:38:13.770] Server  LOG      ✓ Compiled in 39ms
-[01:38:39.126] Server  LOG      ✓ Compiled in 45ms
-[01:39:18.974] Server  LOG      ✓ Compiled in 37ms
-[01:39:24.654] Server  LOG      ✓ Compiled in 25ms
-[01:39:26.472] Server  LOG      ✓ Compiled in 23ms
-[01:39:32.261] Server  LOG      ✓ Compiled in 21ms
-[01:39:39.397] Server  LOG      ✓ Compiled in 38ms
-[01:39:41.841] Server  LOG      ✓ Compiled in 26ms
-[01:39:44.593] Server  LOG      ✓ Compiled in 28ms
-[01:39:46.725] Server  LOG      ✓ Compiled in 21ms
-[01:39:47.957] Server  LOG      ✓ Compiled in 19ms
-[01:39:49.663] Server  LOG      ✓ Compiled in 32ms
-[01:40:42.720] Server  LOG      ✓ Compiled in 38ms
-[01:40:44.424] Server  LOG      ✓ Compiled in 21ms
-[01:40:46.559] Server  LOG      ✓ Compiled in 24ms
-[01:40:50.073] Server  LOG      ✓ Compiled in 37ms
-[01:40:57.902] Server  LOG      ✓ Compiled in 40ms
-[01:41:12.188] Server  LOG      ✓ Compiled in 49ms
-[01:41:13.382] Server  LOG      ✓ Compiled in 35ms
-[01:41:37.709] Server  LOG      ✓ Compiled in 65ms
-[01:41:38.325] Browser ERROR   ./Desktop/web_project/auexch/src/components/sidebar/index.tsx:10:15
+[00:00:02.918] Server  LOG      ✓ Ready in 2.6s
+[00:00:11.158] Server  LOG      ○ Compiling / ...
+[00:00:13.864] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.942] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:13.942] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:00:13.942] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[00:00:13.942] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[00:00:13.942] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[00:00:13.942] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[00:00:14.745] Browser ERROR   API Error: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbmNyeXB0ZWRUb2tlbiI6IlUyRnNkR1ZrWDE5UlVDQy9lbkdpOEV0NFBLckJ3TCt2S05zS21pNVAxMDdUYnBPMGY5VWJrSkVic3hta084c1F1TEFJTjNidzI1NjVHM1pSek5ES0l4bFhWRFVaOSs5cnZ0ZmxWTUdwd0hhUnByY2laSGFJZm1vOUduSS9qb1YzTWptdjFpUjhPMG1OaUxBZUJmWVVybEM0UzlWOWFFSGtIUWRVamFBMzNDTlN2b1JQL0FEL1h6YUc2NndrUy9jL25PdDlIUEFydDJkdmgrUmxuRkx4MlE9PSIsImlhdCI6MTc3MTEzNjI5NCwiZXhwIjoxNzcxMTU0Mjk0fQ.FA8bYDTIgKagiIaQoHoByugsW549XhVf7bPfPRgt-Ew","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/app/exchange/users/userBalance","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 401","name":"AxiosError","stack":"AxiosError: Request failed with status code 401\n    at settle (http://localhost:3000/_next/static/chunks/dd48c_3e230c54._.js:7932:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/dd48c_3e230c54._.js:8447:210)\n    at Axios.request (http://localhost:3000/_next/static/chunks/dd48c_3e230c54._.js:9251:49)\n    at async fetchData (http://localhost:3000/_next/static/chunks/Desktop_web_project_auexch_src_a9fc0097._.js:1463:26)","status":401}
+[00:06:30.864] Server  LOG      ✓ Compiled in 158ms
+[00:06:41.565] Server  LOG      ✓ Compiled in 81ms
+[00:08:41.610] Server  LOG      ✓ Compiled in 48ms
+[00:09:17.060] Server  LOG      ✓ Compiled in 164ms
+[00:10:41.280] Server  LOG      ✓ Compiled in 238ms
+[00:10:44.158] Server  LOG      ✓ Compiled in 258ms
+[00:10:47.631] Server  LOG      ✓ Compiled in 65ms
+[00:10:49.190] Server  LOG      ✓ Compiled in 199ms
+[00:10:51.849] Server  LOG      ✓ Compiled in 25ms
+[00:11:19.031] Server  LOG      ✓ Compiled in 43ms
+[00:11:25.697] Server  LOG      ✓ Compiled in 19ms
+[00:11:28.778] Server  LOG      ✓ Compiled in 37ms
+[00:11:30.504] Server  LOG      ✓ Compiled in 24ms
+[00:11:31.752] Server  LOG      ✓ Compiled in 19ms
+[00:11:36.519] Server  LOG      ✓ Compiled in 73ms
+[00:11:49.973] Server  LOG      ✓ Compiled in 65ms
+[00:12:29.203] Server  LOG      ✓ Compiled in 55ms
+[00:12:31.336] Server  LOG      ✓ Compiled in 23ms
+[00:12:32.855] Server  LOG      ✓ Compiled in 19ms
+[00:12:35.802] Server  LOG      ✓ Compiled in 22ms
+[00:13:17.084] Server  LOG      ✓ Compiled in 57ms
+[00:13:18.430] Server  LOG      ✓ Compiled in 22ms
+[00:13:20.404] Server  LOG      ✓ Compiled in 19ms
+[00:13:25.416] Server  LOG      ✓ Compiled in 18ms
+[00:13:28.061] Server  LOG      ✓ Compiled in 26ms
+[00:13:29.103] Server  LOG      ✓ Compiled in 18ms
+[00:13:32.399] Server  LOG      ✓ Compiled in 47ms
+[00:13:46.921] Server  LOG      ✓ Compiled in 61ms
+[00:14:49.962] Server  LOG      ✓ Compiled in 48ms
+[00:14:51.323] Server  LOG      ✓ Compiled in 24ms
+[00:14:52.440] Server  LOG      ✓ Compiled in 22ms
+[00:14:58.320] Server  LOG      ✓ Compiled in 17ms
+[00:15:01.073] Server  LOG      ✓ Compiled in 55ms
+[00:15:05.515] Server  LOG      ✓ Compiled in 33ms
+[00:15:37.592] Server  LOG      ✓ Compiled in 61ms
+[00:15:39.294] Server  LOG      ✓ Compiled in 83ms
+[00:15:55.767] Server  LOG      ✓ Compiled in 43ms
+[00:15:57.991] Server  LOG      ✓ Compiled in 34ms
+[00:19:58.980] Server  LOG      ✓ Compiled in 62ms
+[00:20:03.188] Server  LOG      ✓ Compiled in 21ms
+[00:20:07.627] Server  LOG      ✓ Compiled in 45ms
+[00:20:09.392] Server  LOG      ✓ Compiled in 24ms
+[00:20:12.315] Server  LOG      ✓ Compiled in 305ms
+[00:20:14.744] Server  LOG      ✓ Compiled in 69ms
+[00:20:32.039] Server  LOG      ✓ Compiled in 129ms
+[00:20:34.661] Server  LOG      ✓ Compiled in 52ms
+[00:20:51.725] Server  LOG      ✓ Compiled in 37ms
+[00:20:57.389] Server  LOG      ✓ Compiled in 21ms
+[00:21:12.757] Server  LOG      ✓ Compiled in 35ms
+[00:21:14.798] Server  LOG      ✓ Compiled in 49ms
+[00:21:20.745] Server  LOG      ✓ Compiled in 109ms
+[00:23:08.647] Server  LOG      ✓ Compiled in 56ms
+[00:24:53.948] Server  LOG      ✓ Compiled in 58ms
+[00:24:55.670] Server  LOG      ✓ Compiled in 56ms
+[00:24:59.032] Server  LOG      ✓ Compiled in 47ms
+[00:25:01.584] Server  LOG      ✓ Compiled in 37ms
+[00:25:03.748] Server  LOG      ✓ Compiled in 31ms
+[00:25:07.477] Server  LOG      ✓ Compiled in 34ms
+[00:25:24.095] Server  LOG      ✓ Compiled in 33ms
+[00:25:26.248] Server  LOG      ✓ Compiled in 21ms
+[00:25:43.643] Server  LOG      ✓ Compiled in 40ms
+[00:25:44.810] Server  LOG      ✓ Compiled in 17ms
+[00:25:55.100] Server  LOG      ✓ Compiled in 55ms
+[00:25:58.047] Server  LOG      ✓ Compiled in 19ms
+[00:26:02.355] Server  LOG      ✓ Compiled in 3.1s
+[00:26:06.425] Server  LOG      ✓ Compiled in 139ms
+[00:26:46.004] Server  LOG      ✓ Compiled in 65ms
+[00:26:48.681] Server  LOG      ✓ Compiled in 20ms
+[00:26:52.906] Server  LOG      ✓ Compiled in 21ms
+[00:26:55.310] Server  LOG      ✓ Compiled in 24ms
+[00:27:01.232] Server  LOG      ✓ Compiled in 143ms
+[00:27:23.868] Server  LOG      ✓ Compiled in 35ms
+[00:27:27.291] Server  LOG      ✓ Compiled in 38ms
+[00:27:28.362] Server  LOG      ✓ Compiled in 35ms
+[00:27:30.426] Server  LOG      ✓ Compiled in 17ms
+[00:27:31.909] Server  LOG      ✓ Compiled in 20ms
+[00:27:39.575] Server  LOG      ✓ Compiled in 19ms
+[00:27:43.432] Server  LOG      ✓ Compiled in 18ms
+[00:27:45.721] Server  LOG      ✓ Compiled in 16ms
+[00:27:50.645] Server  LOG      ✓ Compiled in 65ms
+[00:27:56.065] Server  LOG      ✓ Compiled in 72ms
+[00:29:15.851] Server  LOG      ✓ Compiled in 48ms
+[00:29:18.187] Server  LOG      ✓ Compiled in 23ms
+[00:29:43.657] Server  LOG      ✓ Compiled in 160ms
+[00:29:45.026] Server  LOG      ✓ Compiled in 56ms
+[00:29:48.165] Server  LOG      ✓ Compiled in 23ms
+[00:29:49.782] Server  LOG      ✓ Compiled in 20ms
+[00:29:55.133] Server  LOG      ✓ Compiled in 1176ms
+[00:30:10.032] Server  LOG      ✓ Compiled in 45ms
+[00:30:27.102] Server  LOG      ✓ Compiled in 72ms
+[00:30:55.679] Server  LOG      ✓ Compiled in 49ms
+[00:30:59.798] Server  LOG      ✓ Compiled in 24ms
+[00:31:01.160] Server  LOG      ✓ Compiled in 21ms
+[00:31:15.175] Server  LOG      ✓ Compiled in 66ms
+[00:31:16.020] Browser ERROR   ./Desktop/web_project/auexch/src/components/sidebar/index.tsx:57:21
 Ecmascript file had an error
-   8 |           <div className="bg-[rgba(145,158,171,8%)] hover:bg-[rgba(145,158,171,16%)] pr-2 cursor-pointer rounded-lg mt-2">
-   9 |             <span className="p-2 text-[#919EAB] inline-flex">
-> 10 |               <svg
-     |               ^^^^
-> 11 |                 xmlns="http://www.w3.org/2000/svg"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 12 |                 xmlns:xlink="http://www.w3.org/1999/xlink"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 13 |                 aria-hidden="true"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 14 |                 role="img"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 15 |                 class="iconify iconify--eva minimal__iconify__root css-eadae1"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 16 |                 id="_r_9n_"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 17 |                 width="1em"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 18 |                 height="1em"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 19 |                 viewBox="0 0 24 24"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 20 |               >
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 21 |                 <path
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 22 |                   fill="currentColor"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 23 |                   d="m20.71 19.29l-3.4-3.39A7.92 7.92 0 0 0 19 11a8 8 0 1 0-8 8a7.92 7.92 0 0 0 4.9-1.69l3.39 3.4a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42M5 11a6 6 0 1 1 6 6a6 6 0 0 1-6-6"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 24 |                 ></path>
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 25 |               </svg>
-     | ^^^^^^^^^^^^^^^^^^^^^
-  26 |             </span>
-  27 |           </div>
-  28 |         </div>
+  55 |                 <a className="inline-flex items-center justify-center relative bg-transparent cursor-pointer select-none align-middle appearance-none no-underline w-full m-0 border-0 p-[4px_8px_4px_12px] text-[#919EAB] min-h-11 rounded-lg hover:bg-[rgba(145,158,171,8%)]">
+  56 |                   <span className="mr-3 h-6 w-6 inline-flex shrink-0 text-[#919EAB] cursor-pointer">
+> 57 |                     <svg
+     |                     ^^^^
+> 58 |                       xmlns="http://www.w3.org/2000/svg"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 59 |                       xmlns:xlink="http://www.w3.org/1999/xlink"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 60 |                       aria-hidden="true"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 61 |                       role="img"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 62 |                       class="iconify iconify--tabler minimal__iconify__root css-18oi841"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 63 |                       id="_r_4f_"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 64 |                       width="1em"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 65 |                       height="1em"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 66 |                       viewBox="0 0 24 24"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 67 |                     >
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 68 |                       <path
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 69 |                         fill="none"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 70 |                         stroke="currentColor"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 71 |                         stroke-linecap="round"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 72 |                         stroke-linejoin="round"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 73 |                         stroke-width="2"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 74 |                         d="M3 12h4.5L9 6l4 12l2-9l1.5 3H21"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 75 |                       ></path>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 76 |                     </svg>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  77 |                   </span>
+  78 |                 </a>
+  79 |               </li>
 
 JSX Namespace is disabled by default because react does not support it yet. You can specify jsc.transform.react.throwIfNamespace to false to override default behavior
 
@@ -402,311 +162,49 @@ Import traces:
     ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component SSR]
     ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
     ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
-[01:42:31.427] Server  LOG      ✓ Compiled in 67ms
-[01:43:18.252] Server  LOG      ✓ Compiled in 45ms
-[01:43:19.324] Browser ERROR   ./Desktop/web_project/auexch/src/components/sidebar/index.tsx:28:20
-Parsing ecmascript source code failed
-  26 |                 </svg>
-  27 |               </span>
-> 28 |             </span>
-     |                    ^
-> 29 |           </div>
-     | ^^^^^^^^^^^
-  30 |         </div>
-  31 |       </div>
-  32 |     </>
-
-Expected '</', got 'jsx text (
-          )'
-
-Import traces:
-  Client Component Browser:
-    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component Browser]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
-
-  Client Component SSR:
-    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component SSR]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
-[01:43:20.149] Server  LOG      ✓ Compiled in 30ms
-[01:43:34.053] Server  LOG      ✓ Compiled in 46ms
-[01:43:34.323] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true clas clas true clas
-[01:43:39.994] Server  LOG      ✓ Compiled in 24ms
-[01:43:51.883] Server  LOG      ✓ Compiled in 60ms
-[01:43:55.484] Server  LOG      ✓ Compiled in 113ms
-[01:43:58.979] Server  LOG      ✓ Compiled in 21ms
-[01:44:03.191] Server  LOG      ✓ Compiled in 129ms
-[01:44:18.820] Server  LOG      ✓ Compiled in 161ms
-[01:45:42.138] Server  LOG      ✓ Compiled in 59ms
-[01:45:45.643] Server  LOG      ✓ Compiled in 158ms
-[01:45:51.217] Server  LOG      ✓ Compiled in 29ms
-[01:46:07.827] Server  LOG      ✓ Compiled in 52ms
-[01:46:13.202] Server  LOG      ✓ Compiled in 58ms
-[01:46:13.322] Browser ERROR   ./Desktop/web_project/auexch/src/components/sidebar/index.tsx:27:27
-Parsing ecmascript source code failed
-  25 |               </svg>
-  26 |             </span>
-> 27 |             <spanclassName="inline-flex text-[#1C252E]">
-     |                           ^
-  28 |               ⌘K
-  29 |             </spanclassName=>
-  30 |           </div>
-
-Expected '</', got '='
-
-Import traces:
-  Client Component Browser:
-    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component Browser]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
-
-  Client Component SSR:
-    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component SSR]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
-[01:46:38.118] Server  LOG      ✓ Compiled in 27ms
-[01:46:38.324] Browser ERROR   ./Desktop/web_project/auexch/src/components/sidebar/index.tsx:27:27
-Parsing ecmascript source code failed
-  25 |               </svg>
-  26 |             </span>
-> 27 |             <spanclassName="inline-flex text-[#1C252E]">
-     |                           ^
-  28 |               ⌘K
-  29 |             </spanclassName=>
-  30 |           </div>
-
-Expected '</', got '='
-
-Import traces:
-  Client Component Browser:
-    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component Browser]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
-
-  Client Component SSR:
-    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component SSR]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
-[01:47:06.805] Server  LOG      ✓ Compiled in 48ms
-[01:47:09.005] Server  LOG      ✓ Compiled in 38ms
-[01:47:15.719] Server  LOG      ✓ Compiled in 60ms
-[01:47:19.179] Server  LOG      ✓ Compiled in 16ms
-[01:47:22.094] Server  LOG      ✓ Compiled in 19ms
-[01:47:26.193] Server  LOG      ✓ Compiled in 24ms
-[01:52:39.551] Server  LOG      ✓ Compiled in 157ms
-[01:53:08.040] Server  LOG      ✓ Compiled in 67ms
-[01:53:12.710] Server  LOG      ✓ Compiled in 211ms
-[01:53:35.130] Server  LOG      ✓ Compiled in 92ms
-[01:53:46.220] Server  LOG      ✓ Compiled in 33ms
-[01:53:48.998] Server  LOG      ✓ Compiled in 320ms
-[01:54:10.500] Server  LOG      ✓ Compiled in 160ms
-[01:54:18.558] Server  LOG      ✓ Compiled in 42ms
-[01:54:20.875] Server  LOG      ✓ Compiled in 21ms
-[01:54:21.971] Server  LOG      ✓ Compiled in 39ms
-[01:54:41.569] Server  LOG      ✓ Compiled in 62ms
-[01:55:04.777] Server  LOG      ✓ Compiled in 38ms
-[01:55:05.865] Server  LOG      ✓ Compiled in 25ms
-[01:55:49.023] Server  LOG      ✓ Compiled in 37ms
-[01:55:51.517] Server  LOG      ✓ Compiled in 62ms
-[01:56:48.090] Server  LOG      ✓ Compiled in 71ms
-[01:57:33.206] Server  LOG      ✓ Compiled in 55ms
-[01:57:38.225] Server  LOG      ✓ Compiled in 23ms
-[01:57:40.799] Server  LOG      ✓ Compiled in 35ms
-[01:58:10.709] Server  LOG      ✓ Compiled in 43ms
-[01:58:12.716] Server  LOG      ✓ Compiled in 25ms
-[01:58:18.934] Server  LOG      ✓ Compiled in 46ms
-[01:58:32.514] Server  LOG      ✓ Compiled in 39ms
-[01:58:36.551] Server  LOG      ✓ Compiled in 22ms
-[01:58:40.671] Server  LOG      ✓ Compiled in 51ms
-[01:58:43.648] Server  LOG      ✓ Compiled in 18ms
-[01:58:46.844] Server  LOG      ✓ Compiled in 97ms
-[01:58:52.286] Server  LOG      ✓ Compiled in 90ms
-[01:59:03.759] Server  LOG      ✓ Compiled in 1266ms
-[01:59:07.469] Server  LOG      ✓ Compiled in 77ms
-[01:59:15.489] Server  LOG      ✓ Compiled in 57ms
-[01:59:31.788] Server  LOG      ✓ Compiled in 45ms
-[01:59:40.926] Server  LOG      ✓ Compiled in 60ms
-[00:20:42.050] Server  LOG      ✓ Compiled in 409ms
-[00:20:43.082] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:20:43.083] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:20:43.083] Browser LOG     Data loaded from IndexedDB cache (fresh)
-[00:20:43.083] Browser LOG     Cache expired — fetching fresh API data...
-[00:20:43.083] Browser LOG     Cache expired — fetching fresh API data...
-[00:20:44.120] Browser LOG     Data saved to cache with timestamp
-[00:20:46.078] Browser LOG     Data saved to cache with timestamp
-[00:22:46.288] Server  LOG      ✓ Compiled in 118ms
-[00:22:55.177] Server  LOG      ✓ Compiled in 41ms
-[00:23:03.229] Server  LOG      ✓ Compiled in 71ms
-[00:23:19.238] Server  LOG      ✓ Compiled in 96ms
-[00:23:40.188] Server  LOG      ✓ Compiled in 47ms
-[00:23:46.217] Server  LOG      ✓ Compiled in 63ms
-[00:28:50.117] Server  LOG      ✓ Compiled in 404ms
-[00:59:57.183] Server  LOG      ✓ Compiled in 198ms
-[00:59:58.151] Server  LOG      ✓ Compiled in 58ms
-[01:00:44.456] Server  LOG      ✓ Compiled in 96ms
-[01:00:49.301] Server  LOG      ✓ Compiled in 66ms
-[01:00:49.791] Browser ERROR   Failed to fetch sliders: {}
-[01:00:50.497] Server  LOG      ✓ Compiled in 50ms
-[01:00:55.343] Server  LOG      ✓ Compiled in 52ms
-[01:00:59.036] Server  LOG      ✓ Compiled in 169ms
-[01:01:01.274] Server  LOG      ✓ Compiled in 83ms
-[01:01:02.912] Server  LOG      ✓ Compiled in 55ms
-[01:01:03.743] Browser ERROR   Failed to fetch sliders: {}
-[01:01:04.901] Server  LOG      ✓ Compiled in 107ms
-[01:01:18.926] Server  LOG      ✓ Compiled in 140ms
-[01:02:29.462] Server  LOG      ✓ Compiled in 116ms
-[01:02:31.138] Server  LOG      ✓ Compiled in 21ms
-[01:02:33.184] Server  LOG      ✓ Compiled in 40ms
-[01:02:34.516] Server  LOG      ✓ Compiled in 25ms
-[01:02:36.855] Server  LOG      ✓ Compiled in 24ms
-[01:02:59.965] Server  LOG      ✓ Compiled in 55ms
-[01:03:13.867] Server  LOG      ✓ Compiled in 78ms
-[18:04:13.531] Server  LOG      ✓ Compiled in 1813ms
-[18:04:14.772] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[18:04:14.772] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[18:04:14.772] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[18:04:14.772] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[18:04:14.772] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[18:05:35.596] Server  LOG      ✓ Compiled in 80ms
-[18:05:35.769] Browser ERROR   ./Desktop/web_project/auexch/src/components/sidebar/index.tsx:33:15
-Ecmascript file had an error
-  31 |           <li className="inline-block">
-  32 |             <div className="font-bold text-[0.6875rem] leading-normal uppercase text-[#637381]">
-> 33 |               <svg
-     |               ^^^^
-> 34 |                 xmlns="http://www.w3.org/2000/svg"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 35 |                 xmlns:xlink="http://www.w3.org/1999/xlink"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 36 |                 aria-hidden="true"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 37 |                 role="img"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 38 |                 class="iconify iconify--eva minimal__iconify__root css-mihbd4"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 39 |                 id="_r_6_"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 40 |                 width="1em"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 41 |                 height="1em"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 42 |                 viewBox="0 0 24 24"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 43 |               >
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 44 |                 <path
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 45 |                   fill="currentColor"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 46 |                   d="M12 16a1 1 0 0 1-.64-.23l-6-5a1 1 0 1 1 1.28-1.54L12 13.71l5.36-4.32a1 1 0 0 1 1.41.15a1 1 0 0 1-.14 1.46l-6 4.83A1 1 0 0 1 12 16"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 47 |                 ></path>
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 48 |               </svg>
-     | ^^^^^^^^^^^^^^^^^^^^^
-  49 |             </div>
-  50 |           </li>
-  51 |         </ul>
-
-JSX Namespace is disabled by default because react does not support it yet. You can specify jsc.transform.react.throwIfNamespace to false to override default behavior
-
-Import traces:
-  Client Component Browser:
-    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component Browser]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
-
-  Client Component SSR:
-    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component SSR]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
-[18:05:46.788] Server  LOG      ✓ Compiled in 31ms
-[18:05:47.843] Browser ERROR   ./Desktop/web_project/auexch/src/components/sidebar/index.tsx:33:15
-Ecmascript file had an error
-  31 |           <li className="inline-block">
-  32 |             <div className="font-bold text-[0.6875rem] leading-normal uppercase text-[#637381]">
-> 33 |               <svg
-     |               ^^^^
-> 34 |                 xmlns="http://www.w3.org/2000/svg"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 35 |                 xmlns:xlink="http://www.w3.org/1999/xlink"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 36 |                 aria-hidden="true"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 37 |                 role="img"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 38 |                 class="iconify iconify--eva minimal__iconify__root css-mihbd4"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 39 |                 id="_r_6_"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 40 |                 width="1em"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 41 |                 height="1em"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 42 |                 viewBox="0 0 24 24"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 43 |               >
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 44 |                 <path
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 45 |                   fill="currentColor"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 46 |                   d="M12 16a1 1 0 0 1-.64-.23l-6-5a1 1 0 1 1 1.28-1.54L12 13.71l5.36-4.32a1 1 0 0 1 1.41.15a1 1 0 0 1-.14 1.46l-6 4.83A1 1 0 0 1 12 16"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 47 |                 ></path>
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 48 |               </svg>
-     | ^^^^^^^^^^^^^^^^^^^^^
-  49 |               <span>Sports</span>
-  50 |             </div>
-  51 |           </li>
-
-JSX Namespace is disabled by default because react does not support it yet. You can specify jsc.transform.react.throwIfNamespace to false to override default behavior
-
-Import traces:
-  Client Component Browser:
-    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component Browser]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component Browser]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
-
-  Client Component SSR:
-    ./Desktop/web_project/auexch/src/components/sidebar/index.tsx [Client Component SSR]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Client Component SSR]
-    ./Desktop/web_project/auexch/src/app/(pages)/layout.tsx [Server Component]
-[18:07:14.030] Server  LOG      ✓ Compiled in 53ms
-[18:09:42.372] Server  LOG      ✓ Compiled in 43ms
-[18:09:44.558] Server  LOG      ✓ Compiled in 59ms
-[18:09:50.604] Server  LOG      ✓ Compiled in 990ms
-[18:10:03.016] Server  LOG      ✓ Compiled in 37ms
-[18:10:06.321] Server  LOG      ✓ Compiled in 78ms
-[18:10:11.079] Server  LOG      ✓ Compiled in 177ms
-[18:10:21.904] Server  LOG      ✓ Compiled in 57ms
-[18:10:27.632] Server  LOG      ✓ Compiled in 40ms
-[18:10:29.936] Server  LOG      ✓ Compiled in 116ms
-[18:10:37.934] Server  LOG      ✓ Compiled in 63ms
-[18:11:08.036] Server  LOG      ✓ Compiled in 41ms
-[18:11:10.923] Server  LOG      ✓ Compiled in 22ms
-[18:11:14.141] Server  LOG      ✓ Compiled in 20ms
-[18:11:19.131] Server  LOG      ✓ Compiled in 19ms
-[18:11:22.804] Server  LOG      ✓ Compiled in 25ms
-[18:11:28.811] Server  LOG      ✓ Compiled in 83ms
-=======
-[00:19:43.377] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:43.377] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:19:46.364] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/casinoEvents","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:19:46.364] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/allEventsList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:19:46.465] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/exchangeNews","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
-[00:19:46.466] Browser ERROR   API Error: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{\"key\":\"10\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/api/navigation/menuList","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:8493:25)\n    at Axios.request (http://192.168.1.55:3000/_next/static/chunks/72895_18f755d6._.js:9251:49)\n    at async fetchData (http://192.168.1.55:3000/_next/static/chunks/Desktop_auexch_src_82f6ccbb._.js:1463:26)"}
->>>>>>> 8ba1ab01762127e783ccd5609455509f404ea2cf
-[18:15:34.537] Server  LOG      ✓ Compiled in 0ms
-[18:15:36.650] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[18:15:37.777] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[18:15:37.777] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[18:15:37.777] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[18:15:37.777] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[18:15:37.777] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[18:15:37.777] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
-[18:15:38.770] Browser ERROR   API Error: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbmNyeXB0ZWRUb2tlbiI6IlUyRnNkR1ZrWDE5UlVDQy9lbkdpOEV0NFBLckJ3TCt2S05zS21pNVAxMDdUYnBPMGY5VWJrSkVic3hta084c1F1TEFJTjNidzI1NjVHM1pSek5ES0l4bFhWRFVaOSs5cnZ0ZmxWTUdwd0hhUnByY2laSGFJZm1vOUduSS9qb1YzTWptdjFpUjhPMG1OaUxBZUJmWVVybEM0UzlWOWFFSGtIUWRVamFBMzNDTlN2b1JQL0FEL1h6YUc2NndrUy9jL25PdDlIUEFydDJkdmgrUmxuRkx4MlE9PSIsImlhdCI6MTc3MTEzNjI5NCwiZXhwIjoxNzcxMTU0Mjk0fQ.FA8bYDTIgKagiIaQoHoByugsW549XhVf7bPfPRgt-Ew","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/app/exchange/users/userBalance","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 401","name":"AxiosError","stack":"AxiosError: Request failed with status code 401\n    at settle (http://localhost:3000/_next/static/chunks/dd48c_3e230c54._.js:7932:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/dd48c_3e230c54._.js:8447:210)\n    at Axios.request (http://localhost:3000/_next/static/chunks/dd48c_3e230c54._.js:9251:49)\n    at async fetchData (http://localhost:3000/_next/static/chunks/Desktop_web_project_auexch_src_a9fc0097._.js:1463:26)","status":401}
+[00:31:48.789] Server  LOG      ✓ Compiled in 56ms
+[00:32:00.359] Server  LOG      ✓ Compiled in 90ms
+[00:32:08.798] Server  LOG      ✓ Compiled in 52ms
+[00:32:15.454] Server  LOG      ✓ Compiled in 25ms
+[00:33:19.558] Server  LOG      ✓ Compiled in 76ms
+[00:33:20.023] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:33:24.350] Server  LOG      ✓ Compiled in 539ms
+[00:33:27.899] Server  LOG      ✓ Compiled in 163ms
+[00:34:32.557] Server  LOG      ✓ Compiled in 85ms
+[00:34:53.818] Server  LOG      ✓ Compiled in 67ms
+[00:34:55.532] Server  LOG      ✓ Compiled in 23ms
+[00:35:01.372] Server  LOG      ✓ Compiled in 127ms
+[00:36:16.709] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:17.071] Browser WARN    Image with src "/brand_logo_dark.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:36:17.071] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:17.071] Browser WARN    Image with src "/brand_logo_dark.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:36:17.071] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[00:36:17.071] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[00:36:17.071] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[00:36:17.071] Browser ERROR   unhandledRejection: NotFoundError: Failed to execute 'transaction' on 'IDBDatabase': One of the specified object stores was not found.
+[00:36:18.065] Browser ERROR   API Error: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://100exch.com","data":"{}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbmNyeXB0ZWRUb2tlbiI6IlUyRnNkR1ZrWDE5UlVDQy9lbkdpOEV0NFBLckJ3TCt2S05zS21pNVAxMDdUYnBPMGY5VWJrSkVic3hta084c1F1TEFJTjNidzI1NjVHM1pSek5ES0l4bFhWRFVaOSs5cnZ0ZmxWTUdwd0hhUnByY2laSGFJZm1vOUduSS9qb1YzTWptdjFpUjhPMG1OaUxBZUJmWVVybEM0UzlWOWFFSGtIUWRVamFBMzNDTlN2b1JQL0FEL1h6YUc2NndrUy9jL25PdDlIUEFydDJkdmgrUmxuRkx4MlE9PSIsImlhdCI6MTc3MTEzNjI5NCwiZXhwIjoxNzcxMTU0Mjk0fQ.FA8bYDTIgKagiIaQoHoByugsW549XhVf7bPfPRgt-Ew","Content-Type":"application/json","x-Requested-With":"XMLHttpRequest"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://100exch.com/app/exchange/users/userBalance","withCredentials":false,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 401","name":"AxiosError","stack":"AxiosError: Request failed with status code 401\n    at settle (http://localhost:3000/_next/static/chunks/dd48c_3e230c54._.js:7932:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/dd48c_3e230c54._.js:8447:210)\n    at Axios.request (http://localhost:3000/_next/static/chunks/dd48c_3e230c54._.js:9251:49)\n    at async fetchData (http://localhost:3000/_next/static/chunks/Desktop_web_project_auexch_src_a9fc0097._.js:1463:26)","status":401}
+[00:36:24.688] Server  LOG      ✓ Compiled in 54ms
+[00:36:26.551] Server  LOG      ✓ Compiled in 70ms
+[00:37:25.247] Server  LOG      ✓ Compiled in 61ms
+[00:37:28.431] Server  LOG      ✓ Compiled in 43ms
+[00:38:29.037] Server  LOG      ✓ Compiled in 63ms
+[00:38:40.922] Server  LOG      ✓ Compiled in 72ms
+[00:38:43.088] Server  LOG      ✓ Compiled in 22ms
+[00:39:33.416] Server  LOG      ✓ Compiled in 55ms
+[00:39:34.021] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:39:39.196] Server  LOG      ✓ Compiled in 1121ms
+[00:42:33.826] Server  LOG      ✓ Compiled in 83ms
+[00:42:39.630] Server  LOG      ✓ Compiled in 21ms
+[00:42:42.502] Server  LOG      ✓ Compiled in 42ms
+[00:42:54.832] Server  LOG      ✓ Compiled in 50ms
+[00:43:23.899] Server  LOG      ✓ Compiled in 42ms
+[00:43:28.692] Server  LOG      ✓ Compiled in 44ms
+[00:43:30.327] Server  LOG      ✓ Compiled in 51ms
+[00:43:32.849] Server  LOG      ✓ Compiled in 41ms
+[00:43:35.263] Server  LOG      ✓ Compiled in 41ms
+[00:43:37.408] Server  LOG      ✓ Compiled in 45ms
+[00:43:41.009] Server  LOG      ✓ Compiled in 59ms
+[00:43:43.710] Server  LOG      ✓ Compiled in 32ms
+[00:44:21.211] Server  LOG      ✓ Compiled in 65ms
+[00:44:22.226] Server  LOG      ✓ Compiled in 52ms

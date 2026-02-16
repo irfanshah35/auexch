@@ -29,13 +29,13 @@ export default function Sidebbar() {
             </span>
           </div>
           <li className="inline-block">
-            <div className="font-bold text-[0.6875rem] leading-normal uppercase text-[#637381] p-[16px_8px_8px_12px] relative">
+            <div className="font-bold text-[0.6875rem] leading-normal uppercase text-[#637381] p-[16px_8px_8px_12px] hover:p-[16px_8px_8px_16px] relative group hover:text-white duration-300 cursor-pointer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink"
                 aria-hidden="true"
                 role="img"
-                className=""
+                className="w-4 shrink-0 h-4 inline-flex opacity-0 absolute transition-opacity duration-300 ease-in-out -left-1 group-hover:opacity-[1]!"
                 id="_r_6_"
                 width="1em"
                 height="1em"
@@ -46,8 +46,48 @@ export default function Sidebbar() {
                   d="M12 16a1 1 0 0 1-.64-.23l-6-5a1 1 0 1 1 1.28-1.54L12 13.71l5.36-4.32a1 1 0 0 1 1.41.15a1 1 0 0 1-.14 1.46l-6 4.83A1 1 0 0 1 12 16"
                 ></path>
               </svg>
-              <span>Sports</span>
+              <span className="font-bold text-[0.6875rem] leading-normal uppercase cursor-pointer text-[#637381] group-hover:text-white!">
+                Quick Links
+              </span>
             </div>
+            <ul className="flex flex-col gap-1">
+              <li className="inline-block">
+                <a className="inline-flex items-center justify-center relative bg-transparent cursor-pointer select-none align-middle appearance-none no-underline w-full m-0 border-0 p-[4px_8px_4px_12px] text-[#919EAB] min-h-11 rounded-lg hover:bg-[rgba(145,158,171,8%)]">
+                  <span className="mr-3 h-6 w-6 inline-flex shrink-0 text-[#919EAB] cursor-pointer">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlnsXlink="http://www.w3.org/1999/xlink"
+                      aria-hidden="true"
+                      role="img"
+                      className="inline-flex w-full h-full shrink-0"
+                      id="_r_4f_"
+                      width="1em"
+                      height="1em"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="none"
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M3 12h4.5L9 6l4 12l2-9l1.5 3H21"
+                      ></path>
+                    </svg>
+                  </span>
+                  <span className="overflow-hidden text-ellipsis flex-auto font-medium text-sm leading-[1.57143] text-[#919EAB] cursor-pointer">
+                    Inplay
+                  </span>
+                  <span className="text-xs shrink-0 font-semibold leading-normal inline-flex ml-1.5">
+                    <span
+                      className="h-6 min-w-6 leading-0 text-[#68CDF9] shrink-0 cursor-default items-center inline-flex justify-center text-xs font-bold bg-[rgba(7,141,238,16%))] gap-2 transition-[200ms] duration-[cubic-bezier(0.4,0,0.2,1)] px-2 py-0 rounded-md"
+                    >
+                      34
+                    </span>
+                  </span>
+                </a>
+              </li>
+            </ul>
           </li>
         </ul>
       </div>
