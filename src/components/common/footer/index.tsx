@@ -6,6 +6,8 @@ import Icon from "@/icons/icons";
 export default function Footer() {
    return (
       <>
+
+      
          <div className="mt-5 mb-9 ">
             <div className="w-full rounded-xl bg-[#1C252E] text-white border  border-[rgba(145,158,171,0.2)]">
 
